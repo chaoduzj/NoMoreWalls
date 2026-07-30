@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.5MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
-    short-id: '!!str 7a3f9c2e1b8d4506'
-  server: 138.124.70.44
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
+proxies: []

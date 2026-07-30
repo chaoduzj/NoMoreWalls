@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- name: 🇰🇷KR_1|2.2MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_2|2.7MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true

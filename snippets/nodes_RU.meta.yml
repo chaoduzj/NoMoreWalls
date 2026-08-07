@@ -1,4 +1,14 @@
 proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - name: '🇹🇷土耳其 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -19,5 +29,13 @@ proxies:
   server: 82.117.87.248
   skip-cert-verify: true
   sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- name: 🪁33@oneclickvpnkeys
+  password: gf1
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
   tls: false
   type: hysteria2

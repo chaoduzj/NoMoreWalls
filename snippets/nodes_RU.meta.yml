@@ -1,4 +1,14 @@
 proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - name: 🇷🇺俄罗斯
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -28,35 +38,3 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇷🇺RU_1|1.1MB/s
-  network: xhttp
-  port: 443
-  server: 135.106.140.23
-  servername: qwesd.rutendingaltos.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    host: qwesd.rutendingaltos.top
-    path: /assets/build/_app/immutable/chunks/stream-one/
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: 🇷🇺RU_2|1.0MB/s
-  network: xhttp
-  port: 443
-  server: qwesd.rutendingaltos.top
-  servername: qwesd.rutendingaltos.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    host: qwesd.rutendingaltos.top
-    path: /assets/build/_app/immutable/chunks/stream-one/

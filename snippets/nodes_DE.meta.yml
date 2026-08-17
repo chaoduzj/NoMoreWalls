@@ -1,11 +1,11 @@
 proxies:
-- name: 'کانال تلگرام : Free_VPN_CH@'
+- name: 🇩🇪 - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -23,7 +23,7 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|182
+- name: 🇩🇪DE
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.21
@@ -31,7 +31,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: 5🦁@oneclickvpnkeys
+- name: '德国 #2'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -39,169 +39,18 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|22
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|220
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: de120.mechvpn.online
-  skip-cert-verify: true
-  sni: de120.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|208
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: de200.mechvpn.online
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 🇩🇪|DE|@wxgqlfx|223
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: fr131.mechvpn.online
-  skip-cert-verify: true
-  sni: fr131.mechvpn.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: Telegram@VPNjey🇩🇪🇩🇪
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 'Telegram@VPNjey🇩🇪🇩🇪 #1'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 🇩🇪|DE|@wxgqlfx|213
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: de.1.22.washing.help
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
-- client-fingerprint: edge
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.7MB/s
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: '!!str e91da98020a38be9'
-  server: 138.124.255.20
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.5MB/s
-  network: raw
+  name: 🇩🇪DE_1|1.8MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
-    short-id: '!!str 3f0a7e6b'
-  server: 2.26.71.73
-  servername: www.cloudflare.com
+    public-key: PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ
+    short-id: '!!str cbe2503ffd040d'
+  server: ugb.mobileemdad.top
+  servername: us.demonware.net
   tls: true
   type: vless
   udp: true
-  uuid: 4e7eb9d5-022a-4b0a-ba37-2d1be458947b
+  uuid: 6f719ff5-cb04-4e94-b982-0bd94ba49d94
   xudp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_3|1.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1902cb0-b6de-4d82-99b2-8e3d8ac19da0
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_4|1.2MB/s
-  network: xhttp
-  port: '443'
-  server: 85.117.243.4
-  servername: de2.jailever.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b761240-0022-42ab-b549-5714d51e8011
-  xhttp-opts:
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '3'
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_5|1.0MB/s
-  network: xhttp
-  port: '443'
-  server: 85.117.243.4
-  servername: de2.jailever.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad4ff080-3c09-432c-a31b-70043b0925fe
-  xhttp-opts:
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '3'
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: DE_speednode_0001
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: testuser1

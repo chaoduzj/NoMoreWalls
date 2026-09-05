@@ -151,30 +151,9 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪DE_1|1.4MB/s
-  port: 20088
-  server: 5.83.129.153
+- name: 🇩🇪DE_1|1.0MB/s
+  port: 443
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|3.0MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: fn5.bexait.ir
-  servername: icloud.com
   tls: true
-  type: vless
-  udp: true
-  uuid: ebfc0509-53ed-46c6-96d9-e6788ab31cac
-  xudp: true
+  type: http

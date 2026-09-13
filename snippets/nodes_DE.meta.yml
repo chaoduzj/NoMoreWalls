@@ -1,16 +1,9 @@
 proxies:
-- name: 🛠️91@oneclickvpnkeys
+- name: 德国
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.178
   skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '德国 #1'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.181
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
@@ -75,6 +68,26 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
+- name: 🇩🇪V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: V2RayyNGvpn&Telegram
+  password: V2RayyNGvpn
+  port: 443
+  server: 91.107.140.154
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs #3'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 2.27.59.206
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: '@ICV2RAY'
@@ -119,19 +132,9 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.1MB/s
-  password: None
+- name: 🇩🇪DE_1|2.5MB/s
   port: 443
-  server: 87.249.132.97
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_2|1004KB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null

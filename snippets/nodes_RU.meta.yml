@@ -32,20 +32,3 @@ proxies:
   sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_1|1.5MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-    short-id: '!!str '
-  server: 104.245.240.4
-  servername: www.epson.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
-  xhttp-opts:
-    path: /
-  xudp: true

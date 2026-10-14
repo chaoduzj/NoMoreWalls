@@ -374,40 +374,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.7MB/s
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    path:
-    - /QQqun-737805443
-  name: 🇩🇪DE_8|1.4MB/s
-  network: http
-  port: '52080'
-  server: 23.165.200.150
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇩🇪DE_9|2.9MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: ws
   port: '443'
-  server: hgky2opr5Fr3nKjG.v.3dns.vip
-  servername: hgky2opr5Fr3nKjG.v.3dns.vip
+  server: AUSbEb7vTjqR13wy.v.3dns.vip
+  servername: AUSbEb7vTjqR13wy.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -415,23 +388,47 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: hgky2opr5Fr3nKjG.v.3dns.vip
+      Host: AUSbEb7vTjqR13wy.v.3dns.vip
     path: /ws-vmess
   xudp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇰🇷KR_1|2.1MB/s
+  name: 🇩🇪DE_2|2.5MB/s
   network: ws
-  port: 443
-  server: zwRcf79GExd13VGH.v.3dns.vip
-  servername: zwRcf79GExd13VGH.v.3dns.vip
+  port: '443'
+  server: 9WEXvuEOsTlJWUrS.v.3dns.vip
+  servername: 9WEXvuEOsTlJWUrS.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: ad8685f2-5d17-411e-855c-1cc2ed5144a9
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: zwRcf79GExd13VGH.v.3dns.vip
+      Host: 9WEXvuEOsTlJWUrS.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_1|2.0MB/s
+  password: 994ccabf6f0950d6
+  port: '20111'
+  server: 89.125.103.208
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_12|1.7MB/s
+  network: ws
+  port: 443
+  server: 48qGxDnaVNcrf0L5.v.3dns.vip
+  servername: 48qGxDnaVNcrf0L5.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
+  ws-opts:
+    headers:
+      Host: 48qGxDnaVNcrf0L5.v.3dns.vip
     path: /ws-vmess
   xudp: true

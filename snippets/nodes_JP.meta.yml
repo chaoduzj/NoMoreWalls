@@ -52,17 +52,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- fingerprint: ''
-  name: 🇯🇵JP_1|2.5MB/s
-  password: 9e98496a-0036-4cc6-8302-3929c29ba772
-  port: '35791'
-  server: iijjp.mggl.wang
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: anytls
-  udp: true
-  username: 9e98496a-0036-4cc6-8302-3929c29ba772
-- name: 🇯🇵JP_2|3.6MB/s
-  port: 1080
-  server: 217.142.236.180
-  type: socks5

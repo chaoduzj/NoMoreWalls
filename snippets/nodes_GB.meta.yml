@@ -1,39 +1,59 @@
 proxies:
-- name: 🇬🇧GB_1|1.6MB/s
-  password: None
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_1|2.1MB/s
+  network: xhttp
+  port: '443'
+  server: sync.happ-soft.com
+  servername: sync.happ-soft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88081ee0-d46a-4913-acdc-5c78e018c44d
+  xhttp-opts:
+    mode: stream-up
+    path: /files/v1/ingest/DqcuXcZgzt
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: '0'
+      max-connections: '2'
+  xudp: true
+- name: 🇬🇧GB_2|1.5MB/s
   port: 443
-  server: 37.120.233.50
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.6MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|1.8MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.8MB/s|R002-260618
+- name: 🇬🇧GB_4|2.1MB/s
   password: None
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_4|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: FcvI0ncjwII1n6tnWQ6nLWuwRpk8hdYoYzYCi1sbhjY
-    short-id: '!!str 1c3ce7aa488b3e50'
-  server: 146.70.104.235
-  servername: www.datadoghq.com
+  username: null
+- name: 🇬🇧GB_5|3.1MB/s
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 698922a2-1ca5-4bfb-92fb-0aa7e779ce21
-  xudp: true
+  type: http
+- name: 🇬🇧GB_6|2.8MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

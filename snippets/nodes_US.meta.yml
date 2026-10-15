@@ -53,27 +53,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.7MB/s
+- name: 🇺🇸US_1|1.0MB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.5MB/s
+- name: 🇺🇸US_2|2.4MB/s
   port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|2.0MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.4MB/s
-  port: 443
-  server: 12.202.180.10
+  server: 192.227.176.234
   skip-cert-verify: true
   tls: true
   type: http

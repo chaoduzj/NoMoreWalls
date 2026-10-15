@@ -27,16 +27,30 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|2.3MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.1MB/s
+  network: tcp
   port: 443
-  server: 213.177.229.161
+  server: 152.53.186.202
+  servername: deinfo.chaosnetwork.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5538eaaa-ac3d-4414-a1f5-280212949ed9
+- name: 🇩🇪DE_2|1.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.9MB/s
-  password: None
+  username: null
+- name: 🇩🇪DE_3|2.8MB/s
   port: 443
-  server: 149.36.50.157
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http

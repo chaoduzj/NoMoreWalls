@@ -38,7 +38,8 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: unsafe
-  name: 🇸🇬SG_1|5.4MB/s
+  encryption: none
+  name: 🇸🇬SG_1|1.8MB/s
   network: ws
   port: '443'
   server: 172.64.150.43
@@ -50,23 +51,23 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|1.9MB/s
+  name: 🇸🇬SG_2|2.3MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
-    short-id: '!!str 1dd8558159ecd0'
-  server: sg4.oh-node.com
-  servername: www.changiairport.com
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '!!str 868419504747f6de'
+  server: 88.216.191.10
+  servername: si1.lazeroe.com
   tls: true
   type: vless
   udp: true
-  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
   xudp: true

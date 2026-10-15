@@ -45,3 +45,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 🇺🇸US_15|1.1MB/s
+  network: tcp
+  password: ae7eb4dwyaz25pxwgq59
+  port: '59689'
+  server: 66.23.203.21
+  skip-cert-verify: true
+  type: trojan
+  udp: true

@@ -53,106 +53,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: none
-  name: 🇺🇸US_1|1.1MB/s
-  network: ws
-  port: '8880'
-  server: 155.46.213.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_2|1.0MB/s
-  network: ws
-  port: '8880'
-  server: 192.65.217.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime37.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_3|1.8MB/s
-  network: ws
-  port: '8880'
-  server: 185.148.104.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US_4|3.0MB/s
+- name: 🇺🇸US_1|1.7MB/s
   port: 443
-  server: 12.221.146.147
+  server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|2.2MB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.7MB/s
+- name: 🇺🇸US_2|1.5MB/s
   port: 443
-  server: 149.88.21.129
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|2.4MB/s
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.4MB/s|K001-260618
-  password: ''
+- name: 🇺🇸US_3|2.0MB/s
   port: 443
-  server: 149.34.248.65
+  server: 12.202.180.118
   skip-cert-verify: true
-  sub_tag: K001-260618
   tls: true
   type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_9|2.2MB/s
+- name: 🇺🇸US_4|1.4MB/s
   port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|2.4MB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|1.2MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|2.5MB/s
-  port: 9443
-  server: 198.44.135.19
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http

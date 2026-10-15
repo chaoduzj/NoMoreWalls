@@ -9,9 +9,19 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|1.4MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
+    short-id: '!!str 111111'
+  server: 37.143.15.206
+  servername: 5post-gate.x5.ru
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 4599572f-bcfa-461e-bc73-d80e1ea65aa6
+  xudp: true

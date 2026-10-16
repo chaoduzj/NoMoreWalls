@@ -27,29 +27,44 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.3MB/s
-  port: 9002
-  server: 158.173.154.2
+- name: 🇩🇪DE_1|1.4MB/s
+  port: 443
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.1MB/s
-  port: 80
-  server: 57.131.128.2
+- name: 🇩🇪DE_2|2.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
   type: http
-- name: 🇩🇪DE_3|3.5MB/s
+- name: 🇩🇪DE_3|3.1MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|3.3MB/s
   port: 443
   server: 193.233.75.115
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|3.0MB/s
+- name: 🇩🇪DE_5|2.3MB/s
   port: 443
   server: 185.232.70.11
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|1.8MB/s
+- name: 🇩🇪DE_6|2.7MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.0MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -57,44 +72,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|3.4MB/s
+- name: 🇩🇪DE_8|3.4MB/s
+  port: 8443
+  server: 188.120.225.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.0MB/s
   port: 443
-  server: 172.64.68.89
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|2.0MB/s
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|2.6MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|2.0MB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇩🇪DE_10|2.7MB/s
-  network: ws
-  port: '443'
-  server: 103.160.59.198
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true

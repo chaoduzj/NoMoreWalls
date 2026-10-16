@@ -374,18 +374,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇮🇳IN_1|1.1MB/s
+- name: 🇮🇳IN_1|1.8MB/s
   password: Trojan@82164024
   port: 443
   server: in.tronsg.com
   skip-cert-verify: true
   sni: in.tronsg.com
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_9|1.7MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: '8080'
-  server: 178.83.185.156
-  type: ss
   udp: true

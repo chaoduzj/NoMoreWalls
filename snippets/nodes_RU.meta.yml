@@ -9,10 +9,10 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
+  name: 🇷🇺RU_1|3.0MB/s
   network: tcp
   port: '443'
   reality-opts:

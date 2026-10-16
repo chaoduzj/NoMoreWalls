@@ -110,18 +110,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|1.0MB/s
-  password: 0324fbc29561
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 🇭🇰HK_2|2.8MB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  skip-cert-verify: true
-  type: socks5
-  username: '111'

@@ -52,23 +52,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  encryption: none
-  name: 🇯🇵JP_1|3.1MB/s
-  network: ws
-  port: '443'
-  server: 43.168.16.67
-  servername: node.kyma.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99ea2764-f1df-4aa8-b01d-0adb42cc2f77
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: node.kyma.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true

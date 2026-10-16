@@ -374,3 +374,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_1|4.9MB/s
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+  port: 40018
+  server: ruot.ayucloudservices.nl
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇦🇪AE_1|2.8MB/s
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+  port: 22041
+  server: ruot.ayucloudservices.nl
+  type: ss

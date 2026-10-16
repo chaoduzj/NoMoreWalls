@@ -716,222 +716,106 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  name: 🇺🇸US_1|4.3MB/s
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_1|4.9MB/s
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+  port: 40018
+  server: ruot.ayucloudservices.nl
+  type: ss
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|2.4MB/s
   network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
+  port: '8443'
+  server: news.zoom.us
+  servername: u.srilankangrill.online
   tls: true
   type: vless
   udp: true
-  uuid: efb58f99-af9e-48da-ac0d-cbac9c1f9200
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   ws-opts:
     headers:
-      Host: us-lax.862400.xyz
-    path: /announcement?ed=2048
-- name: 🇨🇭CH_1|1.0MB/s
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_1|1.2MB/s
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_2|1.3MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇻LV_1|2.9MB/s
-  port: 443
-  server: 109.248.147.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_1|1.6MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇰DK_1|2.8MB/s
-  port: 9443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_2|2.3MB/s
-  password: None
-  port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1000KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|2.6MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|2.0MB/s
-  port: 9443
-  server: 149.36.51.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.7MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇮🇪IE_1|1006KB/s
-  password: None
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_2|1.2MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_3|1.0MB/s|R002-260618
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_4|1.6MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|2.3MB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_1|1.8MB/s
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.1MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_1|1016KB/s
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇱AL_1|2.8MB/s
-  password: None
-  port: 443
-  server: 87.120.103.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇱🇺LU_1|1.9MB/s
-  port: 443
-  server: 185.221.132.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|1.2MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇮🇪IE_2|1.5MB/s
-  port: 443
-  server: 149.88.96.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.3MB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇹PT_1|1.1MB/s
-  password: None
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.L6G2zwZS1EgA-7P5IbUp3JNSAmApF6oHDkvW0_1_ZUs
-  name: 🇳🇱NL_2|1.6MB/s
-  network: ws
-  port: '443'
-  server: 188.114.97.6
-  servername: alexagent19a.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d489ff1-ecbb-4f8e-9ca6-b3633aaac1f9
-  ws-opts:
-    headers:
-      Host: alexagent19a.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /ws
+      Host: u.srilankangrill.online
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|1.6MB/s
-  network: xhttp
-  port: '443'
-  server: tamiiiiz.aryan-sport.ir
-  servername: s20.aryan-sport.ir
+  name: 🇸🇬SG_2|2.3MB/s
+  network: ws
+  port: '8443'
+  server: 141.193.213.20
+  servername: u.srilankangrill.online
   tls: true
   type: vless
   udp: true
-  uuid: 9f9a0bdf-fa7b-4cdc-a8a3-44578cb5054b
-  xhttp-opts:
-    host: s16.aryan-sport.ir.
-    mode: auto
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
-    x-padding-bytes: 100-1000
   xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|2.5MB/s
+  network: ws
+  port: '8443'
+  server: 141.193.213.21
+  servername: u.srilankangrill.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_1|1.9MB/s
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_1|1.8MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇯🇵JP_2|2.0MB/s
+  port: 49467
+  server: 103.85.27.30
+  type: vless
+  uuid: 44059c36-91ab-47f4-d8ca-a43dafd788b2
+- cipher: aes-256-gcm
+  name: 🇦🇪AE_1|2.8MB/s
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+  port: 22041
+  server: ruot.ayucloudservices.nl
+  type: ss
+- name: 🇬🇧GB_1|1.2MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_4|4.6MB/s
+  password: '1234'
+  port: '2080'
+  server: 13.250.6.200
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_5|1.8MB/s
+  password: '1234'
+  port: '2080'
+  server: 47.129.200.52
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - name: NL_speednode_0004
   port: 9002
   server: 84.17.47.125

@@ -37,3 +37,68 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|2.4MB/s
+  network: ws
+  port: '8443'
+  server: news.zoom.us
+  servername: u.srilankangrill.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|2.3MB/s
+  network: ws
+  port: '8443'
+  server: 141.193.213.20
+  servername: u.srilankangrill.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|2.5MB/s
+  network: ws
+  port: '8443'
+  server: 141.193.213.21
+  servername: u.srilankangrill.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇸🇬SG_4|4.6MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.250.6.200
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_5|1.8MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 47.129.200.52
+  skip-cert-verify: true
+  type: http
+  username: '1234'

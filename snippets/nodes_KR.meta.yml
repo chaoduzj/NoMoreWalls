@@ -22,15 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR_1|2.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  port: '50160'
-  server: 150-230-252-217.liao.kdns.fr
-  skip-cert-verify: false
-  sni: 150-230-252-217.liao.kdns.fr
-  type: hysteria2
-  up: ''

@@ -53,20 +53,37 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_speednode_0143
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_2|2.6MB/s
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: US_speednode_0131
+  password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_2|2.0MB/s
-  port: 443
-  server: 129.153.93.183
+  username: 'null'
+- name: 🇺🇸US_4|3.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|3.3MB/s
+  username: 'null'
+- name: 🇺🇸US_5|3.2MB/s
   password: ''
   port: 9002
   server: 138.199.35.203
@@ -74,32 +91,30 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇺🇸US_4|2.4MB/s
+- name: 🇺🇸US_6|2.4MB/s
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|2.4MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.217
   skip-cert-verify: true
-  sni: 138.199.35.198
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_5|3.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|2.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|2.9MB/s
+- name: 🇺🇸US_9|2.6MB/s
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -108,7 +123,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 🇺🇸US_8|2.2MB/s
+- name: 🇺🇸US_10|3.1MB/s
   password: None
   port: 9002
   server: 138.199.35.195
@@ -116,110 +131,79 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_9|3.5MB/s
+- name: 🇺🇸US_11|3.4MB/s
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_10|1.5MB/s
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_11|2.0MB/s
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇺🇸US_12|2.3MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.5MB/s
-  port: 9443
+  port: 443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|1.5MB/s
+- name: 🇺🇸US_13|2.9MB/s
   port: 443
-  server: 198.44.135.27
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_15|1.9MB/s
+- name: 🇺🇸US_14|1.8MB/s|K001-260618
+  password: ''
   port: 443
-  server: 45.63.38.134
+  server: 149.34.248.65
   skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
-- name: 🇺🇸US_16|2.3MB/s
+  udp: true
+  username: ''
+- name: 🇺🇸US_15|2.4MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_17|4.3MB/s
+- name: 🇺🇸US_16|1.3MB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_18|1.2MB/s
+- name: 🇺🇸US_17|2.9MB/s
   port: 443
   server: 66.64.100.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|3.4MB/s
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_20|2.6MB/s
+- name: 🇺🇸US_18|3.4MB/s
   port: 9443
   server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|2.0MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸US_22|1.0MB/s
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_19|2.3MB/s
+  network: ws
+  port: '443'
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
   tls: true
-  type: http
-- name: 🇺🇸US_23|2.2MB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_24|1.6MB/s
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_25|2.6MB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 85ab5d03-5d67-4a95-b1f5-3f1f62d64625
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /ws
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -235,15 +219,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0132
@@ -376,6 +351,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0144

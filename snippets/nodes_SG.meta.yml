@@ -38,39 +38,58 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.9MB/s
+  name: 🇸🇬SG_1|1.2MB/s
   network: ws
-  port: '443'
-  server: 104.16.10.116
+  port: 8443
+  server: news.zoom.us
   servername: u.srilankangrill.online
   tls: true
   type: vless
   udp: true
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   ws-opts:
     headers:
       Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /
-  xudp: true
-- name: 🇸🇬SG_2|1.9MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_3|1.2MB/s
+- name: 🇸🇬SG_2|3.0MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.250.6.200
+  server: 13.229.54.109
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_4|2.8MB/s
+- name: 🇸🇬SG_3|1.6MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 47.129.200.52
+  server: 13.212.90.38
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|1.2MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 54.151.242.187
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_5|3.7MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.212.14.88
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_6|1.2MB/s
+  password: ''
+  port: '1083'
+  server: 222.71.205.37
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇸🇬SG_7|4.2MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.212.186.198
   skip-cert-verify: true
   type: http
   username: '1234'

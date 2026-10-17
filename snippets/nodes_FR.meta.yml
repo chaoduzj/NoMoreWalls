@@ -1,19 +1,9 @@
 proxies:
-- name: 🇫🇷FR_1|2.8MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_2|3.0MB/s
+- name: 🛩️39@oneclickvpnkeys
+  password: gf1
   port: 443
-  server: 82.66.235.221
+  server: 173.212.201.85
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|3.9MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: www.docker.com
+  tls: false
+  type: hysteria2

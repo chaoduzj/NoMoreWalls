@@ -38,58 +38,31 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.2MB/s
-  network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: u.srilankangrill.online
+  encryption: none
+  name: 🇸🇬SG_1|1.0MB/s
+  network: tcp
+  port: '2053'
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+    short-id: '!!str cd7e85995ae2afc9'
+  server: 45.132.75.213
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
-- name: 🇸🇬SG_2|3.0MB/s
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  xudp: true
+- name: 🇸🇬SG_2|4.5MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.229.54.109
+  server: 18.143.176.211
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_3|1.6MB/s
+- name: 🇸🇬SG_3|1.3MB/s
   password: '!!str 1234'
   port: '2080'
   server: 13.212.90.38
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_4|1.2MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.151.242.187
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_5|3.7MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.14.88
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_6|1.2MB/s
-  password: ''
-  port: '1083'
-  server: 222.71.205.37
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🇸🇬SG_7|4.2MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.186.198
   skip-cert-verify: true
   type: http
   username: '1234'

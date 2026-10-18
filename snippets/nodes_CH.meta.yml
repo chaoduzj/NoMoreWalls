@@ -9,3 +9,34 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
+- name: 🇨🇭CH_1|1.6MB/s
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_2|1.0MB/s|R002-260618
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇭CH_3|1.3MB/s
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_4|2.6MB/s|K001-260618
+  password: ''
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''

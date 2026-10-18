@@ -32,22 +32,9 @@ proxies:
   tls: true
   type: vless
   uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: 🇫🇷FR_1|2.1MB/s
+- name: 🇫🇷FR_1|2.2MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|1.3MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|2.0MB/s
-  password: ''
-  port: '1080'
-  server: 173.249.24.121
-  skip-cert-verify: true
-  type: socks5
-  username: ''

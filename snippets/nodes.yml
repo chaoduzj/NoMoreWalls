@@ -375,9 +375,27 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: aes-256-gcm
-  name: 🇺🇸US_3|1.2MB/s
+  name: 🇺🇸US_5|1.3MB/s
   password: bwLa2026x9KpQzRt7Nv
   port: '443'
   server: 104.36.66.212
   type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|3.6MB/s
+  password: bad06c3525a6eaee1757b34776b83892
+  port: '12019'
+  server: 4c2d5151.266nets.com
+  skip-cert-verify: true
+  sni: ixigua.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_1|1.6MB/s
+  password: bad06c3525a6eaee1757b34776b83892
+  port: '12001'
+  server: 4c2d5151.266nets.com
+  skip-cert-verify: true
+  sni: ixigua.com
+  type: trojan
   udp: true

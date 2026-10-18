@@ -55,18 +55,30 @@ proxies:
   type: trojan
 - name: 🇺🇸US_1|1.5MB/s
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|2.5MB/s
-  port: 443
   server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_2|2.6MB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|2.5MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.9MB/s
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
 - cipher: aes-256-gcm
-  name: 🇺🇸US_3|1.2MB/s
+  name: 🇺🇸US_5|1.3MB/s
   password: bwLa2026x9KpQzRt7Nv
   port: '443'
   server: 104.36.66.212

@@ -110,3 +110,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰HK_1|1.6MB/s
+  password: bad06c3525a6eaee1757b34776b83892
+  port: '12001'
+  server: 4c2d5151.266nets.com
+  skip-cert-verify: true
+  sni: ixigua.com
+  type: trojan
+  udp: true

@@ -9,3 +9,17 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j1p0hmghXQkpoamrREgYJMcK7D_y3I2gxqy9RzjOD2I
+    short-id: '!!str d2cf64ff98c7c4ca'
+  server: ru.msk.nurcloud.org
+  servername: ru.msk.nurcloud.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ab9e166-5a54-48b9-a07f-79d1d840ae21

@@ -37,31 +37,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.5MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.186.198
+- name: 🇸🇬SG_1|2.2MB/s
+  password: 21b60363-271b-49f0-975b-dbe315215164
+  port: 32189
+  server: vv66.wjwhi90.com
   skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_2|1.3MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.214.213.66
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_3|1.3MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|1.4MB/s
+  sni: hdzsg.wjwhi90.com
+  type: anytls
+  udp: true
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇸🇬SG_2|5.3MB/s
   network: ws
-  port: 443
-  server: 188.166.234.177
+  port: '443'
+  server: 172.64.150.43
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -70,42 +59,22 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /fp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /
   xudp: true
-- name: 🇸🇬SG_5|4.5MB/s
+- name: 🇸🇬SG_3|3.2MB/s
   password: '!!str 1234'
-  port: '2080'
-  server: 13.229.91.101
+  port: 2080
+  server: 47.129.235.22
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_6|4.3MB/s
+- name: 🇸🇬SG_4|1.2MB/s
   password: '!!str 1234'
-  port: '2080'
-  server: 54.151.156.21
+  port: 2080
+  server: 13.250.6.200
   skip-cert-verify: true
   type: http
-  username: '1234'
-- name: 🇸🇬SG_7|2.1MB/s
-  password: ''
-  port: '9090'
-  server: 128.199.113.85
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: 🇸🇬SG_8|3.2MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 18.143.144.220
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_9|4.1MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.87.168
-  skip-cert-verify: true
-  type: http
+  udp: true
   username: '1234'

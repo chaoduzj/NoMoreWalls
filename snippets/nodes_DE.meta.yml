@@ -34,24 +34,18 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|3.1MB/s
-  network: ws
-  port: '443'
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
+- name: 🇩🇪DE_1|1.1MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- name: DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
+  username: testuser1

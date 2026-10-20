@@ -376,7 +376,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_2|3.2MB/s
+  name: 🇺🇸US_2|3.5MB/s
   network: ws
   port: 8033
   server: 120.232.202.14
@@ -390,51 +390,64 @@ proxies:
       Host: tms.dingtalk.com
     path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
   xudp: true
+- client-fingerprint: chrome
+  name: 🇮🇹IT_4|4.3MB/s
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: '443'
+  server: it1.dedushka.top
+  skip-cert-verify: false
+  sni: it1.dedushka.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_3|3.6MB/s
+  name: 🇮🇩ID_1|2.0MB/s
   network: ws
-  port: 8034
-  server: 120.232.202.14
+  port: 443
+  server: tasCePjs5K8Cmo8x.v.3dns.vip
+  servername: tasCePjs5K8Cmo8x.v.3dns.vip
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+      Host: tasCePjs5K8Cmo8x.v.3dns.vip
+    path: /ws-vmess
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_4|2.4MB/s
+  name: 🇩🇪DE_10|2.9MB/s
   network: ws
-  port: 8039
-  server: 120.232.202.14
+  port: 443
+  server: 22INLn9BmbA7RUmR.v.3dns.vip
+  servername: 22INLn9BmbA7RUmR.v.3dns.vip
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+      Host: 22INLn9BmbA7RUmR.v.3dns.vip
+    path: /ws-vmess
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_5|2.8MB/s
+  name: 🇩🇪DE_11|2.8MB/s
   network: ws
-  port: 8032
-  server: 120.232.202.14
+  port: 443
+  server: 3E89CNW0HGtiFiDE.v.3dns.vip
+  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
+    path: /ws-vmess
   xudp: true

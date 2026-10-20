@@ -1,13 +1,40 @@
 proxies:
-- name: GB_speednode_0009
-  password: None
+- name: GB_speednode_0010
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: GB_speednode_0010
+- name: 🇬🇧GB_2|3.9MB/s
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇬🇧GB_3|2.2MB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|2.3MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|1.5MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: GB_speednode_0009
+  password: None
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true

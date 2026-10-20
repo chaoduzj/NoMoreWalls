@@ -9,3 +9,24 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- name: 🇷🇺RU_1|2.9MB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: '!!str '
+  server: 50.7.157.237
+  servername: edge-fr.extazy.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258d8fc5-206c-48fd-88df-169dbbe44d3f
+  xudp: true

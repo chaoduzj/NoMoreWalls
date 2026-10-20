@@ -27,12 +27,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.9MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

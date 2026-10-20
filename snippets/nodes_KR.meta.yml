@@ -22,17 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|2.5MB/s
-  network: ws
-  port: 443
-  server: 144.24.90.178
-  servername: nvl-edge-dr-141026.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-  ws-opts:
-    headers:
-      Host: nvl-edge-dr-141026.pages.dev
-    path: /proxyip=ProxyIP.KR.CMLiussss.Net

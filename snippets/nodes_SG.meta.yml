@@ -37,34 +37,17 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.5MB/s|K001-260618
+- name: 🇸🇬SG_1|4.3MB/s
   password: '!!str 1234'
   port: 2080
-  server: 47.129.200.52
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: http
-  udp: true
-  username: '1234'
-- name: 🇸🇬SG_2|4.3MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.14.88
+  server: 13.250.6.249
   skip-cert-verify: true
   type: http
   username: '1234'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: SG_speednode_0021
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: '!!str e51285e3'
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 🇸🇬SG_2|3.2MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.235.123
+  skip-cert-verify: true
+  type: http
+  username: '1234'

@@ -110,3 +110,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+    short-id: '!!str 1bc2c1ef1c'
+  server: pccw01.fualta.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 285c4b67-5c15-3317-b2b1-d2ffac34d1e0
+  xudp: true

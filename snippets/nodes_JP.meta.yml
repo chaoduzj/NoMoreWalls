@@ -59,3 +59,18 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
+    short-id: '!!str 67c9e7da12d2'
+  server: speedjapga1.xyy123.win
+  servername: amzn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9290643b-1a90-4357-b9b5-b47eacbffc0e
+  xudp: true

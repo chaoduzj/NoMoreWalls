@@ -16,3 +16,19 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇸🇪SE_2|3.2MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇸🇪SE_3|2.6MB/s
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

@@ -27,74 +27,12 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.4MB/s
-  network: tcp
+- name: 🇩🇪DE_1|1.1MB/s
   port: 443
-  reality-opts:
-    public-key: wYnBI1xzD8pqAN7xyI8OKotC_Eo2Vz-z08fI5suWQFU
-    short-id: '!!str 54f1c973'
-  server: 89.127.210.40
-  servername: onlycats.photos
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪DE_2|1.6MB/s|R002-260618
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_3|1.1MB/s
-  port: 9443
-  server: 213.177.229.161
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: DE_speednode_0004
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
-  name: 🇩🇪DE_5|2.4MB/s
-  network: ws
-  port: '8180'
-  server: dnld.chaqalli.com
-  type: vless
-  udp: true
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_6|1.4MB/s
-  network: ws
-  port: '2053'
-  server: 172.67.76.128
-  servername: kkkk-xcd.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /
-  xudp: true
 - name: DE_speednode_0002
   password: None
   port: 9443
@@ -106,6 +44,13 @@ proxies:
 - name: DE_speednode_0003
   port: 443
   server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DE_speednode_0004
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http

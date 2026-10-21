@@ -107,6 +107,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 🇹🇷197884 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  port: 34121
+  server: 153.56.210.134
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -713,138 +723,61 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬SG_1|2.5MB/s
-  network: ws
-  port: '443'
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇦🇹AT_1|1.4MB/s
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇱🇻LV_1|1.3MB/s
-  port: 443
-  server: 85.203.39.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_1|2.1MB/s
-  password: None
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|1.1MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: FR_speednode_0008
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇸🇬SG_2|1.5MB/s
+- name: 🇸🇬SG_1|5.0MB/s
   password: '1234'
   port: 2080
   server: 47.129.235.22
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇱🇺LU_1|1.0MB/s
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_1|1.3MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|1.8MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|2.4MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇹AT_2|1.9MB/s
-  password: None
-  port: 443
-  server: 146.70.244.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_2|2.1MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_1|1.1MB/s
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇷HR_1|2.4MB/s
+- name: 🇭🇷HR_1|1.1MB/s
   port: 443
   server: 154.47.29.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1021KB/s
-  port: 443
-  server: 68.235.56.59
+- name: 🇸🇬SG_2|4.5MB/s
+  password: '1234'
+  port: 2080
+  server: 47.129.155.166
   skip-cert-verify: true
-  tls: true
   type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_3|2.8MB/s
-  network: ws
-  port: '443'
-  server: 172.64.153.61
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /fdipfp=unsafe
-  xudp: true
+  username: '1234'
+- name: 🇸🇬SG_3|4.1MB/s
+  password: '1234'
+  port: 2080
+  server: 47.129.174.248
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|1.5MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.207.226
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_5|4.3MB/s
+  password: '1234'
+  port: '2080'
+  server: 13.229.54.109
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_6|3.2MB/s
+  password: '1234'
+  port: '2080'
+  server: 18.143.176.211
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_7|4.5MB/s
+  password: '1234'
+  port: '2080'
+  server: 54.169.228.182
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - name: AT_speednode_0001
   port: 443
   server: 146.70.244.2
@@ -891,6 +824,13 @@ proxies:
 - name: DK_speednode_0007
   port: 9002
   server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR_speednode_0008
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http

@@ -1,16 +1,4 @@
 proxies:
-- name: 🇬🇧GB_1|2.4MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|2.1MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: GB_speednode_0009
   password: None
   port: 443

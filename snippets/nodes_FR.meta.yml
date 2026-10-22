@@ -1,18 +1,4 @@
 proxies:
-- name: 🇫🇷FR_1|2.2MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇷FR_2|1.8MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: FR_speednode_0008
   port: 443
   server: 82.65.162.76

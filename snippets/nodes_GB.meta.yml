@@ -1,71 +1,14 @@
 proxies:
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧GB_1|1.4MB/s
-  network: ws
-  password: xwhfg0wu1wxv377f
-  port: '2087'
-  server: 216.24.57.225
+  - h3
+  name: 🇬🇧198213 | ⚡️Telegram = t.me/S...
+  password: Un62Uyh8P2Scl8x-9DSxFnpNO4GBs4pw
+  port: 8090
+  server: 185.139.7.254
   skip-cert-verify: true
-  sni: neo.xnetaro.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /wss
-- name: 🇬🇧GB_2|3.2MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.3MB/s|P002-260618
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB_4|1.2MB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|1.5MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|2.0MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB_7|1.5MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_8|1.7MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  sni: 185.139.7.254
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0013

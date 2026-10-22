@@ -374,16 +374,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇳🇱NL_2|1.4MB/s
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_14|1.8MB/s
+  network: ws
+  password: e7TTceggMwUMg+aFN:F4
+  port: '443'
+  server: 172.66.47.18
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560

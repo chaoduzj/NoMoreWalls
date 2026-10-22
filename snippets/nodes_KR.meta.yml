@@ -22,10 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇰🇷KR_1|4.1MB/s
-  password: ''
-  port: '1080'
-  server: 144.24.94.153
-  skip-cert-verify: true
-  type: http
-  username: ''

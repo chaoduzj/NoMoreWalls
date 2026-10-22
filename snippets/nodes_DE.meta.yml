@@ -27,30 +27,9 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|3.1MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: DE_speednode_0002
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: DE_speednode_0004
   port: 443
   server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
@@ -62,7 +41,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_6|4.2MB/s
+- name: DE_speednode_0003
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_4|1.4MB/s
   password: None
   port: 443
   server: 213.109.163.119
@@ -70,31 +56,47 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_7|3.3MB/s
-  port: 9002
-  server: 158.173.154.1
+- name: 🇩🇪DE_5|1017KB/s
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: qq
+- name: 🇩🇪DE_6|3.8MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|1006KB/s|R002-260618
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|2.7MB/s
+  name: 🇩🇪DE_8|1.1MB/s
   network: tcp
-  port: '1932'
+  port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
     short-id: '!!str '
-  server: 193.223.107.107
-  servername: www.vk.com
+  server: 45.12.114.90
+  servername: wow.eos-shop.online
   tls: true
   type: vless
   udp: true
-  uuid: b8f083b6-ae01-431f-9b41-9e2eb96f352b
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
   xudp: true
-- name: DE_speednode_0003
-  port: 443
-  server: 149.36.50.1
+- name: DE_speednode_0002
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http

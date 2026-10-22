@@ -1,12 +1,11 @@
 proxies:
-- name: 🇪🇪EE_1|2.5MB/s
+- name: 🇪🇪EE_1|2.0MB/s
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇪🇪EE_2|2.6MB/s|K001-260618
-  password: ''
+- name: 🇪🇪EE_2|2.2MB/s|K001-260618
   port: 9443
   server: 95.153.32.2
   skip-cert-verify: true
@@ -14,4 +13,17 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: lalibobi.orbit.v3.Connect
+  name: 🇪🇪EE_3|3.4MB/s
+  network: grpc
+  port: '443'
+  server: lalibobi.online
+  servername: lalibobi.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
+  xudp: true

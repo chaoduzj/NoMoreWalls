@@ -1,33 +1,56 @@
 proxies:
-- name: 🇬🇧GB_1|2.7MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇬🇧GB_1|1.4MB/s
+  network: ws
+  password: xwhfg0wu1wxv377f
+  port: '2087'
+  server: 216.24.57.225
+  skip-cert-verify: true
+  sni: neo.xnetaro.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /wss
+- name: 🇬🇧GB_2|3.2MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|1.3MB/s|P002-260618
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇬🇧GB_4|1.2MB/s
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: GB_speednode_0009
-  password: None
+- name: 🇬🇧GB_5|1.5MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|2.0MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB_3|2.3MB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|3.1MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|3.3MB/s
+- name: 🇬🇧GB_7|1.5MB/s
   password: None
   port: 443
   server: 212.102.63.1
@@ -35,13 +58,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|2.0MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|1.3MB/s
+- name: 🇬🇧GB_8|1.7MB/s
   password: None
   port: 9443
   server: 84.17.50.214
@@ -49,9 +66,24 @@ proxies:
   tls: true
   type: http
   username: null
-- name: GB_speednode_0010
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0013
+  network: tcp
   port: 443
-  server: 212.102.63.61
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: '!!str fc70174007a393b4'
+  server: netherlands02.azotvpn.xyz
+  servername: netherlands02.azotvpn.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+- name: GB_speednode_0014
+  port: 8443
+  server: 198.105.124.180
   skip-cert-verify: true
   tls: true
   type: http

@@ -9,16 +9,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|3.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.128.78.178
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559

@@ -1,44 +1,41 @@
 proxies:
-- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 50.62.195.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇨🇦 CA 02 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: shopify.com
-  servername: misaka.cndyw.ggff.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|1.3MB/s
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: '!!str 8a9725533854a7e8'
+  server: 67.159.46.132
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  ws-opts:
-    headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560
-- name: 🇨🇦CA_1|2.6MB/s
+  udp: true
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_2|1000KB/s
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: '!!str 8a9725533854a7e8'
+  server: 50.7.245.205
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+- name: 🇨🇦CA_3|1.4MB/s
   password: None
-  port: 9443
-  server: 149.88.98.81
+  port: 443
+  server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇨🇦CA_2|1.4MB/s
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA_3|1.6MB/s
+- name: 🇨🇦CA_4|2.3MB/s
   password: None
   port: 443
   server: 23.169.224.34
@@ -46,12 +43,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇨🇦CA_4|1.6MB/s
+- name: 🇨🇦CA_5|1.4MB/s
+  password: None
   port: 443
-  server: 206.223.183.16
+  server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: 🇨🇦CA_6|1.1MB/s
+  password: ''
+  port: '1080'
+  server: 149.248.18.106
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: CA_speednode_0001
   port: 443
   server: 35.183.131.26

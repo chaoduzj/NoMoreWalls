@@ -1,12 +1,4 @@
 proxies:
-- name: 🇫🇷FR_1|1.3MB/s
-  password: None
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: FR_speednode_0005
   password: 'null'
   port: 23856

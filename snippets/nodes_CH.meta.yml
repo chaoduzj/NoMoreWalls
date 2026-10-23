@@ -9,27 +9,3 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: 🇨🇭CH_1|2.8MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_2|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: D3LM6JIYP6kL--jSCj-BPj-qy-J7rzX0Jp9Z4ygNeV4
-    short-id: '!!str 7791e189a518d69e'
-  server: 179.237.109.135
-  servername: seznam.cz
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfd81b63-a43d-4c27-b71d-2c948cfc4ab2
-  xudp: true

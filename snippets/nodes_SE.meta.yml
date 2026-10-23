@@ -9,30 +9,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 🇸🇪SE_1|1.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '!!str a1b2c3d4e5f6a7b8'
-  server: multirouterapp.com
-  servername: my.lunarchaff.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c7332d6-01e0-462e-843f-8253d7e1b920
-  xudp: true
-- name: 🇸🇪SE_2|1.9MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_3|2.7MB/s
+- name: 🇸🇪SE_1|2.3MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -40,9 +17,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_4|2.6MB/s
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http

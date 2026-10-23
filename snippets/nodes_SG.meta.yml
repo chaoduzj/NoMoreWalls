@@ -37,15 +37,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: unsafe
   encryption: none
-  name: 🇸🇬SG_1|3.8MB/s
+  name: 🇸🇬SG_1|2.8MB/s
   network: ws
   port: '443'
-  server: 172.64.155.209
+  server: 172.64.150.43
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -54,8 +51,8 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
   xudp: true
 - alpn:
@@ -63,7 +60,7 @@ proxies:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_2|4.1MB/s
+  name: 🇸🇬SG_2|3.0MB/s
   network: ws
   port: '443'
   server: 172.64.154.211
@@ -75,21 +72,14 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /
   xudp: true
-- name: 🇸🇬SG_3|4.2MB/s
+- name: 🇸🇬SG_3|3.4MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.212.249.115
+  server: 54.169.228.182
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_4|1014KB/s
-  password: ''
-  port: '7890'
-  server: 39.106.201.108
-  skip-cert-verify: true
-  type: socks5
-  username: ''

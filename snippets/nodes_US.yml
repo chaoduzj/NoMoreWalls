@@ -45,3 +45,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: android
+  name: 🇺🇸US_22|3.0MB/s
+  network: tcp
+  password: 6ab93ec68bd94b76
+  port: '20008'
+  server: ui108.pacemakere.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: android
+  name: 🇺🇸US_23|1.6MB/s
+  network: tcp
+  password: 4fd2b10b6a754019
+  port: '20008'
+  server: su106.izzzzzi.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true

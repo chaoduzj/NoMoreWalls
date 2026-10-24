@@ -26,53 +26,22 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|2.4MB/s
-  network: ws
-  port: '2087'
-  server: 45.157.233.109
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 🇩🇪DE_2|1.3MB/s
+- name: 🇩🇪DE_1|2.9MB/s
+  password: None
   port: 9443
-  server: 213.177.229.161
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|1.3MB/s
+- name: 🇩🇪DE_2|1.2MB/s|R002-260618
+  password: None
   port: 443
-  server: 149.36.50.157
+  server: 87.249.132.97
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api
-  name: 🇩🇪DE_4|2.4MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: '!!str afee962d'
-  server: nl3.mycloud1.org
-  servername: nl3.mycloud1.org
-  tls: true
-  type: vless
   udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-  xudp: true
 - name: DE_speednode_0001
   port: 443
   server: 213.109.163.119
@@ -88,3 +57,77 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: DK_speednode_0003
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0004
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_7|2.3MB/s
+  password: None
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_8|3.1MB/s
+  password: None
+  port: 443
+  server: 79.76.126.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_9|3.2MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_10|2.0MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_11|1.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_12|2.0MB/s
+  password: ''
+  port: '3129'
+  server: 89.58.42.118
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_13|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: CwVoZSZr3MQ8IEaxOqmZRolV2Vw5Ve-hwhRLHuOerzg
+    short-id: '!!str 44aa59cc84b532ed'
+  server: vb41fwol.himoy.space
+  servername: vb41fwol.himoy.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  xudp: true

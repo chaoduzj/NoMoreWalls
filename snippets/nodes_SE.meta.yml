@@ -6,11 +6,10 @@ proxies:
   sni: sweden.luxes.network
   tls: false
   type: hysteria2
-- name: 🐙32@oneclickvpnkeys
+- name: 🐙93@oneclickvpnkeys
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
-  server: 50.7.38.243
-  sni: promo.betust.net
+  server: promo.betust.net
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇸🇪
@@ -23,17 +22,27 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.8MB/s
+- name: 🇸🇪SE_1|1.5MB/s
+  password: None
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_2|2.0MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
   username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_2|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: '!!str afee962d'
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  xudp: true

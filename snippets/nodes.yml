@@ -374,21 +374,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: android
-  name: 🇺🇸US_22|3.0MB/s
+- alterId: '2'
+  cipher: auto
+  name: 🇳🇱NL_2|3.1MB/s
   network: tcp
-  password: 6ab93ec68bd94b76
-  port: '20008'
-  server: ui108.pacemakere.com
+  port: '30829'
+  server: v29.hdacd.com
   skip-cert-verify: false
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- client-fingerprint: android
-  name: 🇺🇸US_23|1.6MB/s
-  network: tcp
-  password: 4fd2b10b6a754019
-  port: '20008'
-  server: su106.izzzzzi.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true

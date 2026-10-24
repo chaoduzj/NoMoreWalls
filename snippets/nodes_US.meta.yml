@@ -53,24 +53,50 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇺🇸US_1|1.3MB/s
-  network: ws
-  port: '443'
-  server: wwww.qarvian.ir
-  servername: firefox.com
-  tls: true
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 🇺🇸US_1|2.9MB/s
+  network: http
+  port: 443
+  server: 35.93.112.83
+  tls: false
   type: vless
   udp: true
-  uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 🇺🇸US_2|4.6MB/s
+  network: http
+  port: 443
+  server: 34.212.112.62
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- encryption: none
+  name: 🇺🇸US_3|1.4MB/s
+  network: ws
+  port: '8880'
+  server: 45.85.118.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+      Host: vms.lifetime55.workers.dev
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /
   xudp: true
 - name: US_speednode_0024
   port: 8443
@@ -79,38 +105,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|3.3MB/s
-  network: ws
-  port: '443'
-  server: 162.35.169.69
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🇺🇸US_5|1.6MB/s
-  port: 443
-  server: 149.22.88.65
+- name: 🇺🇸US_5|2.6MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
-- name: 🇺🇸US_6|3.6MB/s
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.3MB/s
+  username: 'null'
+- name: 🇺🇸US_6|3.1MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.205
@@ -118,7 +122,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_8|3.0MB/s
+- name: 🇺🇸US_7|2.6MB/s
   password: None
   port: 9002
   server: 138.199.35.197
@@ -126,7 +130,31 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_9|2.1MB/s
+- name: 🇺🇸US_8|1.8MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|1.6MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_10|2.2MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_11|1.6MB/s
   password: ''
   port: 443
   server: 149.88.21.129
@@ -135,27 +163,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 🇺🇸US_10|1.5MB/s
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.2MB/s
-  password: None
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇺🇸US_12|1.7MB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|2.9MB/s
   password: None
   port: 9443
   server: 149.88.21.140
@@ -163,154 +171,91 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_14|2.9MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_15|3.0MB/s
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_16|1.7MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|3.0MB/s
+- name: 🇺🇸US_13|3.0MB/s
   password: None
   port: 443
-  server: 12.221.146.147
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_18|1.4MB/s
+- name: 🇺🇸US_14|1.3MB/s
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|1.7MB/s
   password: None
-  port: 9002
-  server: 138.199.35.213
+  port: 9443
+  server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_19|2.3MB/s
+- name: 🇺🇸US_16|2.8MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_17|3.1MB/s
   password: None
   port: 443
   server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_20|2.9MB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_21|2.8MB/s
-  port: 1080
-  server: 209.50.255.91
-  type: socks5
-  udp: true
-  username: Og==
-- client-fingerprint: android
-  name: 🇺🇸US_22|3.0MB/s
-  network: tcp
-  password: 6ab93ec68bd94b76
-  port: '20008'
-  server: ui108.pacemakere.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: android
-  name: 🇺🇸US_23|1.6MB/s
-  network: tcp
-  password: 4fd2b10b6a754019
-  port: '20008'
-  server: su106.izzzzzi.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇺🇸US_24|1.2MB/s
-  password: ''
-  port: '44499'
-  server: 45.61.188.134
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: 🇺🇸US_25|2.3MB/s
+- encryption: none
+  name: 🇺🇸US_18|1.0MB/s
   network: ws
-  port: '443'
-  server: 104.16.105.166
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  port: '8880'
+  server: 63.141.128.30
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
+      Host: vms.lifetime42.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
+        Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_26|2.5MB/s
+- encryption: none
+  name: 🇺🇸US_19|1.0MB/s
   network: ws
-  port: '443'
-  server: 104.18.91.192
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  port: '8880'
+  server: 198.177.56.30
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      Host: vms.lifetime09.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_27|4.3MB/s
-  network: ws
-  port: '443'
-  server: 172.66.205.185
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US_28|3.3MB/s
+- name: 🇺🇸US_20|3.5MB/s
   password: ''
-  port: '443'
-  server: 129.153.93.183
+  port: '22222'
+  server: 64.118.155.2
   skip-cert-verify: true
-  tls: true
   type: http
   username: ''
-- name: 🇺🇸US_29|2.9MB/s
+- name: 🇺🇸US_21|1.0MB/s
   password: ''
-  port: '9002'
-  server: 138.199.35.196
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇺🇸US_22|1.0MB/s
+  password: ''
+  port: '443'
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http

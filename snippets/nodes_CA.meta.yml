@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 🇨🇦CA_1|1.2MB/s
+  password: None
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

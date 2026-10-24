@@ -375,7 +375,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_2|2.3MB/s
+  name: 🇸🇬SG_1|1.8MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -385,18 +385,11 @@ proxies:
   server: 18.143.63.164
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.0MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+- name: 🇰🇷KR_1|1.9MB/s
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  port: 24999
+  server: tjhg.m2k699.com
+  skip-cert-verify: true
+  sni: www.itunes.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /assignment

@@ -1,19 +1,82 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.0MB/s
-  network: ws
-  password: humanity
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|3.1MB/s
+  network: tcp
   port: '443'
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 45.151.71.152
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /assignment
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8MkHK9vGRtOA97_ag2qUoru4ONKe3W6r7SR1UtIKiWU
+    short-id: '!!str c1c6c4326b5b'
+  server: 45.95.98.135
+  servername: 8g6zbdoai3lb.cloudydigital.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f5cfa10-43e5-4912-800d-557308a26a29
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 45.151.71.147
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  xudp: true
+- name: 🇫🇷FR_4|1.1MB/s
+  password: None
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_5|1.6MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_6|3.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 103.91.147.247
+  servername: ozon.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
 - name: FR_speednode_0005
   password: 'null'
   port: 23856

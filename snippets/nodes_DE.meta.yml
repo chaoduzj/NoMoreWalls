@@ -42,7 +42,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇩🇪DE-🚀@VPNine1
+- name: 🇩🇪199745 | ⚡️Telegram = t.me/S...
   password: wdXYbPlYLa5yLB7LF2Ambo
   port: 443
   server: 46.225.10.16
@@ -50,41 +50,98 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|2.6MB/s|R002-260618
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api
-  name: 🇩🇪DE_2|1.2MB/s
-  network: grpc
-  port: 2053
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.1MB/s
+  network: tcp
+  port: 2094
   reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: '!!str afee962d'
-  server: nl3.mycloud1.org
-  servername: nl3.mycloud1.org
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.204
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: DE_speednode_0007
+  uuid: 54f16f88-68b6-470b-bcc4-ebb6c5e6fd7a
+- name: DE_speednode_0008
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: GB_speednode_0018
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_4|1.9MB/s
+  password: None
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|3.7MB/s
+  password: None
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪DE_7|2.1MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|1.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|1.4MB/s
+  network: tcp
+  port: 17232
+  reality-opts:
+    public-key: OYFQrEB_Zt7kvR5OtebA3tzKEUQ57C8Pg16MXUg1A1g
+    short-id: '!!str 67aec74e00f0e90f'
+  server: 77.239.102.129
+  servername: 77.239.102.129.sslip.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-- name: DE_speednode_0008
-  port: 9443
-  server: 87.249.132.97
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- name: 🇩🇪DE_10|1.5MB/s
+  password: ''
+  port: '80'
+  server: 85.192.63.222
+  skip-cert-verify: true
+  type: http
+  username: ''
+- name: DE_speednode_0007
+  port: 443
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http

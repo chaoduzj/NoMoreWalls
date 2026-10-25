@@ -37,35 +37,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_1|5.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 13.215.227.70
-  type: ss
-  udp: true
-- name: 🇸🇬SG_2|1.7MB/s
+- name: 🇸🇬SG_1|2.9MB/s
   password: '!!str 1234'
   port: 2080
-  server: 54.255.133.243
+  server: 54.151.160.36
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: 🇸🇬SG_3|1.4MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 52.221.234.145
+- name: 🇸🇬SG_2|1.3MB/s
+  password: None
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
-- name: 🇸🇬SG_4|1.2MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.250.8.222
-  skip-cert-verify: true
-  type: http
-  username: '1234'
+  username: null

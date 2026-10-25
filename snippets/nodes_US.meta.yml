@@ -53,19 +53,115 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_speednode_0059
+- client-fingerprint: chrome
+  name: 🇺🇸US_1|1.1MB/s
+  network: ws
+  port: 8080
+  server: mira.sheikhiedu.ir
+  servername: mira.sheikhiedu.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 530baed3-3c7f-4b73-b8ce-5dba0d8fddfb
+  ws-opts:
+    headers:
+      Host: mira.sheikhiedu.ir
+    path: /cfd
+- name: IN_speednode_0024
   port: 443
-  server: 68.235.56.51
+  server: 193.239.236.134
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_2|1.6MB/s
+- name: US_speednode_0055
+  password: None
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_4|2.1MB/s
+  password: None
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_5|2.8MB/s
   port: 8443
   server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_6|1.9MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|2.0MB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|1.6MB/s
+  password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|3.0MB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|1.9MB/s
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|2.3MB/s
+  password: None
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.1MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|2.0MB/s
+  password: None
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|1.3MB/s
+  password: test123
+  port: '1080'
+  server: 104.168.249.36
+  skip-cert-verify: true
+  type: socks5
+  username: test123
+- name: 🇺🇸US_15|2.0MB/s
+  password: ''
+  port: '3001'
+  server: 20.121.179.183
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: US_speednode_0050
   password: None
   port: 443
@@ -102,14 +198,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0055
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0056
   port: 443
   server: 12.202.180.118
@@ -127,6 +215,13 @@ proxies:
 - name: US_speednode_0058
   port: 8090
   server: 173.42.49.102
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0059
+  port: 443
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http

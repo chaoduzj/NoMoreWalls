@@ -1,20 +1,42 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|3.5MB/s
+  name: 🇬🇧GB_1|1.1MB/s
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 54.37.2.245
-  servername: ozon.ru
+  server: 45.151.71.165
+  servername: gb.ozon.ru
   tls: true
   type: vless
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.142
+  servername: gb.ozon.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  xudp: true
+- name: 🇬🇧GB_3|1.8MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|3.6MB/s
+  name: 🇬🇧GB_4|1.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -25,43 +47,7 @@ proxies:
   type: vless
   udp: true
   uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|3.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.151.71.142
-  servername: gb.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  xudp: true
-- name: 🇬🇧GB_4|2.4MB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.9MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|1.3MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|3.1MB/s
+- name: 🇬🇧GB_6|1.5MB/s
   password: None
   port: 9443
   server: 84.17.50.129
@@ -69,25 +55,42 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_8|2.3MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_9|1.2MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_10|3.3MB/s
+  name: 🇬🇧GB_7|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 147.45.46.161
+  servername: gb.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_8|1011KB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 147.45.47.110
+  servername: gb.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_9|1.2MB/s
   network: tcp
   port: '443'
   reality-opts:

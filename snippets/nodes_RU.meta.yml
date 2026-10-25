@@ -1,17 +1,4 @@
 proxies:
-- name: 🐙97@oneclickvpnkeys
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
-  sni: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
-- name: 🐙99@oneclickvpnkeys
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -22,7 +9,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: 🇷🇺RU_1|1.1MB/s
@@ -31,26 +18,10 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.160.140.120
+  server: 193.160.140.118
   servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 193.160.140.99
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
   xudp: true

@@ -1,5 +1,19 @@
 proxies:
-- name: 🇨🇦CA_1|2.9MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|1.7MB/s
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: '!!str 8a9725533854a7e8'
+  server: 67.159.47.236
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+- name: 🇨🇦CA_2|3.2MB/s
   password: None
   port: 443
   server: 206.223.183.13
@@ -8,16 +22,14 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇨🇦CA_2|1.5MB/s
-  network: tcp
+  name: 🇨🇦CA_3|1.6MB/s
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: '!!str 8a9725533854a7e8'
   server: 213.152.165.203
   servername: www.apple.com
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true

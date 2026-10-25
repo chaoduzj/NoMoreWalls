@@ -1,11 +1,4 @@
 proxies:
-- name: 🐙71@oneclickvpnkeys
-  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
-  port: 2053
-  server: 144.31.230.51
-  sni: sweden.luxes.network
-  tls: false
-  type: hysteria2
 - name: 🐙93@oneclickvpnkeys
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
@@ -22,20 +15,24 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.5MB/s
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇪SE_2|2.7MB/s
+  name: 🇸🇪SE_1|1.5MB/s
   network: tcp
-  port: '443'
+  port: 443
+  reality-opts:
+    public-key: 5984Ah0pkfSVekU5xafQ1trZZN7MyNCJ-3KfCo-O6A4
+  server: 196.247.163.10
+  servername: britainmh.eosvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_2|2.4MB/s
+  network: tcp
+  port: 443
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
     short-id: '!!str afee962d'
@@ -43,6 +40,12 @@ proxies:
   servername: se1.mycloud1.org
   tls: true
   type: vless
-  udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-  xudp: true
+- name: 🇸🇪SE_3|2.0MB/s
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

@@ -22,76 +22,45 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇷🇺RU_1|3.9MB/s
   network: tcp
   port: 8443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.9.118.177
+  server: 193.160.140.117
   servername: apple.com
   tls: true
   type: vless
-  uuid: 88c4ce99-31f1-4329-912d-2a3564b3d58b
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 193.160.141.9
-  servername: ozon.ru
-  tls: true
-  type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  xudp: true
-- client-fingerprint: firefox
+  uuid: 57c87188-1056-4bd5-92f8-c7ca1fd19147
+- client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|3.1MB/s
+  name: 🇷🇺RU_2|2.7MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.160.141.8
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_4|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 147.45.47.107
+  server: 193.223.104.140
   servername: abuse.ozon.ru
   tls: true
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_5|3.0MB/s
+  name: 🇷🇺RU_3|2.3MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.160.140.112
+  server: 193.160.141.8
   servername: ozon.ru
   tls: true
   type: vless

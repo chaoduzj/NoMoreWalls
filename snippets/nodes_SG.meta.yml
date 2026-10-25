@@ -37,3 +37,16 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇸🇬SG_1|2.0MB/s
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_2|1.4MB/s
+  password: ''
+  port: '9090'
+  server: 128.199.116.219
+  skip-cert-verify: true
+  type: http
+  username: ''

@@ -11,7 +11,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.8MB/s
+  name: 🇷🇺RU_1|2.9MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -25,33 +25,34 @@ proxies:
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|3.4MB/s
+  name: 🇷🇺RU_2|3.5MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.167
+    short-id: '!!str '
+  server: 37.235.249.29
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 193.223.104.151
   servername: abuse.ozon.ru
-  skip-cert-verify: false
-  sni: abuse.ozon.ru
   tls: true
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|1.8MB/s
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 147.45.46.157
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75985152-e16e-4a48-87ff-35c2615e0ab5
   xudp: true

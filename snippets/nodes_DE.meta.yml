@@ -1,12 +1,4 @@
 proxies:
-- name: 🇩🇪192088 | ⚡️Telegram = t.me/v...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.158.96.132
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -27,27 +19,12 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪199747 | ⚡️Telegram = t.me/S...
-  password: mhsl
-  port: 14444
-  server: 88.99.213.222
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🍄‍🟫41@oneclickvpnkeys
-  password: miaoge110
-  port: 51511
-  server: 5.45.100.100
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 🇩🇪199745 | ⚡️Telegram = t.me/S...
-  password: wdXYbPlYLa5yLB7LF2Ambo
+- name: 🍄‍🟫97@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 46.225.10.16
+  server: 64.188.98.171
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -58,15 +35,36 @@ proxies:
   reality-opts:
     public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
     short-id: '!!str 55986a94e2228791'
-  server: 213.152.165.204
+  server: 213.152.165.205
   servername: www.apple.com
   tls: true
   type: vless
   udp: true
   uuid: 54f16f88-68b6-470b-bcc4-ebb6c5e6fd7a
-- name: DE_speednode_0008
-  port: 9443
-  server: 87.249.132.97
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.5MB/s
+  network: tcp
+  port: 17232
+  reality-opts:
+    public-key: OYFQrEB_Zt7kvR5OtebA3tzKEUQ57C8Pg16MXUg1A1g
+    short-id: '!!str 67aec74e00f0e90f'
+  server: 77.239.102.129.sslip.io
+  servername: 77.239.102.129.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- name: DE_speednode_0007
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0009
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
@@ -79,30 +77,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_4|1.9MB/s
+- name: 🇩🇪DE_6|2.5MB/s
   password: None
   port: 443
-  server: 79.127.156.177
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_5|2.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|3.7MB/s
-  password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.1MB/s
+- name: 🇩🇪DE_7|2.7MB/s
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
@@ -116,32 +99,67 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|1.4MB/s
-  network: tcp
-  port: 17232
-  reality-opts:
-    public-key: OYFQrEB_Zt7kvR5OtebA3tzKEUQ57C8Pg16MXUg1A1g
-    short-id: '!!str 67aec74e00f0e90f'
-  server: 77.239.102.129
-  servername: 77.239.102.129.sslip.io
-  skip-cert-verify: false
-  tfo: false
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|2.3MB/s
+  network: ws
+  port: '2083'
+  server: 185.133.35.56
+  servername: titp.iranroyalzhin.ir
   tls: true
   type: vless
   udp: true
-  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
-- name: 🇩🇪DE_10|1.5MB/s
-  password: ''
-  port: '80'
-  server: 85.192.63.222
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: DE_speednode_0007
-  port: 443
-  server: 213.109.163.119
+  uuid: 2445edef-76b7-4713-87b9-ed6aa0b1a2c9
+  ws-opts:
+    headers:
+      Host: titp.iranroyalzhin.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_10|2.4MB/s
+  network: ws
+  port: '2083'
+  server: 140.225.208.50
+  servername: speedtestmark.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /vless-ws
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_11|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: eCJwHto6UMfRpXErgAoIdvM13jTHrWqgBbIoj3apKkY
+    short-id: '!!str eecfe76af97a6132'
+  server: gr1.originmesh.online
+  servername: gr1.originmesh.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35da102e-536b-4103-9632-58c7c4c6303b
+  xudp: true
+- name: DE_speednode_0008
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http

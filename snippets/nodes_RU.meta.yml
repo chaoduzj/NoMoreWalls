@@ -1,4 +1,14 @@
 proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -9,6 +19,20 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0029
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 147.45.47.119
+  servername: ozon.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0030
@@ -25,74 +49,12 @@ proxies:
   uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.1MB/s
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.169
-  servername: abuse.ozon.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_4|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 193.160.141.8
-  servername: ozon.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_5|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 37.235.249.43
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_6|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 37.235.249.24
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: RU_speednode_0029
+  name: RU_speednode_0031
   network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.119
+  server: 147.45.47.117
   servername: ozon.ru
   skip-cert-verify: false
   tls: true
@@ -115,6 +77,35 @@ proxies:
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
+  name: RU_speednode_0033
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.176
+  servername: gb.ozon.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0034
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: '!!str 88d9dc52ef39c8bd'
+  server: 92.42.201.107
+  servername: node-slo02.rkitman.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: RU_speednode_0035
   network: tcp
   port: 443
@@ -127,6 +118,20 @@ proxies:
   type: vless
   udp: true
   uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0036
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0037

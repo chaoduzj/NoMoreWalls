@@ -37,9 +37,39 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|2.7MB/s
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_1|1.3MB/s
+  network: ws
+  port: '2053'
+  server: 8.35.211.43
+  servername: go.iranfree.de5.net
   tls: true
+  type: vless
+  udp: true
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  ws-opts:
+    headers:
+      Host: go.iranfree.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇸🇬SG_2|1.2MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 47.129.155.166
+  skip-cert-verify: true
   type: http
+  username: '1234'
+- name: 🇸🇬SG_3|1.3MB/s
+  port: 9090
+  server: 128.199.116.219
+  type: http
+- name: 🇸🇬SG_4|2.2MB/s
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.212.190.30
+  skip-cert-verify: true
+  type: http
+  username: '1234'

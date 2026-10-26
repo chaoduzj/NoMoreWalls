@@ -53,38 +53,60 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.8MB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
+- encryption: none
+  name: 🇺🇸US_1|1.9MB/s
+  network: ws
+  port: '8880'
+  server: 139.64.235.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_2|1.5MB/s
+  network: ws
+  port: '8880'
+  server: 23.227.39.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime17.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+  xudp: true
+- name: US_speednode_0056
+  port: 443
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.7MB/s
+  udp: true
+- name: IN_speednode_0024
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_5|1.7MB/s
   password: ''
-  port: 9002
-  server: 138.199.35.212
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-- name: 🇺🇸US_3|2.6MB/s
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_4|2.0MB/s
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|2.3MB/s
+- name: 🇺🇸US_6|3.0MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.195
@@ -92,71 +114,21 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_6|3.5MB/s
+- name: 🇺🇸US_7|3.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|3.1MB/s
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_7|1.6MB/s
-  password: None
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.0MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.1MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.9MB/s
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.9MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|2.9MB/s
-  password: ''
-  port: '38182'
-  server: 69.55.49.177
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇺🇸US_13|2.6MB/s
-  network: ws
-  port: '443'
-  server: 167.82.64.64
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: ''
-  xudp: true
 - name: US_speednode_0050
   password: None
   port: 443
@@ -165,6 +137,49 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: null
+- name: 🇺🇸US_10|3.0MB/s|K001-260618
+  password: None
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_11|1.5MB/s
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|3.2MB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 🇺🇸US_13|1.0MB/s|K001-260618
+  password: ''
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_14|3.2MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: US_speednode_0051
   port: 9002
   server: 138.199.35.214
@@ -197,13 +212,6 @@ proxies:
   password: None
   port: 9443
   server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0056
-  port: 443
-  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http

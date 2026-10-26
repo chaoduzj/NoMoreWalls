@@ -9,9 +9,38 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.160.140.118
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  xudp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.9MB/s
+  name: 🇷🇺RU_3|2.7MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -24,35 +53,3 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|3.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 37.235.249.29
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 193.223.104.151
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  xudp: true

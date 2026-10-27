@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.99.147.49
+  type: ss
+  udp: true
+- name: 🇨🇦CA_2|2.2MB/s
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦CA_3|1.2MB/s
+  password: None
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  tls: true
+  type: http

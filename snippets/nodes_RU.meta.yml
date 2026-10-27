@@ -9,6 +9,37 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- name: 🇷🇺RU_1|2.4MB/s
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.5MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: VDZdbh_RzDDZsHpYF58yUuuvXh93XnmkvpSqb50qG2U
+    short-id: '!!str 1be482b8e08aa0ef'
+  server: nl.puflino.com
+  servername: nl2.reddotcorp.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+  xudp: true
+- name: 🇷🇺RU_3|1.9MB/s
+  password: ''
+  port: '3128'
+  server: 45.12.238.164
+  skip-cert-verify: true
+  type: http
+  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

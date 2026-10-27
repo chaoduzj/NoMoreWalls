@@ -374,3 +374,37 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.9MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- name: 🇺🇸US_1|1.4MB/s
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.7
+  skip-cert-verify: false
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇰🇷KR_1|1.0MB/s
+  network: http
+  port: 80
+  server: 43.155.199.22
+  tls: false
+  type: vmess
+  uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.99.147.49
+  type: ss
+  udp: true

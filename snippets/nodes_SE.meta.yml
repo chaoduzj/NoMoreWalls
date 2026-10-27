@@ -9,13 +9,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|4.1MB/s
+- name: 🇸🇪SE_1|1.2MB/s
+  password: None
   port: 443
-  server: 146.70.242.146
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_2|2.9MB/s
+- name: 🇸🇪SE_2|1.2MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -23,19 +24,3 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-se-3
-  name: 🇸🇪SE_3|1.8MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo
-    short-id: '!!str 11d37dd92940329e'
-  server: 136.148.218.108
-  servername: se1-cl3.vless-fiberstasis.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true

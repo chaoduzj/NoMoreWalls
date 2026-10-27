@@ -46,20 +46,41 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸US_17|1.6MB/s
+  name: 🇺🇸US_6|1.9MB/s
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: '443'
   server: 216.152.155.54
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: learn.nextjobopportunityandclaimyouridealrole.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_18|1.8MB/s
+  name: 🇺🇸US_7|1.1MB/s
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: '443'
   server: 66.163.114.106
   skip-cert-verify: false
   sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_8|1.0MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 66.163.114.132
+  skip-cert-verify: false
+  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_9|1.0MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 66.163.114.166
+  skip-cert-verify: false
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true

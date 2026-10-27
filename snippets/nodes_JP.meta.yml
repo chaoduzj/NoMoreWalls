@@ -52,6 +52,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵JP_1|1021KB/s
+  obfs: ''
+  obfs-password: ''
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  port: '4444'
+  server: jap2.nexfile.net
+  skip-cert-verify: false
+  sni: jap2.nexfile.net
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

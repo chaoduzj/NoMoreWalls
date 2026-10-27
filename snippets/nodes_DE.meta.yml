@@ -27,100 +27,26 @@ proxies:
   sni: pisulka.jsbox.top
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|3.5MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: '!!str 2c9a2790ad5900b2'
-  server: ge-s-1.pythonmakemigreat.wiki
-  servername: ge-s-1.pythonmakemigreat.wiki
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  port: '2083'
-  server: 64.188.83.188
-  servername: speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75b517db-1f97-4bda-a479-863d988c31a0
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /vless-ws
-  xudp: true
-- name: 🇩🇪DE_3|1.2MB/s
+- name: 🇩🇪DE_1|2.9MB/s
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|3.6MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.4MB/s
+- name: 🇩🇪DE_2|1.6MB/s
   port: 443
-  server: 149.36.50.129
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|1.6MB/s
+- name: 🇩🇪DE_3|1.5MB/s
   password: None
   port: 9443
-  server: 213.177.229.161
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_8|3.6MB/s
-  network: xhttp
-  port: '8443'
-  reality-opts:
-    public-key: 3ds1sPK8MuZVr6IOAwjRx0h_2IZMZ2v_RzNGl3iYwno
-    short-id: '!!str 97cf1d795dd9b2bf'
-  server: 2.27.206.215
-  servername: yastatic.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: fafc7c16-f890-45ee-a856-02df225172dd
-  xhttp-opts:
-    mode: stream-up
-    path: /api/v1/stream
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-    short-id: '!!str '
-  server: 168.113.172.132
-  servername: ab3.rentroom.vip
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  xudp: true
+  username: null
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

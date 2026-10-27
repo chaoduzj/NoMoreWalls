@@ -1,21 +1,5 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇪🇪EE_1|1.3MB/s
-  network: ws
-  port: 8443
-  server: est.luxes.network
-  servername: est.luxes.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: a9e5d7ed-ce1a-48eb-9767-4de54fcfaba7
-  ws-opts:
-    headers:
-      Host: est.luxes.network
-    path: /assets
-- name: 🇪🇪EE_2|2.6MB/s
+- name: 🇪🇪EE_1|1.7MB/s
   password: None
   port: 9443
   server: 95.153.31.66

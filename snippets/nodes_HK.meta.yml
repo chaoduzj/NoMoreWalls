@@ -110,3 +110,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇭🇰HK_1|4.9MB/s
+  port: 10000
+  server: 118.25.131.160
+  skip-cert-verify: true
+  tls: true
+  type: http

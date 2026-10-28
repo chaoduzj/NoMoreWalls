@@ -1,15 +1,35 @@
 proxies:
-- name: Telegram 🆔@cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- name: 🇷🇺RU_1|2.4MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: myIjvlXZS0rm1eg4q2w5WsQBuj80i2rBA0HpRGCUg1w
+    short-id: '!!str 86d1efde'
+  server: 45.9.12.110
+  servername: ru.letsconnectpoint.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: '!!str ba4b2afa9e7193ea'
+  server: de.puflino.com
+  servername: edge-fr.extazy.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+  xudp: true
+- name: 🇷🇺RU_3|1.5MB/s
   password: None
   port: 1446
   server: 46.29.166.134
@@ -17,29 +37,22 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: edge
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.5MB/s
+  name: 🇷🇺RU_4|2.1MB/s
   network: tcp
-  port: '8443'
+  port: '443'
   reality-opts:
-    public-key: VDZdbh_RzDDZsHpYF58yUuuvXh93XnmkvpSqb50qG2U
-    short-id: '!!str 1be482b8e08aa0ef'
-  server: nl.puflino.com
-  servername: nl2.reddotcorp.org
+    public-key: myIjvlXZS0rm1eg4q2w5WsQBuj80i2rBA0HpRGCUg1w
+    short-id: '!!str 86d1efde'
+  server: ru.letsconnectpoint.com
+  servername: ru.letsconnectpoint.com
   tls: true
   type: vless
   udp: true
-  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
   xudp: true
-- name: 🇷🇺RU_3|1.9MB/s
-  password: ''
-  port: '3128'
-  server: 45.12.238.164
-  skip-cert-verify: true
-  type: http
-  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- name: 🇩🇪DE_4|1.7MB/s
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8|2.7MB/s
+  network: tcp
+  password: happybirthdaydaniel
+  port: '25267'
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: de-bots4.h1cloud.net
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: 🇩🇪DE_10|1.3MB/s
+  network: grpc
+  password: Pass-Client-1
+  port: '8446'
+  server: 171.22.119.74
+  skip-cert-verify: true
+  type: trojan
+  udp: true

@@ -1,13 +1,5 @@
 proxies:
-- name: 🇨🇭CH_1|1.1MB/s
-  password: None
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇭CH_2|1.4MB/s
+- name: 🇨🇭CH_4|4.0MB/s
   password: None
   port: 9443
   server: 37.120.213.210
@@ -15,3 +7,17 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇨🇭CH_2|2.8MB/s
+  password: None
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇨🇭CH_3|1.3MB/s
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http

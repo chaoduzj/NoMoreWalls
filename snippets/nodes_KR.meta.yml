@@ -24,21 +24,18 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇰🇷KR_1|1.0MB/s
-  network: http
-  port: 80
-  server: 43.155.199.22
-  tls: false
+  name: 🇰🇷KR_1|3.3MB/s
+  network: ws
+  port: 443
+  server: StMONzfjYcGgEOmG.v.3dns.vip
+  servername: StMONzfjYcGgEOmG.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d
-- name: 🇰🇷KR_2|4.9MB/s
-  password: ''
-  port: '1080'
-  server: 144.24.94.153
-  skip-cert-verify: true
-  type: http
-  username: ''
+  udp: true
+  uuid: 0b80814e-7b96-4ec2-bbe2-fd17435e33b4
+  ws-opts:
+    headers:
+      Host: StMONzfjYcGgEOmG.v.3dns.vip
+    path: /ws-vmess
+  xudp: true

@@ -1,35 +1,32 @@
 proxies:
-- name: FR_speednode_0012
+- name: 🇫🇷201543 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 4klsymrb2lsncw50
+  password: bqkkvfp9zf051rsb
+  port: 31340
+  server: 136.244.114.108
+  skip-cert-verify: false
+  sni: wryyjy31.easyiran.org
+  tls: false
+  type: hysteria2
+- name: 🇫🇷FR_1|1.7MB/s
+  password: None
   port: 443
-  server: 82.65.162.76
+  server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇫🇷FR_2|2.1MB/s
+- name: 🇫🇷FR_2|1.2MB/s
+  password: None
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_3|3.0MB/s
+- name: 🇫🇷FR_3|2.7MB/s
   password: None
   port: 9443
   server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇫🇷FR_4|1.7MB/s
-  port: 443
-  server: 84.235.228.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_5|2.2MB/s
-  password: None
-  port: 443
-  server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
@@ -57,3 +54,10 @@ proxies:
   type: http
   udp: true
   username: 'null'
+- name: FR_speednode_0012
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

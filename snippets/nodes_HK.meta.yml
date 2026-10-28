@@ -110,30 +110,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|3.6MB/s
-  port: 10000
-  server: 118.25.131.160
+- name: 🇭🇰HK_1|1.1MB/s
+  password: 298c5651d3015d7cee9e8411eaa0bd72
+  port: 12010
+  server: 124.151.45.214
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇰HK_2|1.2MB/s
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_3|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
-    short-id: '!!str 3b74d85e'
-  server: hk2.open-bridonyx.top
-  servername: hk2.open-bridonyx.top
-  tls: true
-  type: vless
+  sni: apis.99912345.xyz
+  type: trojan
   udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true

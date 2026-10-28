@@ -9,114 +9,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.3MB/s
-  network: tcp
-  port: 33770
-  server: de001.zestapp778.com
-  servername: de001.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.3MB/s
-  network: ws
-  port: '443'
-  server: lvi.su
-  servername: lvi.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
-  ws-opts:
-    headers:
-      Host: lvi.su
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|1.5MB/s
-  network: xhttp
-  port: '443'
-  server: 144.31.217.28
-  servername: 9187bd6f.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- name: 🇩🇪DE_4|1.7MB/s
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: t.me/FuckTheWall
-  type: trojan
-- name: 🇩🇪DE_5|2.0MB/s
+- name: 🇩🇪DE_1|2.4MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_6|1.1MB/s
+- name: 🇩🇪DE_2|1.2MB/s|R002-260618
   password: None
-  port: 9443
-  server: 87.249.132.97
+  port: 443
+  server: 149.36.50.129
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_7|1.7MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇩🇪DE_8|2.7MB/s
-  network: tcp
-  password: happybirthdaydaniel
-  port: '25267'
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: de-bots4.h1cloud.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_9|1.1MB/s
-  network: xhttp
-  port: '443'
-  server: 144.31.213.229
-  servername: 6d160a52.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-video-call
-  name: 🇩🇪DE_10|1.3MB/s
-  network: grpc
-  password: Pass-Client-1
-  port: '8446'
-  server: 171.22.119.74
-  skip-cert-verify: true
-  type: trojan
   udp: true
 - name: DE_speednode_0004
   port: 443

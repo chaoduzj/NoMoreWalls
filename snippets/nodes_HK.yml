@@ -110,3 +110,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇭🇰HK_1|1.1MB/s
+  password: 298c5651d3015d7cee9e8411eaa0bd72
+  port: 12010
+  server: 124.151.45.214
+  skip-cert-verify: true
+  sni: apis.99912345.xyz
+  type: trojan
+  udp: true

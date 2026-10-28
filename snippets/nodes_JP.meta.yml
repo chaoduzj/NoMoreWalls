@@ -52,12 +52,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|1.2MB/s
-  port: 40583
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

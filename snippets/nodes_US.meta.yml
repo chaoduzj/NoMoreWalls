@@ -53,12 +53,66 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.4MB/s
-  port: 443
-  server: 121.127.34.82
+- name: 🇺🇸US_1|1.6MB/s
+  password: None
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: 🇺🇸US_2|1.8MB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_3|1.0MB/s
+  password: None
+  port: 443
+  server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_4|1.1MB/s
+  password: None
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.4MB/s
+  password: None
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.3MB/s|K001-260618
+  password: ''
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  name: 🇺🇸US_7|1.1MB/s
+  network: tcp
+  port: '54857'
+  server: us001.zestapp778.com
+  servername: us001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

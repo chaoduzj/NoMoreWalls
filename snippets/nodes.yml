@@ -374,11 +374,38 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|1.1MB/s
-  password: 298c5651d3015d7cee9e8411eaa0bd72
-  port: 12010
-  server: 124.151.45.214
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_2|1.1MB/s
+  network: http
+  port: 44441
+  server: 206.237.11.17
   skip-cert-verify: true
-  sni: apis.99912345.xyz
+  type: vmess
+  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_3|1.5MB/s
+  network: http
+  port: 8080
+  server: 206.237.11.17
+  skip-cert-verify: true
+  type: vmess
+  uuid: edcf3108-da2b-45c8-a852-a7e58dd55a43
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇳🇱NL_4|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.203.46
+  skip-cert-verify: false
+  sni: www.cordweave.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment

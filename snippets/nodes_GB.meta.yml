@@ -1,33 +1,13 @@
 proxies:
-- name: 🇬🇧GB_1|3.2MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_2|3.0MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|4.3MB/s
-  network: tcp
-  port: '1410'
-  reality-opts:
-    public-key: bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc
-    short-id: '!!str 4ea6a183'
-  server: engnode.barnikle1.me
-  servername: www.ing.nl
+- client-fingerprint: firefox
+  name: 🇬🇧GB_1|1.0MB/s
+  network: ws
+  port: 443
+  server: 92.113.107.120
+  servername: indigostar.click
   tls: true
   type: vless
   udp: true
-  uuid: 94c5a8a7-4296-400d-b413-639157be5224
-  xudp: true
+  uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
+  ws-opts:
+    path: /ws

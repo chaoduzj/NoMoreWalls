@@ -7,13 +7,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸202161 | ⚡️Telegram = t.me/S...
-  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
-  port: 443
-  server: 217.60.72.225
-  sni: forshynewh.duckdns.org
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -60,139 +53,30 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_speednode_0040
+- auth: JDGu0PjxlEWSFJN
+  name: 🇺🇸US_1|3.3MB/s
+  password: JDGu0PjxlEWSFJN
   port: 443
-  server: 38.247.141.135
+  server: 129.153.97.46
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_2|4.2MB/s
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|2.9MB/s
-  password: None
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.9MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|2.9MB/s
-  password: None
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.3MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.9MB/s
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|3.1MB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|3.0MB/s
-  password: None
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.9MB/s
-  password: None
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|1.3MB/s
-  password: None
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|2.4MB/s
-  password: None
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|3.9MB/s
-  password: ''
-  port: 22222
-  server: 64.118.155.2
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_14|2.5MB/s
+  sni: www.microsoft.com
+  type: hysteria2
+- name: 🇺🇸US_2|1.4MB/s
   port: 9443
   server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.4MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|3.1MB/s
-  password: None
-  port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_17|1.7MB/s|S001-260618
-  password: ''
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: ''
-- name: 🇺🇸US_18|2.3MB/s
-  password: None
-  port: 443
-  server: 149.34.248.65
   skip-cert-verify: true
   tls: true
   type: http
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0040
+  port: 443
+  server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http

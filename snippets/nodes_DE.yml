@@ -1,11 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪DE_10|4.0MB/s
-  network: tcp
-  password: happybirthdaydaniel
-  port: '25267'
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: de-bots4.h1cloud.net
-  type: trojan
-  udp: true
+proxies: []

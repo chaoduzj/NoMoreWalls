@@ -110,35 +110,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.6MB/s
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: '!!str b390142456517acc'
-  server: 45.39.198.144
-  servername: www.amazon.com
+- name: 🇭🇰HK_1|4.9MB/s
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|1.1MB/s
-  network: http
-  port: 44441
-  server: 206.237.11.17
-  skip-cert-verify: true
-  type: vmess
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_3|1.5MB/s
-  network: http
-  port: 8080
-  server: 206.237.11.17
-  skip-cert-verify: true
-  type: vmess
-  uuid: edcf3108-da2b-45c8-a852-a7e58dd55a43
+  type: http

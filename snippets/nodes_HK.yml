@@ -110,21 +110,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|1.1MB/s
-  network: http
-  port: 44441
-  server: 206.237.11.17
-  skip-cert-verify: true
-  type: vmess
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_3|1.5MB/s
-  network: http
-  port: 8080
-  server: 206.237.11.17
-  skip-cert-verify: true
-  type: vmess
-  uuid: edcf3108-da2b-45c8-a852-a7e58dd55a43

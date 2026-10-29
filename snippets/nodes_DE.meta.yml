@@ -81,31 +81,49 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪DE-🚀@VPNine1
-  obfs: salamander
-  obfs-password: 27b960aa5b199a215c3a84fd4818e5d2
-  password: 24266838d888d903594cc6e33910aeeb
-  port: 443
-  server: 2.28.226.197
-  sni: vpn.172908710.dpdns.org
-  tls: false
-  type: hysteria2
-- name: 🇩🇪202478 | ⚡️Telegram = t.me/S...
-  password: d62s7ghfehm742us
-  port: 12824
-  server: derfderf.ru
-  tls: false
-  type: hysteria2
-- name: 'Telegram@vpnjey #7'
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: vpnjey
-  port: 36264
-  server: 179.61.138.145
-  skip-cert-verify: true
-  sni: de2.jey.cc.cd
-  tls: false
-  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.o0BcVARCrSaazhloS4J-7h2Z0pBRUSHhgNvtjuhuFWo
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇩🇪DE_1|1.6MB/s
+  network: xhttp
+  port: '443'
+  server: 167.82.76.31
+  servername: speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9991b8e-7d19-49e7-ae1d-70ce37d7ca16
+  xhttp-opts:
+    host: mojehb.global.ssl.fastly.net
+    mode: auto
+    path: /configure/services/vzQ6lbMCPkOKGnZN5uJR3e/versions/2/domains
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇩🇪DE_2|4.0MB/s
+  network: xhttp
+  port: '443'
+  server: avr.rlrlco.ir
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd65fd49-beaf-4dbf-b689-bcc53595bd89
+  xhttp-opts:
+    host: gertypp.global.ssl.fastly.net
+    mode: auto
+    path: /setare
+    reuse-settings:
+      h-keep-alive-period: 20
+      h-max-request-times: 300-500
+      h-max-reusable-secs: 300-480
+      max-concurrency: 16-32
+    x-padding-bytes: 100-1000
+  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
@@ -113,3 +131,123 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_4|2.0MB/s
+  network: ws
+  port: 443
+  server: 155.212.240.10
+  servername: n.bitpulse.me
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  ws-opts:
+    headers:
+      Host: n.bitpulse.me
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
+- name: 🇩🇪DE_5|2.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|1.9MB/s
+  password: None
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.2MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|3.1MB/s
+  password: None
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|1008KB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_10|2.9MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_11|1.7MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_12|2.4MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_13|2.7MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_14|3.1MB/s
+  password: 'null'
+  port: '443'
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_15|3.7MB/s
+  password: ''
+  port: '9002'
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_16|3.7MB/s
+  network: tcp
+  port: '43000'
+  reality-opts:
+    public-key: YagqjrSaICX5_qhcRvWOfM_yatBa5FtJexO9IlZeIEo
+    short-id: '!!str 093e1846'
+  server: 94.249.189.41
+  tls: true
+  type: vless
+  udp: true
+  uuid: cec0cf85-cf9f-44ce-9eb0-cb1f9b8d7ba1
+  xudp: true
+- name: 🇩🇪DE_17|3.2MB/s
+  password: ''
+  port: '443'
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

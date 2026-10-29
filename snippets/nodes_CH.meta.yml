@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 🇨🇭CH_1|1.5MB/s
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http

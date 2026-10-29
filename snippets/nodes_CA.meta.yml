@@ -24,3 +24,19 @@ proxies:
     headers:
       Host: misaka.cndyw.ggff.net
     path: /?ed=2560
+- name: 🇨🇦CA_1|2.5MB/s
+  password: None
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇨🇦CA_2|2.9MB/s
+  password: None
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

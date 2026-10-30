@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 🇨🇭CH_1|1.1MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 208.69.78.19
+  skip-cert-verify: false
+  sni: www.yourultimateprofessionalcareerhub.com
+  type: trojan
+  udp: true

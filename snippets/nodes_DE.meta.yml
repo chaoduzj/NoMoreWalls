@@ -1,76 +1,4 @@
 proxies:
-- encryption: none
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: tcp
-  port: 10443
-  server: 136.244.94.171
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-- encryption: none
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  server: 136.244.94.171
-  type: vless
-  uuid: 52516534-4986-4959-b30b-a89463eed9af
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65-uhe66vr6.nike77prime.ru
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.111.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime52.workers.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: '!!str a1b2c3d4e5f6'
-  security: reality
-  server: 84.21.189.197
-  servername: queuev4.vk.com
-  tls: true
-  type: vless
-  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -81,73 +9,47 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.o0BcVARCrSaazhloS4J-7h2Z0pBRUSHhgNvtjuhuFWo
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_1|1.6MB/s
-  network: xhttp
-  port: '443'
-  server: 167.82.76.31
-  servername: speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9991b8e-7d19-49e7-ae1d-70ce37d7ca16
-  xhttp-opts:
-    host: mojehb.global.ssl.fastly.net
-    mode: auto
-    path: /configure/services/vzQ6lbMCPkOKGnZN5uJR3e/versions/2/domains
-  xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_2|4.0MB/s
+  name: 🇩🇪DE_1|1.4MB/s
   network: xhttp
-  port: '443'
-  server: avr.rlrlco.ir
-  servername: cdn.akamai.steamstatic.com
+  port: '8857'
+  reality-opts:
+    public-key: 0z13Oz2r2Khq0jHUgbPWxseVLoQTlFMuMDwL9a-X7yY
+    short-id: '!!str 37962ada43f6'
+  server: Ng1.istgahfilm.ir
+  servername: aparat.com
   tls: true
   type: vless
   udp: true
-  uuid: fd65fd49-beaf-4dbf-b689-bcc53595bd89
+  uuid: 9fcb8080-1ad9-4a37-b92f-46be7053e39a
   xhttp-opts:
-    host: gertypp.global.ssl.fastly.net
+    host: aparat.com
     mode: auto
-    path: /setare
-    reuse-settings:
-      h-keep-alive-period: 20
-      h-max-request-times: 300-500
-      h-max-reusable-secs: 300-480
-      max-concurrency: 16-32
-    x-padding-bytes: 100-1000
+    path: /
   xudp: true
-- name: DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.4MB/s
+  network: xhttp
+  port: '443'
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_4|2.0MB/s
-  network: ws
-  port: 443
-  server: 155.212.240.10
-  servername: n.bitpulse.me
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  ws-opts:
-    headers:
-      Host: n.bitpulse.me
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
-- name: 🇩🇪DE_5|2.5MB/s
+- name: 🇩🇪DE_4|2.1MB/s
   password: None
   port: 443
   server: 149.36.50.129
@@ -155,27 +57,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|1.9MB/s
+- name: 🇩🇪DE_5|2.5MB/s
   password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|2.7MB/s
   port: 443
-  server: 213.109.163.119
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|3.2MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|3.1MB/s
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|1008KB/s
+- name: 🇩🇪DE_7|2.4MB/s
   password: None
   port: 443
   server: 87.249.132.97
@@ -183,15 +79,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_10|2.9MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_11|1.7MB/s
+- name: 🇩🇪DE_8|2.7MB/s
   password: None
   port: 9443
   server: 213.177.229.161
@@ -199,51 +87,37 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_12|2.4MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_13|2.7MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_14|3.1MB/s
-  password: 'null'
-  port: '443'
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_15|3.7MB/s
-  password: ''
-  port: '9002'
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_16|3.7MB/s
-  network: tcp
-  port: '43000'
+  name: 🇩🇪DE_9|2.7MB/s
+  network: raw
+  port: '47443'
   reality-opts:
-    public-key: YagqjrSaICX5_qhcRvWOfM_yatBa5FtJexO9IlZeIEo
-    short-id: '!!str 093e1846'
-  server: 94.249.189.41
+    public-key: MnW49sASUaQ1Sm8SbCWlU8eKfNR8x1O03YSZdj5vM3Y
+    short-id: '!!str ae97223a8f799003'
+  server: 217.60.151.187
+  servername: ge-3.waspguard.ru
   tls: true
   type: vless
   udp: true
-  uuid: cec0cf85-cf9f-44ce-9eb0-cb1f9b8d7ba1
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
   xudp: true
-- name: 🇩🇪DE_17|3.2MB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_10|2.3MB/s
+  network: tcp
+  port: '43000'
+  reality-opts:
+    public-key: QaPoY-5W4Z7NA_LUG37yjYNy3JWg53Ru7eWLTzec-nE
+    short-id: '!!str b62ac375'
+  server: 94.249.186.64
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4421e4d5-6869-4a45-a76b-5c822aac776d
+  xudp: true
+- name: 🇩🇪DE_11|1.4MB/s
   password: ''
   port: '443'
   server: 193.233.75.115
@@ -251,3 +125,10 @@ proxies:
   tls: true
   type: http
   username: ''
+- name: DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

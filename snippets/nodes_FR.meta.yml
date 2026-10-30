@@ -1,15 +1,35 @@
 proxies:
-- name: 🇫🇷FR_1|1.9MB/s
-  password: None
+- name: FR_speednode_0009
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇫🇷FR_2|2.5MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇫🇷FR_2|1.2MB/s
+- name: 🇫🇷FR_3|2.2MB/s
+  password: None
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|2.0MB/s
+  password: None
   port: 443
-  server: 149.102.245.65
+  server: 84.235.228.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇫🇷FR_5|3.4MB/s
+  port: 8090
+  server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http
@@ -20,22 +40,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: FR_speednode_0009
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR_speednode_0010
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - name: FR_speednode_0011
   port: 23856
   server: 51.159.225.196

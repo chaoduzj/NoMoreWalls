@@ -1,14 +1,4 @@
 proxies:
-- name: 🇸🇪203174 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 9765192816a553687801bb170ee1c351
-  password: HyDouble_f1NgaW7sHbMefhNf
-  port: 25000
-  server: fenrir.cc.cd
-  skip-cert-verify: false
-  sni: fenrir.cc.cd
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇸🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -19,11 +9,40 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|3.1MB/s
+- name: 🇸🇪SE_1|1.7MB/s
   password: None
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇸🇪SE_2|2.0MB/s
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_3|2.9MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_4|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: '!!str ecb6f8fb31668176'
+  server: 171.25.158.163
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true

@@ -53,64 +53,127 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|3.3MB/s
-  password: ''
-  port: 22222
-  server: 64.118.155.2
-  skip-cert-verify: true
-  type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|1.7MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
   udp: true
-  username: ''
-- name: 🇺🇸US_2|2.1MB/s
-  port: 443
-  server: 12.221.146.147
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- name: 🇺🇸US_3|2.6MB/s
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.1MB/s
+- name: 🇺🇸US_4|2.2MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|2.6MB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.1MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.8MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1022KB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.0MB/s
+- name: 🇺🇸US_9|1.8MB/s
+  password: ''
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_10|3.0MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.8MB/s
   password: None
   port: 443
-  server: 198.44.135.27
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.5MB/s|K001-260618
+  password: ''
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_13|1.4MB/s
+  password: None
+  port: 443
+  server: 162.244.227.36
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_5|1.6MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|1.7MB/s
-  port: 44499
-  server: 45.61.188.134
+- name: 🇺🇸US_14|3.0MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
   type: socks5
-- name: 🇺🇸US_7|2.1MB/s
+  username: test123
+- name: 🇺🇸US_15|1.5MB/s
   password: None
-  port: 9443
-  server: 149.88.21.140
+  port: 8090
+  server: 184.188.139.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|2.2MB/s
-  network: ws
-  port: '8080'
-  server: 104.16.162.89
+  username: null
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_16|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: '!!str b390142456517acc'
+  server: 156.229.166.66
+  servername: www.amazon.com
+  tls: true
   type: vless
   udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /sg-melbi
+  uuid: a8945d73-e450-47ea-90cb-10062c8632b7
   xudp: true
 - name: US_speednode_0039
   port: 8443

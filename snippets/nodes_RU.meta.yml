@@ -1,26 +1,19 @@
 proxies:
-- name: 🇷🇺202915 | ⚡️Telegram = t.me/S...
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
-  skip-cert-verify: true
-  sni: 103.88.243.142
-  tls: false
-  type: hysteria2
-- encryption: mlkem768x25519plus.native.0rtt.8th1uEEPtl2BhPfgxINwmVO_Kq6V1htSghiTMdjWkRM
-  name: 🇷🇺RU_1|2.2MB/s
-  network: ws
-  port: '443'
-  server: 146.185.197.95
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.2MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
+    short-id: '!!str a1b2c3d4e5f6a7b8'
+  server: 178.236.242.254
+  servername: xnod13x.artemida.live
+  tls: true
   type: vless
   udp: true
-  uuid: 9ea8b000-58ce-0005-b108-989dd4f248f1
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /live/ws2
+  uuid: c05ec3c7-2784-da2b-aa98-a3c132860fcb
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision

@@ -9,47 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.4MB/s
-  network: xhttp
-  port: '8857'
-  reality-opts:
-    public-key: 0z13Oz2r2Khq0jHUgbPWxseVLoQTlFMuMDwL9a-X7yY
-    short-id: '!!str 37962ada43f6'
-  server: Ng1.istgahfilm.ir
-  servername: aparat.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9fcb8080-1ad9-4a37-b92f-46be7053e39a
-  xhttp-opts:
-    host: aparat.com
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.4MB/s
-  network: xhttp
-  port: '443'
-  server: 144.31.217.28
-  servername: 9187bd6f.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_4|2.1MB/s
+- name: 🇩🇪DE_1|1.9MB/s
   password: None
   port: 443
   server: 149.36.50.129
@@ -57,29 +17,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_5|2.5MB/s
+- name: 🇩🇪DE_2|2.0MB/s
   password: None
   port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|2.7MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.4MB/s
-  password: None
-  port: 443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_8|2.7MB/s
+- name: 🇩🇪DE_3|1.9MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|1.9MB/s
   password: None
   port: 9443
   server: 213.177.229.161
@@ -87,44 +41,6 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|2.7MB/s
-  network: raw
-  port: '47443'
-  reality-opts:
-    public-key: MnW49sASUaQ1Sm8SbCWlU8eKfNR8x1O03YSZdj5vM3Y
-    short-id: '!!str ae97223a8f799003'
-  server: 217.60.151.187
-  servername: ge-3.waspguard.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|2.3MB/s
-  network: tcp
-  port: '43000'
-  reality-opts:
-    public-key: QaPoY-5W4Z7NA_LUG37yjYNy3JWg53Ru7eWLTzec-nE
-    short-id: '!!str b62ac375'
-  server: 94.249.186.64
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4421e4d5-6869-4a45-a76b-5c822aac776d
-  xudp: true
-- name: 🇩🇪DE_11|1.4MB/s
-  password: ''
-  port: '443'
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

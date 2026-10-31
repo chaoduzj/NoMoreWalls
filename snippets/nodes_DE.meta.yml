@@ -1,4 +1,76 @@
 proxies:
+- encryption: none
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -12,7 +84,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.sphudmOm4wKYnBGDTU6kl6-KH7fdQ1VzXp58hEAn3zU
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.4MB/s
+  name: 🇩🇪DE_1|3.8MB/s
   network: tcp
   port: 59397
   reality-opts:
@@ -24,87 +96,103 @@ proxies:
   type: vless
   udp: true
   uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
-- grpc-opts:
-    grpc-service-name: grpc-video-call
-  name: 🇩🇪DE_2|2.7MB/s
-  network: grpc
-  password: Pass-Client-1
-  port: 8446
-  server: 171.22.119.74
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_3|2.0MB/s
-  network: ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.6MB/s
+  network: tcp
   port: '443'
-  server: Qmh49RE8c0DCqpFU.v.3dns.vip
-  servername: Qmh49RE8c0DCqpFU.v.3dns.vip
-  skip-cert-verify: false
+  reality-opts:
+    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
+    short-id: '!!str '
+  server: 138.124.39.251
+  servername: nl-modx-prime.storagedirectguide.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Qmh49RE8c0DCqpFU.v.3dns.vip
-    path: /ws-vmess
+  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
   xudp: true
-- name: 🇩🇪DE_4|2.3MB/s
+- name: 🇩🇪DE_3|3.2MB/s
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.2MB/s
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_6|3.9MB/s
   password: None
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.6MB/s
+- name: 🇩🇪DE_7|3.5MB/s
   password: None
-  port: 9002
-  server: 158.173.154.4
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.6MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.5MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_7|2.1MB/s
+- name: 🇩🇪DE_10|1.8MB/s
   password: None
   port: 9443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_8|2.6MB/s
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_9|3.2MB/s
-  network: xhttp
-  port: '443'
-  server: 217.60.183.95
-  servername: de-1e51a8f925.shamanapp.online
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_11|1.2MB/s
+  network: ws
+  port: '2053'
+  server: cdn-v2ahop.povrak.ir
+  servername: cdn-v2ahop.povrak.ir
   tls: true
   type: vless
   udp: true
-  uuid: d666e16b-2b64-4499-bb32-896c26dc2e3d
-  xhttp-opts:
-    host: de-1e51a8f925.shamanapp.online
-    mode: packet-up
-    path: /ShamanXHTTP2026
-    uplink-data-placement: body
+  uuid: d3487c8b-f537-4139-84e6-58ad35f6470c
+  ws-opts:
+    headers:
+      Host: cdn-v2ahop.povrak.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /cdn
   xudp: true
+- name: 🇩🇪DE_12|1.0MB/s
+  password: ''
+  port: '12345'
+  server: 141.147.19.47
+  skip-cert-verify: true
+  type: http
+  username: ''
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

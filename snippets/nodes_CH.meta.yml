@@ -1,18 +1,1 @@
-proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #2'
-  network: tcp
-  port: 443
-  server: 149.33.15.213
-  servername: swz.proxyplankton.ru
-  tls: true
-  type: vless
-  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
-- name: 🇨🇭CH_1|1.7MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+proxies: []

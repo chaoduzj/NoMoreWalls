@@ -9,15 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '@tootffarangi🍓'
-  obfs: salamander
-  obfs-password: 27b960aa5b199a215c3a84fd4818e5d2
-  password: 24266838d888d903594cc6e33910aeeb
-  port: 443
-  server: 2.28.226.197
-  sni: vpn.172908710.dpdns.org
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 🇩🇪[www.v2nodes.com] vless-DE-1...
   network: ws
@@ -75,7 +66,7 @@ proxies:
     headers:
       Host: z1q3pv4g78.rucdncomp.pro
     path: /useraction/events/b892639b7195/
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   port: 465
   server: hw7.divarkhaghazi.com
   tls: false
@@ -83,67 +74,28 @@ proxies:
   uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
   ws-opts:
     path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
   port: 25362
   server: 193.148.253.194
   tls: false
   type: vless
   uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- name: 🏳[www.v2nodes.com] trojan-
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   skip-cert-verify: true
   sni: courses.iloverussia2026.com
   type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  type: trojan
 - alpn:
-  - http/1.1
+  - h2
   client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #1'
-  network: tcp
-  port: 30161
-  server: 138.68.104.9
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c6bc1b2-910a-4321-9793-c8276e065aa1
-  ws-opts:
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #2'
-  network: xhttp
-  port: 443
-  server: yan10.aliboba.shop
-  servername: yan10.aliboba.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: bdebb0d0-1ac7-4d3a-8f18-99171d74affd
-  xhttp-opts:
-    host: yan10.aliboba.shop
-    mode: packet-up
-    path: /api/api_v2/mediaupload_process
-    seq-key: segment
-    seq-placement: query
-    session-key: media_session
-    session-placement: query
-    uplink-data-key: data
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 64-320
-    x-padding-header: Referer
-    x-padding-key: cacheVersion
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #3'
   network: ws
   port: 443
   server: 199.232.239.239
@@ -156,21 +108,22 @@ proxies:
     headers:
       Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
     path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
-- client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #6'
+- alpn:
+  - h3
+  client-fingerprint: edge
+  name: '🇩🇪 德国 | DEU #2'
   network: xhttp
   port: 443
-  server: 167.82.76.31
-  servername: cdn.akamai.steamstatic.com
+  server: 151.101.131.6
+  servername: apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: fd65fd49-beaf-4dbf-b689-bcc53595bd89
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
   xhttp-opts:
-    host: kiitalboard.global.ssl.fastly.net
+    host: kkbr.tm
     mode: auto
-    path: /setare
-    x-padding-bytes: 100-1000
+    path: /crownnet
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

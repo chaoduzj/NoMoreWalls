@@ -110,55 +110,32 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰 香港 | HKG
-  network: ws
-  password: humanity
-  port: 443
-  server: 95.182.95.144
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
     headers:
-      Host: www.cordweave.com
-    path: /assignment
+      Host:
+      - openai.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇭🇰 香港 | HKG #1'
+  network: http
+  port: 52080
+  server: 47.242.81.94
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #2'
   network: ws
   port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #3'
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #4'
-  network: ws
-  port: 443
-  server: euu1yalfmcqvljex.v.3dns.vip
+  server: 8.217.186.60
   servername: euu1yalfmcqvljex.v.3dns.vip
   skip-cert-verify: true
   tls: true
@@ -169,10 +146,18 @@ proxies:
     headers:
       Host: euu1yalfmcqvljex.v.3dns.vip
     path: /ws-vmess
-- name: '🇭🇰 香港 | HKG #1'
-  password: humanity
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #3'
+  network: ws
   port: 443
-  server: 95.182.95.144
+  server: 47.243.194.125
   skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+    path: /ws-vmess

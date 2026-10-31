@@ -374,11 +374,48 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇳🇱NL_1|1.0MB/s
+- name: 🇳🇱NL_1|2.7MB/s
   network: ws
   password: humanity
   port: 443
-  server: 172.64.150.181
+  server: 208.68.180.204
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|1.3MB/s
+  network: ws
+  port: '53617'
+  server: az-1.linkaa.xyz
+  servername: az-1.linkaa.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|2.3MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- name: 🇳🇱NL_7|1.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 103.224.84.7
   servername: www.cordweave.com
   skip-cert-verify: true
   sni: www.cordweave.com
@@ -387,18 +424,89 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
+- name: 🇳🇱NL_8|1.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.82.218.224
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 🇳🇱NL_9|1.3MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.245.194
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 🇳🇱NL_10|1.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.0.172
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_7|2.6MB/s
+  network: ws
+  port: '443'
+  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇳🇱NL_2|2.2MB/s
+  name: 🇳🇱NL_19|1.3MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 179.255.127.82
-  skip-cert-verify: true
+  server: 172.64.229.7
+  skip-cert-verify: false
   sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /assignment
+- client-fingerprint: chrome
+  name: 🇳🇱NL_20|1.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: '%2Fassignment'

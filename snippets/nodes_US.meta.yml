@@ -7,13 +7,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸204148 | ⚡️Telegram = t.me/S...
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 177.3.220.9
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -62,32 +55,22 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇺🇸US_1|1.8MB/s
-  network: ws
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: 🇺🇸US_1|4.4MB/s
+  network: xhttp
   port: '443'
-  server: 146.75.59.186
-  servername: firefox.com
+  server: 199.232.20.113
+  servername: www.firefox.com
   tls: true
   type: vless
   udp: true
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+  uuid: 57197967-f14a-4b5b-8b75-a0c6d19db048
+  xhttp-opts:
+    host: xm6514.global.ssl.fastly.net
+    mode: auto
     path: /
   xudp: true
-- name: 🇺🇸US_2|2.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_3|3.7MB/s
+- name: 🇺🇸US_2|1.6MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -95,79 +78,63 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_4|2.0MB/s
-  password: None
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|1.9MB/s
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|1.1MB/s
+- name: 🇺🇸US_3|1.8MB/s
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|2.5MB/s
+- name: 🇺🇸US_4|1.1MB/s
+  password: None
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.8MB/s
   password: None
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_8|3.0MB/s
-  password: None
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.6MB/s
-  password: None
+- name: 🇺🇸US_6|1.2MB/s
   port: 443
-  server: 149.34.248.65
+  server: 216.107.139.82
   skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_10|1.4MB/s
+- name: 🇺🇸US_7|2.8MB/s
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_11|1.5MB/s
+- name: 🇺🇸US_8|1.4MB/s
   password: None
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|2.8MB/s
-  password: None
-  port: 8443
-  server: 44.217.145.28
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_13|3.5MB/s
-  password: None
+- name: 🇺🇸US_9|3.2MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
   type: http
-  username: null
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 🇺🇸US_10|1.5MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

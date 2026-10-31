@@ -1,24 +1,16 @@
 proxies:
-- name: 🇨🇦CA_1|3.0MB/s
+- name: 🇨🇦CA_1|1.5MB/s
   password: None
   port: 9443
   server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇦CA_2|1.8MB/s
+- name: 🇨🇦CA_2|2.6MB/s
   password: None
-  port: 9443
-  server: 149.88.98.81
+  port: 443
+  server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇨🇦CA_3|1.4MB/s
-  password: 'null'
-  port: '443'
-  server: 4.172.245.121
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'

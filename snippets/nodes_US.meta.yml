@@ -53,88 +53,127 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: 🇺🇸US_1|4.4MB/s
-  network: xhttp
-  port: '443'
-  server: 199.232.20.113
-  servername: www.firefox.com
-  tls: true
+- name: 🇺🇸US_1|1.0MB/s
+  network: ws
+  port: '8880'
+  server: 92.53.189.40
   type: vless
   udp: true
-  uuid: 57197967-f14a-4b5b-8b75-a0c6d19db048
-  xhttp-opts:
-    host: xm6514.global.ssl.fastly.net
-    mode: auto
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime19.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
+- name: 🇺🇸US_2|1008KB/s
+  network: ws
+  port: '8880'
+  server: 154.83.2.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /?ed=2560
   xudp: true
-- name: 🇺🇸US_2|1.6MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_3|1.8MB/s
+- name: 🇺🇸US_3|1.1MB/s
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.1MB/s
+- name: 🇺🇸US_4|2.7MB/s
   password: None
-  port: 8443
-  server: 44.229.69.166
+  port: 9443
+  server: 198.44.135.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|1.8MB/s
+- name: 🇺🇸US_5|2.0MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_7|1.1MB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|1.6MB/s
   password: None
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|1.2MB/s
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.8MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.4MB/s
-  password: None
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
   username: null
-- name: 🇺🇸US_9|3.2MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 🇺🇸US_9|2.4MB/s
   port: 443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  server: 167.88.60.242
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 🇺🇸US_10|1.5MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: 🇺🇸US_10|1.1MB/s
   port: 443
-  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+  server: 68.235.56.59
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_11|2.1MB/s
+  network: ws
+  port: '443'
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 018a6ab7-f54c-4a1c-bfc5-d6b04e6545d1
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_12|1.3MB/s
+  network: ws
+  port: '8443'
+  server: 103.11.78.211
+  servername: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /?ed=2048
+  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

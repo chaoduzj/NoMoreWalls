@@ -110,22 +110,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|1.3MB/s
-  port: 1080
-  server: 34.150.120.78
-  type: socks5
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇭🇰HK_2|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-    short-id: '!!str '
-  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
-  servername: download.windowsupdate.com
+- name: 🇭🇰HK_1|1.7MB/s
+  password: ''
+  port: '3128'
+  server: 119.28.24.235
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  xudp: true
+  type: http
+  username: ''

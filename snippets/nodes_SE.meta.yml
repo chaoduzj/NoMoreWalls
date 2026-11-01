@@ -9,9 +9,39 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.4MB/s
+- name: 🇸🇪SE_1|1.3MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|1.0MB/s
   port: 443
   server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_3|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU
+    short-id: '!!str 46da9a2868751b85'
+  server: 83.166.237.167
+  servername: pine.gaznw.my
+  tls: true
+  type: vless
+  udp: true
+  uuid: 902e7be9-d0a8-42a6-994f-8320916a9d9e
+  xudp: true
+- name: 🇸🇪SE_4|3.6MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http

@@ -374,12 +374,67 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: 🇩🇪DE_8|1.4MB/s
-  password: happybirthdaydaniel
-  port: '25267'
-  server: de-bots4.h1cloud.net
+- name: 🇳🇱NL_1|2.3MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 38963
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: t.me/fuckthewall
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_1|2.8MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24133
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_1|3.9MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 29628
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_1|3.5MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_1|4.6MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_2|3.8MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 45502
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_3|4.1MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 54815
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇺🇸US_1|3.4MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 26429
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
   udp: true

@@ -9,29 +9,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪DE-🚀@VPNine1
-  obfs: salamander
-  obfs-password: litevpn
-  password: 59018379-d5df-4314-ab23-df0e838d7953
+- name: 🇩🇪204672 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 198.13.140.193
-  sni: efa11.lumariqis.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪204415 | ⚡️Telegram = t.me/S...
-  password: e5ec2586-59b3-40fa-91b7-bb37a2f7744e
-  port: 443
-  server: 45.88.12.26
-  sni: crt.onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_1|1015KB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
+  server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: vpn-de-002.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
@@ -39,3 +24,26 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇩🇪DE_2|1.9MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_3|3.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|3.6MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http

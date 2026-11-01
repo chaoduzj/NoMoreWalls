@@ -52,14 +52,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|2.8MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 24133
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
+- name: 🇯🇵JP_1|1.3MB/s
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

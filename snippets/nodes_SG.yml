@@ -37,7 +37,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|3.5MB/s
+- name: 🇸🇬SG_1|1.1MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 42338
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_2|1006KB/s
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 15589
   server: ench-snet-app.w-ctrip.cn

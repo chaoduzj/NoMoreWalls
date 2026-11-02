@@ -19,26 +19,21 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.1MB/s
+- name: 🇩🇪DE_1|1.3MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|1.7MB/s
   password: None
   port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|3.4MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.2MB/s
-  port: 8443
-  server: 188.120.225.125
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: null
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
@@ -46,64 +41,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_6|3.3MB/s
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_7|2.3MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|1.3MB/s
-  network: tcp
-  port: '25362'
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: '!!str 23732d14a527990d'
-  server: de15.h1cloud.net
-  servername: www.chip.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-  xudp: true
-- name: 🇩🇪DE_9|2.4MB/s
-  password: ''
-  port: '8443'
-  server: 176.124.206.150
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: 🇩🇪DE_10|2.3MB/s
-  network: ws
-  port: '443'
-  server: 216.24.57.15
-  servername: four04-rd37.onrender.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  ws-opts:
-    headers:
-      Host: four04-rd37.onrender.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefoxfp=chrome
-  xudp: true

@@ -99,6 +99,25 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: '@VPNConnectd'
+  obfs: salamander
+  obfs-password: qkdqum5rllpyup7h
+  password: dq6rfcyex30h1b6z
+  port: 22357
+  server: ll5xoe8j.easyiran.org
+  sni: ll5xoe8j.easyiran.org
+  tls: false
+  type: hysteria2
+- name: '@tootffarangi🍓-1'
+  obfs: salamander
+  obfs-password: egnqz8stetfo2ci9
+  password: eik6hcffscbuqdbt
+  port: 46183
+  server: kp09bn7y.easyiran.org
+  skip-cert-verify: false
+  sni: kp09bn7y.easyiran.org
+  tls: false
+  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -107,33 +126,12 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 🇫🇮204871 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: otwmdcyqh98idcxv
-  password: 0zy7kb86chk9ktbn
-  port: 19883
-  server: dlwww.mymuic.ir
-  skip-cert-verify: false
-  sni: dlwww.mymuic.ir
-  tls: false
-  type: hysteria2
-- name: 🎃62@oneclickvpnkeys
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 177.3.220.9
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: 🎃44@oneclickvpnkeys
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 45.192.12.83
+- name: 🇰🇷205310 | ⚡️Telegram = t.me/S...
+  password: 1671a252e2a97dc2bda4e515475931da
+  port: 50160
+  server: 132.226.226.189
   skip-cert-verify: true
-  sni: nl1.obxodvpn.us
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: ⚡7@oneclickvpnkeys
@@ -155,7 +153,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 🇺🇸204811 | ⚡️Telegram = t.me/S...
+- name: ⚡96@oneclickvpnkeys
   password: 63e1b9462d708b56d5d5a0267cffecdc
   port: 443
   server: 88.216.195.188
@@ -186,6 +184,21 @@ proxies:
   sni: video.blog-forme.ru
   tls: false
   type: hysteria2
+- name: ⏳1@oneclickvpnkeys
+  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
+  port: 443
+  server: 141.0.187.15
+  sni: crt.onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: 🇸🇪SE-🚀@VPNine1
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  port: 443
+  server: se.mimowhat.online
+  skip-cert-verify: false
+  sni: se.mimowhat.online
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -196,12 +209,28 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🎃71@oneclickvpnkeys
+- name: 🇹🇼205308 | ⚡️Telegram = t.me/S...
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 18.193.79.104
+  server: 160.187.100.109
   skip-cert-verify: true
-  sni: 18.193.79.104
+  sni: 160.187.100.109
+  tls: false
+  type: hysteria2
+- name: 🇭🇰205312 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.174
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 🇭🇰205301 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.89
+  skip-cert-verify: true
+  sni: https://t.me/clashv8🇨🇳
   tls: false
   type: hysteria2
 - name: 🎃96@oneclickvpnkeys
@@ -228,15 +257,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 'Channel : @Daily_Configs'
-  obfs: salamander
-  obfs-password: SalamanderNL2026
-  password: NL2026hy
-  port: 8443
-  server: 147.45.149.88
-  sni: nl.nobelchat.ru
   tls: false
   type: hysteria2
 - name: Telegram@vpnjey
@@ -311,6 +331,18 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 🇫🇷205188 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: ad7088dafb02115c
+  password: Vt-D1BUk4HLncS1rtf8mUZ8h
+  port: 20222
+  server: 51.75.118.5
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -326,14 +358,6 @@ proxies:
   port: 4444
   server: 13.143.188.142
   skip-cert-verify: false
-  sni: bl1.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '@FXxNET⚡️'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.188.143
-  skip-cert-verify: true
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
@@ -384,7 +408,7 @@ proxies:
   sni: crt.onecloudstream.com
   tls: false
   type: hysteria2
-- name: 🇺🇸204817 | ⚡️Telegram = t.me/S...
+- name: '@vmess_ir'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -394,7 +418,7 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- name: 🇳🇱204818 | ⚡️Telegram = t.me/S...
+- name: ♾️Join->🆔️@ATLAS_V2VPN🆓️📶‎🛰️63...
   obfs: salamander
   obfs-password: hfwq51con9efdxx6
   password: f04i31zq8sy80v9b
@@ -404,7 +428,7 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
-- name: 🇫🇮204819 | ⚡️Telegram = t.me/S...
+- name: 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fmaznn1lrzys7ddy
@@ -422,7 +446,15 @@ proxies:
   sni: www.docker.com
   tls: false
   type: hysteria2
-- name: 🇳🇱204820 | ⚡️Telegram = t.me/S...
+- name: 🇰🇷205309 | ⚡️Telegram = t.me/S...
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -444,7 +476,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 🇫🇮204821 | ⚡️Telegram = t.me/S...
+- name: Telegram 🆔@cnetvpn 🇳🇱
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -454,7 +486,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇩🇪204822 | ⚡️Telegram = t.me/S...
+- name: '@fastkanfig کانال تلگرام'
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -474,7 +506,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 🇫🇮204824 | ⚡️Telegram = t.me/S...
+- name: Telegram 🆔@cnetvpn 🇸🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -634,270 +666,12 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇱🇺LU_1|2.5MB/s
-  password: None
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_3|3.0MB/s
-  password: None
-  port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇸🇪SE_1|1.2MB/s
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_2|1.2MB/s
-  password: None
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS_1|1.1MB/s
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_1|2.6MB/s
-  password: None
-  port: 443
-  server: 185.163.110.194
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|1.6MB/s|R002-260618
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇦🇹AT_1|1.3MB/s
-  password: None
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_1|1021KB/s
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
-  tls: true
-  type: http
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: 🇺🇸US_1|2.7MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|2.1MB/s
-  password: None
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|1.3MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇪EE_1|1.8MB/s
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ❓Other_1|1.4MB/s
-  password: '1234'
-  port: 2080
-  server: 13.250.6.249
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇨🇭CH_1|1.0MB/s|K001-260618
-  password: None
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇭🇺HU_1|1016KB/s
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1.6MB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇵🇱PL_1|1.1MB/s
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇱🇺LU_2|2.1MB/s
-  password: None
-  port: 443
-  server: 185.221.132.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.1MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE_1|1.1MB/s
-  password: None
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_2|1.7MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_3|1.4MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_2|3.0MB/s
+- name: 🇨🇿CZ_1|1.4MB/s
   port: 443
   server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇭CH_2|1.2MB/s
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.0MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|1011KB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇰DK_1|1.2MB/s
-  password: None
-  port: 443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_2|1.8MB/s
-  password: None
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇪🇪EE_2|1.0MB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.5MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|1.2MB/s
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_2|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
-    short-id: 'e6d589857d1cec5e'
-  server: 154.86.119.158
-  servername: fr.golangwikito.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_6|1.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
-    short-id: 'c33807f76b689c9a'
-  server: 179.254.92.134
-  servername: assets-70.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  xudp: true
-- name: 🇭🇰HK_1|1.3MB/s
-  password: ''
-  port: '3128'
-  server: 119.28.24.235
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
   name: AT_speednode_0001
   network: ws

@@ -31,51 +31,6 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇺🇸US_1|2.7MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.1MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.4MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.0MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.5MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_6|1.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
-    short-id: '!!str c33807f76b689c9a'
-  server: 179.254.92.134
-  servername: assets-70.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

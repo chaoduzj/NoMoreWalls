@@ -1,17 +1,1 @@
-proxies:
-- name: 🇨🇭CH_1|1.0MB/s|K001-260618
-  password: None
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇨🇭CH_2|1.2MB/s
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
+proxies: []

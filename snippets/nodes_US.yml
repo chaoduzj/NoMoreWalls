@@ -45,13 +45,31 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇺🇸US_1|1.7MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 35929
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_18|3.2MB/s
+  name: 🇺🇸US_11|1.7MB/s
   network: tcp
   password: va3E77I9fZCnCVcGKkxBCfz5
-  port: '443'
-  server: 186.241.105.213
-  skip-cert-verify: false
+  port: 443
+  server: vpn.liumr.top
+  servername: vpn.liumr.top
+  skip-cert-verify: true
   sni: vpn.liumr.top
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇺🇸US_9|2.1MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 26429
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
   udp: true

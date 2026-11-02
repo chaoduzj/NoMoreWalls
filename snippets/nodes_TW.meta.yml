@@ -7,11 +7,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇹🇼TW_1|1.4MB/s
+- name: 🇹🇼TW_1|3.0MB/s
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 47786
+  port: 54815
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
+  udp: true
+- name: 🇹🇼TW_2|1.4MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_3|1.2MB/s
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
   udp: true

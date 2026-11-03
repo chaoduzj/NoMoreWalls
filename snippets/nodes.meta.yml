@@ -217,6 +217,14 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
+- name: '@v2ray313 کانالمون 😀'
+  password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
+  port: 26503
+  server: ir.config7x.site
+  skip-cert-verify: false
+  sni: hy.config7x.site
+  tls: false
+  type: hysteria2
 - name: Telegram@vpnjey
   obfs: salamander
   obfs-password: Telegram@vpnjey
@@ -307,6 +315,46 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
+- name: 🇵🇱206068 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.105
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 🇵🇱206071 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.106
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 🇵🇱206069 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.142
+  skip-cert-verify: false
+  sni: pl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 🇵🇱206070 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.147
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 🇵🇱206072 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.149
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
 - name: '@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -364,6 +412,15 @@ proxies:
   sni: panel.trapxan.ir
   tls: false
   type: hysteria2
+- name: 🇳🇱206032 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: kpg57fi8uon5i67t
+  port: 2098
+  server: 185.19.33.200
+  sni: 185.19.33.200
+  tls: false
+  type: hysteria2
 - name: ⏳73@oneclickvpnkeys
   password: maintell
   port: 2053
@@ -380,6 +437,15 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 🍪42@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 7kydvvvn3bwt66ff
+  password: ripa841juk7gwn4t
+  port: 10005
+  server: 31.76.241.169
+  sni: de.c0d1xdev.xyz
   tls: false
   type: hysteria2
 - alpn:

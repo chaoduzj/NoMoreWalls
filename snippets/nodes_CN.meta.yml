@@ -1,7 +1,7 @@
 proxies:
 - ip: 172.16.0.2/32
   mtu: 1380
-  name: 🇨🇳CN_1|1.4MB/s
+  name: 🇨🇳CN_1|1.1MB/s
   port: 2371
   presharedkey: ''
   private-key: CBMxaub4dG7Q9W91x4+lUCqtF9eV1BN+4osBfWZNXHs=

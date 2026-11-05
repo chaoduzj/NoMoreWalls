@@ -143,3 +143,18 @@ proxies:
   type: vless
   udp: true
   uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
+- name: 🇸🇬SG_1|1.3MB/s
+  password: None
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇸🇬SG_2|1.2MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

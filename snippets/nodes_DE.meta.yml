@@ -169,7 +169,35 @@ proxies:
   type: vless
   udp: true
   uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- name: 🇩🇪DE_1|1.1MB/s
+- name: 🇩🇪DE_1|2.2MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_3|2.8MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|3.5MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.2MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -177,35 +205,31 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_2|2.7MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.0MB/s
+- name: 🇩🇪DE_6|2.8MB/s|R002-260618
   password: None
   port: 443
-  server: 172.64.68.89
+  server: 87.249.132.97
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_4|1012KB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
+    short-id: '!!str '
+  server: music.3apes.online
+  servername: music.3apes.online
   tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.3MB/s
-  password: ''
-  port: '12345'
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-  username: ''
+  type: vless
+  udp: true
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

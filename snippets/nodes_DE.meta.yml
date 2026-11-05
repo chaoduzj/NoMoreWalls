@@ -169,6 +169,43 @@ proxies:
   type: vless
   udp: true
   uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- name: 🇩🇪DE_1|1.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_2|2.7MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|1.0MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|1012KB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|1.3MB/s
+  password: ''
+  port: '12345'
+  server: 141.147.19.47
+  skip-cert-verify: true
+  type: http
+  username: ''
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

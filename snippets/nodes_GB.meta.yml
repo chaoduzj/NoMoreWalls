@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 🇬🇧GB_1|1.6MB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

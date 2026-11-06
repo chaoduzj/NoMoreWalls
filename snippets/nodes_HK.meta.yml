@@ -111,10 +111,3 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- name: 🇭🇰HK_1|5.1MB/s
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http

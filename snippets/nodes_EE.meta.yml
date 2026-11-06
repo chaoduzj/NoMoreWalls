@@ -1,12 +1,11 @@
 proxies:
-- name: 🇪🇪EE_1|1.8MB/s
+- name: 🇪🇪EE_1|2.4MB/s
   port: 9443
   server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇪🇪EE_2|1.3MB/s
-  password: None
+- name: 🇪🇪EE_2|2.7MB/s
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true

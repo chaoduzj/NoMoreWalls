@@ -89,3 +89,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_22|1.4MB/s
+  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+  port: '1080'
+  server: twichcom.plus-hit.ru
+  type: ss
+  udp: true

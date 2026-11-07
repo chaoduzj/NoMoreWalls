@@ -128,3 +128,12 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- name: 🇸🇬SG_1|2.7MB/s|K001-260618
+  password: ''
+  port: 9090
+  server: 159.223.41.216
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: http
+  udp: true
+  username: ''

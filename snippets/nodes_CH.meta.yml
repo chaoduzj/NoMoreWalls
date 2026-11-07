@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: 46.19.138.214
+  servername: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- name: 🇨🇭CH_2|2.5MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

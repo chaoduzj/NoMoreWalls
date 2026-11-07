@@ -72,64 +72,24 @@ proxies:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 01ad85319ae3
-  name: 🇩🇪DE_1|1.2MB/s
-  network: grpc
-  port: '443'
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1017KB/s
+  port: 2094
   reality-opts:
-    public-key: cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q
-    short-id: '!!str 051e90ed3d657158'
-  server: 79.182.39.110
-  servername: ac3f32g.de18.h1clayd.click
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.200
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
-  xudp: true
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_4|2.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|3.0MB/s
+  uuid: b7d28421-b7f8-43af-ad2a-da2da9ca6520
+- name: 🇩🇪DE_2|1.6MB/s
   password: None
   port: 443
   server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|2.9MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_7|2.3MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http

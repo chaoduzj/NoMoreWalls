@@ -1,7 +1,1 @@
-proxies:
-- name: 🇪🇪EE_1|1.1MB/s
-  port: 443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  tls: true
-  type: http
+proxies: []

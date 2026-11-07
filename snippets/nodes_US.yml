@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 🇺🇸US_1|2.8MB/s
+  network: http
+  port: 1288
+  server: 107.175.76.215
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44

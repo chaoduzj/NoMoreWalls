@@ -71,21 +71,46 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- name: 🇩🇪DE_1|1.1MB/s
-  port: 9443
-  server: 79.127.156.177
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 01ad85319ae3
+  name: 🇩🇪DE_1|1.2MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q
+    short-id: '!!str 051e90ed3d657158'
+  server: 79.182.39.110
+  servername: ac3f32g.de18.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
+  xudp: true
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|2.0MB/s
+  udp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_4|2.2MB/s
   password: None
   port: 443
-  server: 149.36.50.157
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_3|2.0MB/s
+- name: 🇩🇪DE_5|3.0MB/s
   password: None
   port: 443
   server: 87.249.132.97
@@ -93,13 +118,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|2.1MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.5MB/s
+- name: 🇩🇪DE_6|2.9MB/s
   password: None
   port: 443
   server: 152.233.20.206
@@ -107,7 +126,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|1.1MB/s
+- name: 🇩🇪DE_7|2.3MB/s
   password: None
   port: 443
   server: 172.64.68.89
@@ -115,27 +134,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_7|2.1MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|1.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_9|2.0MB/s
-  password: ''
-  port: '12345'
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-  username: ''
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

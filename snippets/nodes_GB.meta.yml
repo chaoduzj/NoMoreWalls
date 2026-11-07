@@ -1,39 +1,23 @@
 proxies:
-- name: 🇬🇧GB_1|2.7MB/s
+- name: 🇬🇧GB_1|4.0MB/s
   password: None
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|1.2MB/s
+- name: 🇬🇧GB_2|3.2MB/s
   password: None
   port: 443
-  server: 185.164.138.156
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_3|1.0MB/s
-  port: 9443
-  server: 84.17.50.129
+- name: 🇬🇧GB_3|2.4MB/s
+  password: ''
+  port: '8084'
+  server: 81.85.4.216
   skip-cert-verify: true
-  tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_4|1.2MB/s
-  network: ws
-  port: '443'
-  server: www.agahiya.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e089a8-0cd1-48d0-b572-105c4804f6b8
-  ws-opts:
-    headers:
-      Host: soliconf-gghosin4-cell.dormhost.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /jx-y8179aild6rsmj
-  xudp: true
+  username: ''

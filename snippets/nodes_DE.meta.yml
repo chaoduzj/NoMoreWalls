@@ -1,14 +1,4 @@
 proxies:
-- name: 'Telegram@vpnjey #5'
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: vpnJey
-  port: 36264
-  server: 179.61.138.145
-  skip-cert-verify: true
-  sni: de2.jey.cc.cd
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   name: 🇩🇪 德国｜06｜BGP
   network: ws
@@ -71,19 +61,6 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: '!!str 2c9a2790ad5900b2'
-  server: 64.188.66.181
-  servername: ge-s-1.pythonmakemigreat.wiki
-  tls: true
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

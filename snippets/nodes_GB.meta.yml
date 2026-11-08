@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 🇬🇧GB_1|1.8MB/s
+  password: None
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http

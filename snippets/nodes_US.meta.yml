@@ -14,6 +14,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 🇺🇸210305 | ⚡️Telegram = t.me/L...
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20445
+  server: 88.216.183.164
+  skip-cert-verify: false
+  sni: hy51290d-3.w-mebel.pro
+  tls: false
+  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -82,28 +90,6 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- name: 🇺🇸US_1|3.1MB/s
-  port: 8443
-  server: 45.145.73.240
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|4.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
-    short-id: '!!str b46b142b'
-  server: 154.26.188.52
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

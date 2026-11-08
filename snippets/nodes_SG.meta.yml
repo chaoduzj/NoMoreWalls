@@ -1,9 +1,9 @@
 proxies:
-- name: 🇸🇬 8@exclavevpn
+- name: 🇸🇬210346 | ⚡️Telegram = t.me/L...
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20443
   server: 84.32.23.62
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hy530899-3.w-mebel.pro
   tls: false
   type: hysteria2

@@ -82,55 +82,28 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- name: 🇺🇸US_1|2.8MB/s
-  port: 443
-  server: 121.127.34.82
+- name: 🇺🇸US_1|3.1MB/s
+  port: 8443
+  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|1.1MB/s
-  password: None
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|4.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
+    short-id: '!!str b46b142b'
+  server: 154.26.188.52
+  servername: www.amazon.com
   tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_3|1014KB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.0MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|2.0MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_7|2.5MB/s
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|3.8MB/s
-  password: ''
-  port: '58764'
-  server: 118.184.140.90
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  type: vless
+  udp: true
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  xudp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

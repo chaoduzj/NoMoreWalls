@@ -1,10 +1,12 @@
 proxies:
-- name: 🇩🇪209673 | ⚡️Telegram = t.me/L...
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: 144.31.221.57
+- name: 'Telegram@vpnjey #5'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: vpnJey
+  port: 36264
+  server: 179.61.138.145
   skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -69,34 +71,11 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- name: 🇩🇪DE_1|1.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|3.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|1.7MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.4MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
     short-id: '!!str 2c9a2790ad5900b2'
@@ -104,9 +83,7 @@ proxies:
   servername: ge-s-1.pythonmakemigreat.wiki
   tls: true
   type: vless
-  udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

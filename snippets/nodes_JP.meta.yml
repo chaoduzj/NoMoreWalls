@@ -98,6 +98,14 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- name: 🇯🇵JP_1|1.3MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

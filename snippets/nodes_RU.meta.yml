@@ -1,18 +1,22 @@
 proxies:
-- name: 🇷🇺RU_1|4.1MB/s
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_1|1.1MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: yMB1YpMhoF4j800rMjlWy97QAwvNwHwjuH1qKNSGfCA
+    short-id: '!!str 0b10c773673c6438'
+  server: 9900edx.msk2.h1clayd.click
+  servername: 9900edx.msk2.h1clayd.click
   tls: true
-  type: http
-  username: null
-- name: 🇷🇺RU_2|1.1MB/s
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
+  xhttp-opts:
+    mode: auto
+    path: /ee321f6e0f15
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

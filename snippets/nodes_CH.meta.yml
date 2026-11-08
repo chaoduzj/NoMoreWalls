@@ -1,9 +1,54 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|1.2MB/s
+  name: 🇨🇭CH_1|1.1MB/s
   network: tcp
   port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: 179.43.166.190
+  servername: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_2|3.1MB/s
+  network: tcp
+  port: 33169
+  reality-opts:
+    public-key: A9EF_1fUwOcGSP6bmSmuAIls4XpgciihICNTarLZ-2o
+    short-id: '!!str 01f2513112301a'
+  server: dddz-3-z.473221.xyz
+  servername: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_3|1.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: prvtch.titun.su
+  servername: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_4|1.9MB/s
+  network: tcp
+  port: '443'
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
     short-id: '!!str 428ef87fd47a3a32'
@@ -13,11 +58,17 @@ proxies:
   type: vless
   udp: true
   uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- name: 🇨🇭CH_2|2.5MB/s
+  xudp: true
+- name: 🇨🇭CH_5|2.3MB/s
   password: None
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+- name: 🇨🇭CH_6|1.3MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http

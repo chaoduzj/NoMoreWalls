@@ -75,3 +75,7 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- name: 🇸🇬SG_1|1.1MB/s
+  port: 9090
+  server: 167.172.76.176
+  type: http

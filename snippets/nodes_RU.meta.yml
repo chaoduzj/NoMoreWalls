@@ -1,4 +1,10 @@
 proxies:
+- name: 🇷🇺RU_1|1.0MB/s
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

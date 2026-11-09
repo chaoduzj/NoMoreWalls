@@ -1,14 +1,4 @@
 proxies:
-- name: 'Channel id: @ConfigV2RayNG 🇭🇰'
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: 152.32.254.68
-  skip-cert-verify: false
-  sni: nas.aizhzo.com
-  tls: false
-  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -76,10 +66,3 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
-- name: 🇭🇰HK_1|1.1MB/s
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http

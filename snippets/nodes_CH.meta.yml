@@ -1,29 +1,50 @@
 proxies:
-- name: 🇨🇭CH_1|2.2MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|3.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: prvtch.titun.su
+  servername: perevodchiki.su
   tls: true
-  type: http
-- name: 🇨🇭CH_2|2.2MB/s
-  password: None
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_5|1.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: 179.43.166.190
+  servername: perevodchiki.su
   tls: true
-  type: http
-  username: null
-- name: 🇨🇭CH_3|2.6MB/s
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- name: 🇨🇭CH_3|1.1MB/s
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇭CH_4|2.5MB/s|R002-260618
-  port: 9443
-  server: 37.120.213.210
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_4|2.8MB/s
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: prvtch.titun.su
+  servername: perevodchiki.su
   skip-cert-verify: true
-  sub_tag: R002-260618
+  sni: perevodchiki.su
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24

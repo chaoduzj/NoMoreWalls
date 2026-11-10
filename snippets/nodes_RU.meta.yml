@@ -1,4 +1,28 @@
 proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- name: 🇷🇺RU_1|2.6MB/s
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇺RU_3|3.0MB/s
+  password: 'null'
+  port: '1446'
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

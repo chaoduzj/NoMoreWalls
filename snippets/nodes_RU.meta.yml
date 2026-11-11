@@ -1,35 +1,4 @@
 proxies:
-- name: 🇷🇺RU_1|1.1MB/s
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_10|2.2MB/s
-  network: xhttp
-  port: '443'
-  server: www.codex2api.com
-  servername: 6f01ee42s71.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: 6f01ee42s71.kuback.top
-    path: 5c2362f82436fa224a67e22abb0a5e42
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache-Key
-    x-padding-key: bust
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

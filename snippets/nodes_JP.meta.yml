@@ -1,12 +1,4 @@
 proxies:
-- name: 🇯🇵 10@exclavevpn
-  password: '!!str 1794466637'
-  port: 443
-  server: 31.76.91.168
-  skip-cert-verify: true
-  sni: jp.lumacache.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 日本|@ripaojiedian
@@ -85,24 +77,6 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- name: 🇯🇵JP_1|3.4MB/s
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_2|1.1MB/s
-  network: tcp
-  port: '443'
-  server: s2503.ccgfw.online
-  servername: u695098u093da7d1s2502.xxti.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

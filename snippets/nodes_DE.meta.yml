@@ -1,4 +1,12 @@
 proxies:
+- name: 🗼31@oneclickvpnkeys
+  password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
+  port: 443
+  server: 194.48.250.233
+  skip-cert-verify: true
+  sni: mol.ultimagamest.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 德国|@ripaojiedian
@@ -17,7 +25,7 @@ proxies:
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|1.0MB/s
+  name: 德国2|@ripaojiedian
   network: tcp
   port: 2053
   reality-opts:
@@ -27,78 +35,10 @@ proxies:
   servername: www.apple.com
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- name: 🇩🇪DE_1|2.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|1.6MB/s
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.0MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.1MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.5MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|1.3MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_8|1.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  name: 🇩🇪DE_11|1.6MB/s
-  network: ws
-  port: '443'
-  server: support.zoom.us.vltj.qzz.io
-  servername: support.zoom.us.vltj.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
-  ws-opts:
-    headers:
-      Host: support.zoom.us.vltj.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /id-pusat
-  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

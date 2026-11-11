@@ -1,12 +1,4 @@
 proxies:
-- name: 🇸🇬 8@exclavevpn
-  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
-  port: 20443
-  server: 84.32.23.62
-  skip-cert-verify: true
-  sni: hy530899-3.w-mebel.pro
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 新加坡|@ripaojiedian
@@ -56,7 +48,7 @@ proxies:
   udp: true
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.2MB/s
+  name: 🇸🇬 新加坡4|@ripaojiedian
   network: ws
   port: 8443
   server: cdn-sg.skyvora.app
@@ -85,3 +77,48 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|4.1MB/s
+  network: tcp
+  port: '46105'
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: '!!str 28f5c1f8f98a'
+  server: zfapi.zalolink.com
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|3.0MB/s
+  network: tcp
+  port: '46957'
+  reality-opts:
+    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
+    short-id: '!!str 8f6683a234d3'
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_3|2.6MB/s
+  network: tcp
+  port: '35460'
+  reality-opts:
+    public-key: mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw
+    short-id: '!!str 30d976db3eab32'
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true

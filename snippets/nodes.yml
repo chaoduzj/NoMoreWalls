@@ -103,9 +103,39 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- name: 🇹🇷TR_1|1005KB/s
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|2.6MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|2.7MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇹🇷TR_1|1.1MB/s
   password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20028
+  port: '20028'
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|2.7MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- name: 🇹🇷TR_2|1.8MB/s
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
   server: sclass-b1.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com

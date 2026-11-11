@@ -77,3 +77,16 @@ proxies:
     headers:
       Host: cdn-hk.skyvora.app
     path: '%2Fzmeadqv620k'
+- name: 🇭🇰HK_1|4.5MB/s
+  password: None
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇰HK_2|1.6MB/s
+  password: 0wcmn0va70ra
+  port: 6182
+  server: 142.252.37.58
+  type: http
+  username: hommkiti

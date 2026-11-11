@@ -77,6 +77,22 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
+- name: 🇯🇵JP_1|2.1MB/s
+  password: 0wcmn0va70ra
+  port: 9177
+  server: 104.252.87.200
+  type: http
+  username: hommkiti
+- fingerprint: ''
+  name: 🇯🇵JP_2|3.5MB/s
+  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+  port: '36035'
+  server: site.ddddd.site
+  skip-cert-verify: true
+  sni: virtual.ubuntu24.com
+  type: anytls
+  udp: true
+  username: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

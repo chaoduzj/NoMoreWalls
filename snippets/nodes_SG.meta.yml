@@ -77,48 +77,11 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|4.1MB/s
-  network: tcp
-  port: '46105'
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: '!!str 28f5c1f8f98a'
-  server: zfapi.zalolink.com
-  servername: www.lamer.com.sg
+- name: 🇸🇬SG_1|3.5MB/s
+  password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b
+  port: '5228'
+  server: c8f40e6a-tjrog0-tobupp-1rvjz.sg2.oshuawei.com
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|3.0MB/s
-  network: tcp
-  port: '46957'
-  reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: '!!str 8f6683a234d3'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_3|2.6MB/s
-  network: tcp
-  port: '35460'
-  reality-opts:
-    public-key: mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw
-    short-id: '!!str 30d976db3eab32'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
+  type: http
+  username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b

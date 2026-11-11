@@ -1,17 +1,21 @@
 proxies:
-- name: 🇨🇭CH_1|2.1MB/s
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|2.7MB/s
+  network: tcp
+  port: '2058'
+  reality-opts:
+    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
+    short-id: '!!str 937255313d6ce673'
+  server: 82.146.42.160
+  servername: www.cloudflare.com
   tls: true
-  type: http
-- name: 🇨🇭CH_2|2.4MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_3|2.6MB/s
+  type: vless
+  udp: true
+  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
+  xudp: true
+- name: 🇨🇭CH_2|2.5MB/s
   password: None
   port: 9443
   server: 149.88.27.33
@@ -19,3 +23,17 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇨🇭CH_3|1.4MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇨🇭CH_4|1.1MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -1,43 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇭CH_1|3.8MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: k7RqsI1Kip_ORgCMLeDHjyleJFoN0AJqxOXXCQnGjG4
-    short-id: '!!str 6266751745c4f0df'
-    support-x25519mlkem768: true
-  server: 201.8.81.117
-  servername: ethz.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: www.ethz.ch
-    mode: packet-up
-    path: /api/v1/stream
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 🇨🇭CH_2|1.8MB/s
-  password: None
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_3|2.5MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_4|3.0MB/s
+- name: 🇨🇭CH_1|1.7MB/s
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇨🇭CH_2|1.4MB/s|K001-260618
+  password: None
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇨🇭CH_3|1.3MB/s|R002-260618
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true

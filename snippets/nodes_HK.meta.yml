@@ -77,16 +77,34 @@ proxies:
     headers:
       Host: cdn-hk.skyvora.app
     path: '%2Fzmeadqv620k'
-- name: 🇭🇰HK_1|4.5MB/s
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|2.2MB/s
+  port: 51314
+  reality-opts:
+    public-key: VWY3lvh8l3OoKnhln5nIzmxAG0Imp9arXMK6nbsGVB4
+    short-id: '!!str 0ee643ab'
+  server: hk3.wawojk.dpdns.org
+  servername: www.asus.com
   tls: true
-  type: http
-- name: 🇭🇰HK_2|1.6MB/s
-  password: 0wcmn0va70ra
-  port: 6182
-  server: 142.252.37.58
-  type: http
-  username: hommkiti
+  type: vless
+  uuid: affd72c9-0870-4c92-b6e5-af7d0e06313e
+  x-toolall-mihomo: true
+- mport: 20000-50000
+  name: 🇭🇰HK_2|1.1MB/s
+  password: e0379de1-6712-4644-b41b-afde5fa30ad7
+  port: 20000
+  ports: 20000-50000
+  server: 209.9.200.122
+  skip-cert-verify: true
+  sni: www.shopify.com
+  type: hysteria2
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇭🇰HK_3|5.0MB/s
+  password: admin
+  port: '8899'
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin

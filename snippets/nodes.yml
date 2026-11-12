@@ -90,7 +90,7 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 意大利|@ripaojiedian
+  name: 🇮🇹IT_2|2.8MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
@@ -104,41 +104,51 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.6MB/s
+  name: 🇮🇹IT_1|1.0MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|2.7MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
   server: 202.50.253.36
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇹🇷TR_1|1.1MB/s
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|2.3MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|1.7MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_5|2.1MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- name: 🇮🇹IT_6|2.9MB/s
   password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: '20028'
-  server: sclass-b1.catcat321.com
+  port: 20117
+  server: sclass-01.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|2.7MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- name: 🇹🇷TR_2|1.8MB/s
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: 🇹🇷TR_1|3.0MB/s|C002-260622
+  network: tcp
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20027
   server: sclass-b1.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
+  sub_tag: C002-260622
   type: trojan
   udp: true
   x-toolall-mihomo: true

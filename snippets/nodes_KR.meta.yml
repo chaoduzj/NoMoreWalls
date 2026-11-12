@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 🇰🇷KR_1|2.5MB/s
+  port: 443
+  server: 152.69.230.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_2|1.4MB/s
+  network: tcp
+  port: '2087'
+  reality-opts:
+    public-key: AAYhSMyOgyytc9fhznqZtWFV-XZJ9t1vwV6vzGaWUi0
+    short-id: '!!str 3208691e9b9f3369'
+  server: 3.35.47.150
+  servername: test-sto.dev.helpnow.ai
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
+  xudp: true

@@ -77,14 +77,6 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- name: 🇯🇵JP_1|2.0MB/s
-  password: 'null'
-  port: '40583'
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

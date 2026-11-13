@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_1|2.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  port: 2377
+  server: 13.231.100.94
+  type: ss
+  x-toolall-mihomo: true

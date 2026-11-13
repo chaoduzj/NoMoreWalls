@@ -77,22 +77,17 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: tj
-  name: 🇯🇵JP_1|1.1MB/s
-  network: grpc
-  port: '20230'
-  reality-opts:
-    public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc
-    short-id: '!!str abae4722'
-  server: jp004.421421.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0400697c-b581-4575-9d2f-0bbd4659312d
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_1|2.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  port: 2377
+  server: 13.231.100.94
+  type: ss
+  x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

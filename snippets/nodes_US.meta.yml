@@ -107,136 +107,14 @@ proxies:
     headers:
       Host: cdn-us.skyvora.app
     path: '%2Fkqdyeo2k4b1'
-- client-fingerprint: chrome
-  name: 🇺🇸US_1|1.0MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: '!!str 4ad2e4e660550e43'
-  server: 156.229.167.109
-  servername: github.githubassets.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-- name: 🇺🇸US_2|3.2MB/s|P002-260618
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_3|1.8MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_4|2.2MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|3.2MB/s|P002-260618
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_6|1.6MB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.2MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_8|1.2MB/s
+- name: 🇺🇸US_1|2.9MB/s
   password: ''
-  port: 9002
-  server: 138.199.35.201
+  port: '58764'
+  server: 118.184.140.90
   skip-cert-verify: true
   tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 🇺🇸US_9|1.0MB/s
-  network: ws
-  port: '2087'
-  server: 104.18.1.1
-  servername: 1.proxy2.us.ci.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 1.proxy2.us.ci.
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
-  name: 🇺🇸US_10|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: '!!str bd8f712209a9c283'
-  server: 162.35.101.177
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  xudp: true
-- name: 🇺🇸US_11|1008KB/s
-  password: ''
-  port: '8080'
-  server: 107.175.69.137
-  skip-cert-verify: true
   type: http
   username: ''
-- name: 🇺🇸US_12|1.0MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

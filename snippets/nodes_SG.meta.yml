@@ -77,3 +77,20 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
+- name: 🇸🇬SG_1|2.5MB/s
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇸🇬SG_2|1.2MB/s
+  password: None
+  port: '9090'
+  server: 128.199.254.13
+  skip-cert-verify: true
+  type: http
+  username: ''

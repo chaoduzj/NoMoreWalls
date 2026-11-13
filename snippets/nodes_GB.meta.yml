@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- name: 🇬🇧GB_1|1.7MB/s|R002-260618
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇬🇧GB_2|2.1MB/s|R002-260618
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇬🇧GB_3|2.1MB/s|R002-260618
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true

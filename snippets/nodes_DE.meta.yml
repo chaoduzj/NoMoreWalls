@@ -31,7 +31,62 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- name: 🇩🇪DE_1|1.1MB/s|R002-260618
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇩🇪DE_1|1016KB/s
+  network: xhttp
+  port: '443'
+  server: 167.82.76.31
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5a5c345-e307-45ce-abf4-2bb8131adc86
+  xhttp-opts:
+    host: sammpolic.global.ssl.fastly.net
+    mode: auto
+    path: /setare
+    reuse-settings:
+      h-keep-alive-period: 20
+      h-max-request-times: 300-500
+      h-max-reusable-secs: 300-480
+      max-concurrency: 16-32
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇩🇪DE_2|1.4MB/s
+  network: ws
+  port: '443'
+  server: 199.232.78.120
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+  ws-opts:
+    headers:
+      Host: finalnsdger.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_3|2.7MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.1MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.8MB/s|R002-260618
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -47,3 +102,43 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇩🇪DE_7|1.2MB/s|R002-260618
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_8|3.1MB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: mlkem768x25519plus.native.0rtt.w4VhnEPArk9nRWufTDpPfnv7b-aqjeULWesK74OpJE4
+  name: 🇩🇪DE_9|3.7MB/s
+  network: tcp
+  port: '1468'
+  server: n8.hyby.ir
+  type: vless
+  udp: true
+  uuid: b6da1396-cfa7-421c-92b6-8bc947f0d308
+  xudp: true
+- name: 🇩🇪DE_10|4.3MB/s
+  password: ''
+  port: '443'
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇩🇪DE_11|2.5MB/s
+  password: ''
+  port: '9002'
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

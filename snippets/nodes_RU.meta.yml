@@ -1,4 +1,21 @@
 proxies:
+- alpn:
+  - h3
+  name: 🇷🇺214054 | ⚡️Telegram = t.me/L...
+  password: '!!str 1794613669'
+  port: 443
+  server: 212.41.9.190
+  skip-cert-verify: false
+  sni: hu.lumacache.com
+  tls: false
+  type: hysteria2
+- name: 🇷🇺RU_1|2.4MB/s
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

@@ -1,15 +1,11 @@
 proxies:
-- name: 🇷🇺RU_1|2.1MB/s|P002-260618
-  password: 'null'
+- name: 🇷🇺RU_1|1.4MB/s
+  password: None
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

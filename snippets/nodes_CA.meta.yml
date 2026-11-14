@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 🇨🇦CA_1|1.5MB/s|K001-260618
+  password: None
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇨🇦CA_2|1.5MB/s|P002-260618
+  password: None
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true

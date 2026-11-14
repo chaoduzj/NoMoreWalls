@@ -31,6 +31,56 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- name: 🇩🇪DE_1|2.2MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|1.0MB/s|R002-260618
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- encryption: mlkem768x25519plus.native.0rtt.GlIc2LFlqBQ3itRnw8zoo3tfD7MSknWWmmLVDdr88jE
+  name: 🇩🇪DE_3|2.7MB/s
+  network: ws
+  port: 80
+  server: 104.18.43.144
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: erosan.seminar-irani.ir
+    path: /MiMiTDL
+    v2ray-http-upgrade: true
+- name: 🇩🇪DE_4|1000KB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.0MB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.4MB/s
+  password: 'null'
+  port: '443'
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

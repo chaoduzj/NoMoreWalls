@@ -115,12 +115,99 @@ proxies:
     headers:
       Host: cdn-us.skyvora.app
     path: '%2Fkqdyeo2k4b1'
-- name: 🇺🇸US_1|3.8MB/s
+- name: 🇺🇸US_1|1.0MB/s
+  password: ''
+  port: '7070'
+  server: 20.83.154.79
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇺🇸US_2|3.6MB/s
   port: 58764
   server: 118.184.140.90
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_3|3.0MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|1.3MB/s|K001-260618
+  password: None
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_5|1.1MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_6|2.8MB/s
+  password: ''
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_7|1018KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 22335
+  server: 198.200.57.142
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: '11'
+- name: 🇺🇸US_11|1.9MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: '443'
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 🇺🇸US_12|3.0MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: '5443'
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 🇺🇸US_10|1.1MB/s
+  password: ''
+  port: '8800'
+  server: 104.129.203.244
+  skip-cert-verify: true
+  type: http
+  username: ''
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

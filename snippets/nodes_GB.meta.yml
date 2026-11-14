@@ -1,37 +1,9 @@
 proxies:
-- name: 🇬🇧GB_1|2.0MB/s|R002-260618
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_2|1.7MB/s|R002-260618
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_3|1.2MB/s|R002-260618
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_4|1.3MB/s|P002-260618
-  password: None
+- name: 🇬🇧GB_1|1.5MB/s|R002-260618
   port: 9443
-  server: 84.17.50.214
+  server: 84.233.178.33
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true

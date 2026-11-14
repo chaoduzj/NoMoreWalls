@@ -3,7 +3,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷[www.v2nodes.com] vless-FR-1...
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   network: ws
   port: 443
   server: 3.169.9.125
@@ -19,7 +19,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
   network: ws
   port: 443
   server: 3.169.9.125
@@ -35,7 +35,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #3'
   network: ws
   port: 443
   server: 3.169.9.125
@@ -47,7 +47,7 @@ proxies:
     headers:
       Host: dkfsoyk9ju2as.cloudfront.net
     path: /
-- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #4'
   network: ws
   port: 2166
   server: 89.187.7.4
@@ -72,9 +72,9 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '🇫🇷[www.v2nodes.com] ss-FR-1621... #5'
-  password: 29irqk0paakcx19v
+  password: x19py0a8ipglqkbe
   port: 8080
-  server: 51.83.61.102
+  server: 51.77.144.182
   type: ss
 - cipher: aes-256-gcm
   name: 🇫🇷[www.v2nodes.com] ss-FR-1616...
@@ -107,10 +107,10 @@ proxies:
   server: 167.17.64.22
   type: ss
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: qi8ws15c7jv5q2fa
-  name: 🇫🇷FR_1|1.3MB/s
+  name: 🇫🇷 法国 | FRA
   network: grpc
   port: 80
   server: 200.102.183.226
@@ -119,31 +119,28 @@ proxies:
   type: vless
   udp: true
   uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  xudp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55
-  name: 🇫🇷 法国 | FRA
+  down: '55'
+  name: 🇫🇷FR_2|1001KB/s
   port: 36699
-  protocol: none
   server: 163.172.117.163
   skip-cert-verify: true
-  sni: bing.com
   type: hysteria
-  up: 11
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 50
-  name: 🇫🇷 法国 | FRA 2
-  port: 24667
-  server: 62.210.70.191
-  skip-cert-verify: true
-  type: hysteria
-  up: 10
+  up: '11'
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇫🇷 法国 | FRA #1'
+  network: grpc
+  port: 80
+  server: 200.102.183.226
+  servername: 68r2nrw6avta71yq.cdn.cachefleet.com
+  tls: true
+  type: vless
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
 - name: FR_speednode_0008
   port: 19362
   server: 51.159.225.197

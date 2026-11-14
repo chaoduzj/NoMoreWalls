@@ -13,9 +13,9 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '🇫🇷[www.v2nodes.com] ss-FR-1621... #5'
-  password: 29irqk0paakcx19v
+  password: x19py0a8ipglqkbe
   port: 8080
-  server: 51.83.61.102
+  server: 51.77.144.182
   type: ss
 - cipher: aes-256-gcm
   name: 🇫🇷[www.v2nodes.com] ss-FR-1616...

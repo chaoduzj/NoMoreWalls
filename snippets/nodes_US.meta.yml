@@ -38,7 +38,7 @@ proxies:
       Host: usaslioijji.global.ssl.fastly.net.
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #13'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #18'
   network: ws
   port: 443
   server: 199.232.78.160
@@ -51,6 +51,7 @@ proxies:
       Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
     path: /
 - client-fingerprint: chrome
+  encryption: none
   name: '🇺🇸[www.v2nodes.com] vless-US-1... #17'
   network: ws
   port: 443
@@ -94,42 +95,114 @@ proxies:
   name: '🇺🇸[www.v2nodes.com] vless-US-1... #16'
   network: ws
   port: 443
-  server: 199.232.78.159
+  server: 199.232.78.160
   servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
+  uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38
   ws-opts:
     headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1620...
-  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
-  port: 42878
-  server: 23.230.52.119
-  type: ss
-- name: 🇺🇸US_1|3.8MB/s
+- name: 🇺🇸US_1|1.0MB/s
+  port: 7070
+  server: 20.83.154.79
+  skip-cert-verify: true
+  type: socks5
+- name: 🇺🇸US_2|3.6MB/s
   port: 58764
   server: 118.184.140.90
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_3|3.0MB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|1.3MB/s|K001-260618
+  password: None
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_5|1.1MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_6|2.8MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_7|1018KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 22335
+  server: 198.200.57.142
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: '11'
+- name: 🇺🇸US_11|1.9MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 🇺🇸US_12|3.0MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 5443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 🇺🇸US_10|1.1MB/s
+  port: 8800
+  server: 104.129.203.244
+  skip-cert-verify: true
+  type: http
 - alpn:
   - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 2
-  network: grpc
-  port: 443
-  server: 201.51.12.98
-  servername: vps3.nemnogogo.com
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: xhttp
+  port: 2053
+  server: windytrout.net
+  servername: windytrout.net
   tls: true
   type: vless
   udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  xhttp-opts:
+    host: windytrout.net
+    mode: auto
+    path: /api/v1/upload
 - alpn:
   - h2
   - http/1.1
@@ -156,7 +229,7 @@ proxies:
   name: 🇷🇺 俄罗斯 | RUS 4
   network: grpc
   port: 443
-  server: vps3.nemnogogo.com
+  server: 201.51.12.98
   servername: vps3.nemnogogo.com
   tls: true
   type: vless
@@ -164,34 +237,30 @@ proxies:
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alpn:
   - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇷🇺 俄罗斯 | RUS #5'
-  network: xhttp
-  port: 2053
-  server: windytrout.net
-  servername: windytrout.net
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS 5
+  network: grpc
+  port: 443
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  xhttp-opts:
-    host: windytrout.net
-    mode: auto
-    path: /api/v1/upload
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alpn:
   - h3
-  auth: fanvpn.net
-  down: 200
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  down: 50
   name: 🇺🇸 美国 | USA
-  password: fanvpn.net
-  port: 443
-  server: 107.149.232.92
+  port: 22335
+  server: 198.200.57.142
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-  up: 100
+  type: hysteria
+  up: 10
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -203,63 +272,40 @@ proxies:
   skip-cert-verify: true
   type: hysteria
   up: 10
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 50
-  name: 🇺🇸 美国 | USA 3
-  port: 20022
-  server: 137.175.82.44
-  skip-cert-verify: true
-  type: hysteria
-  up: 10
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2'
-  network: ws
+  name: '🇺🇸 美国 | USA #4'
+  network: xhttp
   port: 443
-  server: 104.18.21.69
-  servername: fs.qicai99.com
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
   tls: true
   type: vless
   udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /fp=chrome
-- alterId: 0
-  cipher: auto
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
+- client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #5'
   network: ws
   port: 443
-  server: JP032009.ssgreen.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac5f3041-2767-4f2d-a173-29555b868b3e
-  ws-opts:
-    headers:
-      Host: JP032009.ssgreen.org
-    path: /wes
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  network: grpc
-  port: 443
-  server: 201.24.116.192
-  servername: vps3.nemnogogo.com
+  server: wryly-messiest.video-streams.org
+  servername: wryly-messiest.video-streams.org
   tls: true
   type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  uuid: 3622cb16-9f16-4b10-b2af-148e93d515bf
+  ws-opts:
+    headers:
+      Host: wryly-messiest.video-streams.org
+    path: /ws
 - alpn:
   - h2
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #2'
+  name: '🇷🇺 俄罗斯 | RUS #4'
   network: grpc
   port: 443
   server: 201.51.12.98
@@ -272,7 +318,7 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #4'
+  name: '🇷🇺 俄罗斯 | RUS #5'
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
@@ -280,14 +326,6 @@ proxies:
   tls: true
   type: vless
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- name: '🇺🇸 美国 | USA #1'
-  password: fanvpn.net
-  port: 443
-  server: 107.149.232.92
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

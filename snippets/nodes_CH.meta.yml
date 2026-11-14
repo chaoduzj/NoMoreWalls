@@ -30,18 +30,9 @@ proxies:
   skip-cert-verify: true
   sni: t2w2t2w2.bpca2026.top
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇨🇭 瑞士 | CHE #1'
-  network: tcp
+- name: 🇨🇭CH_1|2.2MB/s
   port: 443
-  server: 194.87.109.106
-  servername: currant.asynchronous.site
+  server: 31.7.62.50
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: d9274255-edf4-4944-bc62-6ef35cd2de40
-  ws-opts:
-    path: /
+  type: http

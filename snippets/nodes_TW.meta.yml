@@ -18,24 +18,11 @@ proxies:
   port: 14514
   server: amasoid.ddns.net
   type: ss
-- alpn:
-  - h3
-  auth: kkaWPI4aVSbVgfDyzu37q1XI
-  down: 200
-  name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: kkaWPI4aVSbVgfDyzu37q1XI
-  port: 40000
-  server: 13.212.242.95
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: b5bf323d-cccd-4e7b-9ecd-2ab4943b7396
+  port: 443
+  server: jp.gosthk.site
   skip-cert-verify: true
-  sni: sg-transit-3.nebulacloud.win
-  type: hysteria2
+  sni: jp.gosthk.site
+  type: anytls
   udp: true
-  up: 100
-- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
-  password: kkaWPI4aVSbVgfDyzu37q1XI
-  port: 40000
-  server: 13.212.242.95
-  skip-cert-verify: true
-  sni: sg-transit-3.nebulacloud.win
-  tls: false
-  type: hysteria2

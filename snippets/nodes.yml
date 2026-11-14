@@ -104,39 +104,83 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.3MB/s
+  name: 🇮🇹IT_1|1.9MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.81
+  server: 202.50.253.54
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.8MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.1MB/s
+  name: 🇮🇹IT_2|1.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_4|1.8MB/s
+  name: 🇮🇹IT_3|2.3MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|1.2MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 202.50.253.36
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_5|1.7MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_6|1.6MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_7|1.2MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.18
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_13|3.5MB/s
-  network: tcp
-  password: mobin-trojan-pass-2026
-  port: '8443'
-  server: 3.133.112.167
+  name: 🇸🇬SG_1|1.1MB/s
+  password: Z5lvhmLqSc
+  port: 48994
+  server: matrix.phonicsindia.mobi
   skip-cert-verify: true
+  sni: m.microsoft.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 🇹🇷TR_1|3.3MB/s
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
+  server: sclass-b1.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_5|1.6MB/s
+  network: tcp
+  port: 19829
+  server: 109.70.74.217
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 36071c7e-846d-4f3e-a97a-cc8d28c94277
+  xudp: true

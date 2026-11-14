@@ -9,7 +9,24 @@ proxies:
   sni: hu.lumacache.com
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|2.4MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇷🇺RU_1|1.0MB/s
+  network: xhttp
+  port: 2053
+  server: windytrout.net
+  servername: windytrout.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  xhttp-opts:
+    host: windytrout.net
+    mode: auto
+    path: /api/v1/upload
+- name: 🇷🇺RU_2|1.5MB/s
   password: None
   port: 1446
   server: 46.29.166.134

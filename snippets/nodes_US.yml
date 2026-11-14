@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇺🇸US_13|3.5MB/s
-  network: tcp
-  password: mobin-trojan-pass-2026
-  port: '8443'
-  server: 3.133.112.167
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+proxies: []

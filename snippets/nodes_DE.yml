@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE_5|1.6MB/s
+  network: tcp
+  port: 19829
+  server: 109.70.74.217
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 36071c7e-846d-4f3e-a97a-cc8d28c94277
+  xudp: true

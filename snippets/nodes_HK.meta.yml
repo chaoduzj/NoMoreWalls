@@ -77,9 +77,9 @@ proxies:
     headers:
       Host: cdn-hk.skyvora.app
     path: '%2Fzmeadqv620k'
-- name: 🇭🇰HK_1|1.1MB/s
-  password: pLBgZ2mOWDopvTI6CUWu5ZkI
-  port: 31003
-  server: 2.26.204.46
-  type: socks5
-  username: socks
+- name: 🇭🇰HK_1|1.3MB/s
+  port: 8443
+  server: 38.76.140.254
+  skip-cert-verify: true
+  tls: true
+  type: http

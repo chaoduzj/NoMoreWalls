@@ -1,15 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇭🇰HK_1|2.9MB/s
+  password: 3b985d60-e252-4935-8e03-06afeb1144c9
+  port: 18000
+  server: 112.49.65.212
+  servername: www.biliimg.com
+  skip-cert-verify: true
+  sni: www.biliimg.com
+  tls: true
+  type: trojan

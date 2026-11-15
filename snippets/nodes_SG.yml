@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- name: 🇸🇬SG_2|2.4MB/s
+  password: Z5lvhmLqSc
+  port: 48994
+  server: matrix.phonicsindia.mobi
+  skip-cert-verify: true
+  sni: m.microsoft.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_4|3.9MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: ffbf920:68447
+    mode: tls
+  port: '2377'
+  server: 18.141.181.229
+  type: ss
+  udp: true

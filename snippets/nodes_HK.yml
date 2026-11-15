@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|3.7MB/s
+  network: tcp
+  port: '16113'
+  server: zfd-hkv1.kunlun01dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  xudp: true

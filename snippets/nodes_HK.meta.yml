@@ -1,98 +1,57 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: '!!str 08a4b1f473932632'
-  server: 66.90.115.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 香港2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: '!!str 08a4b1f473932632'
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 香港3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: '!!str 08a4b1f473932632'
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- client-fingerprint: chrome
-  name: 🇭🇰 香港4|@ripaojiedian
+- name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 5228
+  server: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  sni: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- client-fingerprint: randomized
+  encryption: none
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
   network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
-  skip-cert-verify: true
-  tfo: false
+  port: 443
+  security: tls
+  server: 198.41.219.218
+  servername: zyzzzoao.xn--fiqv8j.eu.org
   tls: true
   type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
   ws-opts:
     headers:
-      Host: cdn-hk.skyvora.app
-    path: /zmeadqv620k
-- client-fingerprint: chrome
-  flow: ''
-  name: 香港4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  port: 5228
+  server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
   tls: true
-  type: vless
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-  ws-opts:
-    headers:
-      Host: cdn-hk.skyvora.app
-    path: '%2Fzmeadqv620k'
+  type: http
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|3.7MB/s
-  network: tcp
-  port: '16113'
-  server: zfd-hkv1.kunlun01dns.com
-  skip-cert-verify: false
-  tls: false
+  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
-  udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  xudp: true
-- name: 🇭🇰HK_2|1.3MB/s
-  password: ''
-  port: '3128'
-  server: 119.12.161.248
-  skip-cert-verify: true
-  type: http
-  username: ''
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  server: 103.123.162.50
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

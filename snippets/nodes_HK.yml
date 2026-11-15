@@ -1,13 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|3.7MB/s
-  network: tcp
-  port: '16113'
-  server: zfd-hkv1.kunlun01dns.com
-  skip-cert-verify: false
-  tls: false
+  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
-  udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  xudp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

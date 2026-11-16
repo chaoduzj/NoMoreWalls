@@ -1,5 +1,5 @@
 proxies:
-- name: 🇨🇭CH_1|2.8MB/s
+- name: 🇨🇭CH_1|2.0MB/s
   password: ''
   port: 9443
   server: 149.88.27.46

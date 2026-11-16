@@ -39,10 +39,3 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- name: 🇸🇬SG_1|1.9MB/s
-  password: ''
-  port: '9090'
-  server: 128.199.121.61
-  skip-cert-verify: true
-  type: http
-  username: ''

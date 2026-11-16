@@ -1,16 +1,1 @@
-proxies:
-- name: 🇭🇰HK_1|3.4MB/s
-  port: 8443
-  server: 38.76.140.254
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇭🇰HK_2|1.8MB/s
-  password: 3b985d60-e252-4935-8e03-06afeb1144c9
-  port: '18000'
-  server: 112.49.65.212
-  skip-cert-verify: true
-  sni: www.biliimg.com
-  type: trojan
-  udp: true
+proxies: []

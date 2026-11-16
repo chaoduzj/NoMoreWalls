@@ -15,13 +15,56 @@ proxies:
   type: vless
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- name: FR_speednode_0008
-  port: 19362
-  server: 51.159.225.197
+- name: 🇫🇷FR_1|2.7MB/s|K001-260618
+  password: None
+  port: 443
+  server: 82.66.235.221
   skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
   udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_2|1.6MB/s|R002-260618
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_3|1.1MB/s|P002-260618
+  password: None
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_4|2.0MB/s|K001-260618
+  password: None
+  port: 443
+  server: 84.235.228.156
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_5|1.4MB/s|R002-260618
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: FR_speednode_0009
   port: 8090
   server: 83.206.1.225

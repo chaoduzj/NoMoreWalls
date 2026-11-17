@@ -103,6 +103,14 @@ proxies:
   sni: 775c8bt.lt4.h1clayd.click
   tls: false
   type: hysteria2
+- name: 🇸🇬217490 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.179.113.70
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -148,8 +156,15 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
+- name: '@OutlineReleasedKey #3'
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  port: 443
+  server: 212.34.137.105
+  sni: shorts.blog-forme.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '@OutlineReleasedKey #4'
+  name: '@OutlineReleasedKey #5'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 24433
   server: 94.183.164.119
@@ -191,17 +206,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ🍭
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '@OutlineReleasedKey #5'
+- name: '@OutlineReleasedKey #6'
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   port: 443
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
@@ -217,22 +222,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: ⚕️74@oneclickvpnkeys
-  password: MZKlrFbG73bKvCDe8VPul5PR9xQm
-  port: 20999
-  server: 35.207.53.51
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪216914 | ⚡️Telegram = t.me/L...
-  password: R1jGEIdkkdgxUmduZjeR1Pfi
-  port: 18888
-  server: 89.144.8.91
-  skip-cert-verify: false
-  sni: pic.bstarstatic.com
   tls: false
   type: hysteria2
 - name: '@v2ray313 کانالمون 😀'
@@ -276,7 +265,7 @@ proxies:
 - name: 'Telegram@vpnjey #3'
   obfs: salamander
   obfs-password: Telegram@vpnjey
-  password: VPNJey
+  password: VPNJEy
   port: 36264
   server: 179.61.138.145
   skip-cert-verify: true
@@ -286,19 +275,31 @@ proxies:
 - name: 'Telegram@vpnjey #4'
   obfs: salamander
   obfs-password: Telegram@vpnjey
-  password: VPNJey
+  password: VPNJEy
   port: 5707
   server: 2a0f:5707:aaf1:11a6::1
   skip-cert-verify: true
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '@OutlineReleasedKey #6'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.96
-  skip-cert-verify: false
-  sni: pl3.nexfile.net
+- name: 'Telegram@vpnjey #5'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: VPNJey
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
+- name: 'Telegram@vpnjey #6'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: VPNJey
+  port: 5707
+  server: 2a0f:5707:aaf1:11a6::1
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
 - name: '@OutlineReleasedKey #7'
@@ -364,20 +365,19 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
+- name: ♻️93@oneclickvpnkeys
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: ⚕️35@oneclickvpnkeys
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
-  tls: false
-  type: hysteria2
-- name: 🇭🇰216973 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 9veAh9pTbrAfDwM1fIYI
-  password: hAUdd15a7YGHUSgiPOUz
-  port: 443
-  server: 43.103.2.53
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '@confiig_hub #1'
@@ -390,7 +390,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 'Telegram@vpnjey #5'
+- name: 'Telegram@vpnjey #7'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnJey
@@ -400,7 +400,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 'Telegram@vpnjey #6'
+- name: 'Telegram@vpnjey #8'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnjey
@@ -626,217 +626,68 @@ proxies:
   uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
     path: '%2Fws'
-- client-fingerprint: firefox
-  name: 🇫🇮FI_1|1.2MB/s
-  network: xhttp
+- name: 🇺🇸US_1|3.5MB/s
+  port: 58764
+  server: 118.184.140.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇦🇹AT_1|1.1MB/s|R002-260618
   port: 443
-  reality-opts:
-    public-key: zd4L59ejBo94N8N9GQtZMox2eBBF9TQf2TLyIgpwlCg
-    short-id: 'fd7624659f1e7d66'
-  server: 191.217.205.175
-  servername: fin.krabvpn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
-  xhttp-opts:
-    host: fin.krabvpn.pro
-    mode: auto
-    path: /assets/246a109dceaa6b7832a98d17
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.7MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.6MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.1MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|1.1MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.4MB/s
-  network: tcp
-  port: '43149'
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: '15aa0ad4'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇦🇺AU_1|3.3MB/s
-  network: raw
-  port: '54528'
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: '54cca3c1c1c7'
-  server: win2loxfde0202.gggrelay.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- name: 🇷🇺RU_1|2.2MB/s|R002-260618
-  port: 1446
-  server: 46.29.166.134
+  server: 146.70.244.2
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇬🇧GB_1|1.2MB/s|P002-260618
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇨🇦CA_1|1.0MB/s|P002-260618
-  port: 9443
-  server: 198.44.142.27
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.0MB/s
-  port: 47691
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: '2905326a'
-  server: zfapi.zalolink.com
-  servername: m.media-amazon.com
-  skip-cert-verify: true
-  sni: m.media-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇻🇳VN_1|4.3MB/s
-  port: 55688
-  reality-opts:
-    public-key: 6dqd0hqbC0bht9RtsYamvlYdMpxyUbk7uXw0xtO8DzQ
-    short-id: '865c1b2c'
-  server: zfapi.zalolink.com
-  servername: bilibili-vn.biliimg.com
-  skip-cert-verify: true
-  sni: bilibili-vn.biliimg.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 🇺🇸US_2|1.1MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
-    - /
-  name: 🇺🇸US_2|1.3MB/s
+    - /ABCDE
+  name: 🇺🇸US_3|1.1MB/s
   network: http
-  port: 44441
+  port: 52402
   server: 104.225.148.201
   tls: false
   type: vmess
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
+  uuid: 0542f509-4368-4ee3-be54-0557fed80f6b
   x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸US_3|1.9MB/s
-  network: http
-  port: 9983
-  server: 104.225.148.201
-  tls: false
-  type: vmess
-  uuid: 09e2eb90-14c7-4b79-bac7-f7b6f3f78054
-  x-toolall-mihomo: true
-- name: 🇩🇰DK_1|2.6MB/s
-  port: 9443
-  server: 185.245.84.50
+- name: 🇩🇪DE_1|1.3MB/s
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.6MB/s
+  username: 'null'
+- name: 🇺🇸US_4|2.7MB/s
   password: ozbqjztv
   port: 8000
   server: 192.220.47.85
   type: http
   username: ozbqjztv
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_5|2.9MB/s
-  network: raw
-  port: '47691'
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: '2905326a'
-  server: zfapi.zalolink.com
-  servername: m.media-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇻🇳VN_2|4.0MB/s
-  network: raw
-  port: '42120'
-  reality-opts:
-    public-key: f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A
-    short-id: 'bb82c8'
-  server: zfapi.zalolink.com
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
-- name: 🇩🇪DE_1|1.2MB/s|R002-260618
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸US_5|3.1MB/s
+  network: http
+  port: 44441
+  server: 192.220.47.85
+  tls: false
+  type: vmess
+  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   name: AT_speednode_0001

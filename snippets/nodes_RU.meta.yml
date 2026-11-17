@@ -1,13 +1,4 @@
 proxies:
-- name: 🇷🇺RU_1|2.2MB/s|R002-260618
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029

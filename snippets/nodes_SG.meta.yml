@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬217490 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.179.113.70
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 🇸🇬214601 | ⚡️Telegram = t.me/v...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443

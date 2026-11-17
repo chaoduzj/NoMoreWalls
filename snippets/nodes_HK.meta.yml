@@ -1,10 +1,1 @@
-proxies:
-- name: 🇭🇰216973 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 9veAh9pTbrAfDwM1fIYI
-  password: hAUdd15a7YGHUSgiPOUz
-  port: 443
-  server: 43.103.2.53
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
+proxies: []

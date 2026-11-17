@@ -1,21 +1,12 @@
 proxies:
-- name: 🇩🇪216914 | ⚡️Telegram = t.me/L...
-  password: R1jGEIdkkdgxUmduZjeR1Pfi
-  port: 18888
-  server: 89.144.8.91
-  skip-cert-verify: false
-  sni: pic.bstarstatic.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_1|1.2MB/s|R002-260618
+- name: 🇩🇪DE_1|1.3MB/s
+  password: 'null'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
+  username: 'null'
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

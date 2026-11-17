@@ -1,5 +1,5 @@
 proxies:
-- name: 🇨🇦CA_1|2.9MB/s|P002-260618
+- name: 🇨🇦CA_1|1.0MB/s|P002-260618
   port: 9443
   server: 198.44.142.27
   skip-cert-verify: true

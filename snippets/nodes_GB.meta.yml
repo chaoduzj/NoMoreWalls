@@ -1,44 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: '!!str e06e30590f288e0f'
-  server: 94.183.179.64
-  servername: gb2.soshelper.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 372931d3-91c5-4564-b79c-041302de9a17
-  xudp: true
-- name: 🇬🇧GB_2|2.5MB/s|R002-260618
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_3|1.7MB/s|P002-260618
+- name: 🇬🇧GB_1|1.2MB/s|P002-260618
   password: None
   port: 9443
   server: 84.17.50.129
   skip-cert-verify: true
   sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_4|2.3MB/s|R002-260618
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true

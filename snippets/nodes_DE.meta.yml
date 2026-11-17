@@ -1,112 +1,15 @@
 proxies:
-- name: 🇩🇪216664 | ⚡️Telegram = t.me/L...
-  password: 833539ec-fbba-40e8-ba6c-ac31bf6b3b4c
-  port: 443
-  server: 144.31.168.201
-  sni: fastconv-mirror.ru
+- name: 🇩🇪216914 | ⚡️Telegram = t.me/L...
+  password: R1jGEIdkkdgxUmduZjeR1Pfi
+  port: 18888
+  server: 89.144.8.91
+  skip-cert-verify: false
+  sni: pic.bstarstatic.com
   tls: false
   type: hysteria2
-- name: 🇩🇪216655 | ⚡️Telegram = t.me/L...
-  password: e45c1654-9184-40c7-b68b-2929ce2a0a89
+- name: 🇩🇪DE_1|1.2MB/s|R002-260618
   port: 443
-  server: 86.107.179.245
-  sni: cruises-cdn.travel-blogmir.blog
-  tls: false
-  type: hysteria2
-- name: 🇩🇪216653 | ⚡️Telegram = t.me/L...
-  password: lvu_1f46c9c7e44bef3f9974936d87ee4f44_1f900674c11bcad65b09ef1f77502ea5
-  port: 443
-  server: 212.102.227.131
-  sni: n34.neproxy.net
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt._qY1MWcrBsC4vR5V1hzkHjMTNsnMIRvvkwWc_FBCUCI
-  name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  port: 443
-  server: www.thevicinityapp.cn
-  servername: www.thevicinityapp.cn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1af5253b-75e6-4e2c-8b9e-2b7b92dbb845
-  ws-opts:
-    headers:
-      Host: ded2http.samcdn.shop
-    path: /msn
-    v2ray-http-upgrade: true
-- name: 🇩🇪DE_2|2.3MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_3|4.0MB/s|R002-260618
-  port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_4|4.2MB/s|R002-260618
-  password: 'null'
-  port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_5|2.7MB/s|R002-260618
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_6|3.7MB/s|R002-260618
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_7|3.4MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_8|2.6MB/s|R002-260618
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_9|3.2MB/s|R002-260618
-  port: 9002
-  server: 158.173.154.4
+  server: 172.64.68.89
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true

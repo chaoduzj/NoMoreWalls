@@ -1,13 +1,16 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇭🇰HK_1|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.2MB/s
+  network: tcp
   port: '443'
-  server: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
-  type: hysteria2
-  up: ''
+  reality-opts:
+    public-key: X2h6bCzgKaLpeFynrnKq2Q3F4PNBp4MssuLWQbAPtWI
+    short-id: '!!str f2c9566865979f94'
+  server: 104.208.113.148
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c27a33-3e59-42e1-b63a-2eb62f4c2b70
+  xudp: true

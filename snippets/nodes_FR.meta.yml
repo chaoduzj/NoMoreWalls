@@ -15,7 +15,7 @@ proxies:
   type: vless
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- name: 🇫🇷FR_1|1.1MB/s|P002-260618
+- name: 🇫🇷FR_1|3.5MB/s|P002-260618
   password: None
   port: 9443
   server: 138.199.47.247
@@ -25,7 +25,7 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇫🇷FR_2|1.1MB/s|R002-260618
+- name: 🇫🇷FR_2|2.2MB/s|R002-260618
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true

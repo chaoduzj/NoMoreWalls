@@ -1,18 +1,1 @@
-proxies:
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  name: 🇩🇪DE_10|2.6MB/s
-  network: ws
-  password: bpb-trojan
-  port: '443'
-  server: russia.com
-  skip-cert-verify: false
-  sni: kargar001.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /tr?ed=2560
+proxies: []

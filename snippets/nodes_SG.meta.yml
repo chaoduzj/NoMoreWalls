@@ -39,3 +39,21 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
+- client-fingerprint: random
+  encryption: none
+  name: 🇸🇬SG_1|1.0MB/s
+  network: ws
+  port: '443'
+  server: freev2.cloudflare.182682.xyz
+  servername: ap-south.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
+  ws-opts:
+    headers:
+      Host: ap-south.862400.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /announcement?ed=2048
+  xudp: true

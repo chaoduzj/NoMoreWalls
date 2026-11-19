@@ -1,5 +1,5 @@
 proxies:
-- name: 🇨🇭CH_1|2.3MB/s
+- name: 🇨🇭CH_1|2.8MB/s
   password: ''
   port: '9443'
   server: 37.120.213.210

@@ -15,16 +15,24 @@ proxies:
   type: vless
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- name: 🇫🇷FR_1|1013KB/s|P002-260618
-  password: None
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  sub_tag: P002-260618
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|2.1MB/s
+  network: ws
+  port: '443'
+  server: jdxl.cf.090227.xyz
+  servername: approved-flush-consideration-earliest.trycloudflare.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  x-toolall-mihomo: true
+  uuid: 11111111-2222-3333-4444-555555555555
+  ws-opts:
+    headers:
+      Host: approved-flush-consideration-earliest.trycloudflare.com
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /tg-jiedianxielou
+  xudp: true
 - name: FR_speednode_0008
   port: 19362
   server: 51.159.225.197

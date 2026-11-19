@@ -7,14 +7,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: ' 🇺🇸 15@exclavevpn'
-  password: yO8pug5XmwkBXBAjleYIaVt
-  port: 443
-  server: 192.255.152.147
-  skip-cert-verify: true
-  sni: 192.255.152.147
-  tls: false
-  type: hysteria2
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
@@ -97,7 +89,22 @@ proxies:
   uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
     path: '%2Fws'
-- name: 🇺🇸US_1|1.1MB/s
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US_1|2.3MB/s
+  network: ws
+  port: 30004
+  server: 192.74.236.148
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1733477783705
+- name: 🇺🇸US_2|1.3MB/s
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
@@ -105,6 +112,30 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
+- name: 🇺🇸US_3|2.1MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_4|1.3MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_5|3.6MB/s
+  password: ''
+  port: '58764'
+  server: 118.184.140.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

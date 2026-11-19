@@ -1,54 +1,32 @@
 proxies:
-- name: 🇩🇪DE_1|1.1MB/s
+- name: 🇩🇪DE_1|2.4MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.2MB/s|P002-260618
-  password: None
+- name: 🇩🇪DE_2|3.3MB/s
   port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_3|1.7MB/s
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: 1SldfhWqqF_Rg9QlPKQqufcHi5GhkxwcEV5HGyOy4Qg
-    short-id: '!!str 64ad711102f56ca2'
-  server: 2.27.14.122
-  servername: de.krabvpn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67864856-8730-40cc-9e1a-a0df697d912b
-  xhttp-opts:
-    host: de.krabvpn.pro
-    mode: auto
-    path: /assets/6c0f3ad762cb7ff51b454076
-- name: 🇩🇪DE_4|1.5MB/s
-  password: ''
-  port: '443'
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇩🇪DE_5|1.0MB/s
+- name: 🇩🇪DE_3|2.1MB/s
   password: 'null'
-  port: '443'
+  port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- name: 🇩🇪DE_4|3.2MB/s
+  password: ''
+  port: '12345'
+  server: 141.147.19.47
+  skip-cert-verify: true
+  type: http
+  username: ''
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

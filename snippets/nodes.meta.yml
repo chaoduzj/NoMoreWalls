@@ -96,27 +96,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇱🇹 15@exclavevpn
-  password: b36a14f8-fc3f-4142-968f-48031cf5f330
-  port: 25318
-  server: 179.254.127.219
-  sni: 775c8bt.lt4.h1clayd.click
-  tls: false
-  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
-  tls: false
-  type: hysteria2
-- name: ' 🇺🇸 15@exclavevpn'
-  password: yO8pug5XmwkBXBAjleYIaVt
-  port: 443
-  server: 192.255.152.147
-  skip-cert-verify: true
-  sni: 192.255.152.147
   tls: false
   type: hysteria2
 - name: '@OutlineReleasedKey'
@@ -146,7 +131,9 @@ proxies:
   sni: media.embrofree.org
   tls: false
   type: hysteria2
-- name: '@OutlineReleasedKey #3'
+- alpn:
+  - h3
+  name: '@OutlineReleasedKey #2'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -154,12 +141,12 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '@OutlineReleasedKey #4'
+- name: '@OutlineReleasedKey #4'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  port: 24433
-  server: 94.183.164.119
-  sni: lakes.blog-forme.ru
+  port: 443
+  server: 212.34.137.105
+  skip-cert-verify: true
+  sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
 - name: '@OutlineReleasedKey #5'
@@ -196,16 +183,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '@ConfigV2RayNG'
+- name: '@ConfigV2RayNG'
   obfs: salamander
-  obfs-password: 7wjvepshx5g115x4
-  password: 99a271e85dbc4aa8950f9c7beee06b19
-  port: 30746
-  server: ide.vipvirtualnet.eu
+  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
+  password: CyG0RFxMjzs41uQD4OLuHQ==
+  port: 20000
+  server: 150.230.229.100
   skip-cert-verify: false
-  sni: del.vipvirtualnet.eu
+  sni: hy2-br2.whuiy.xyz
   tls: false
   type: hysteria2
 - name: 🔹69@oneclickvpnkeys
@@ -216,7 +201,7 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: 🔹66@oneclickvpnkeys
+- name: 'Channel : @Daily_Configs'
   obfs: salamander
   obfs-password: HATATEAYA
   password: HATATEAYA
@@ -224,6 +209,16 @@ proxies:
   server: 77.90.15.183
   skip-cert-verify: true
   sni: ganlanc.at
+  tls: false
+  type: hysteria2
+- name: 🔵10@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
@@ -349,7 +344,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 'Channel : @Daily_Configs'
+- name: 'Channel : @Daily_Configs #1'
   obfs: salamander
   obfs-password: km9oqmefh2km1i5n
   password: d1gkicdgem3bsoaa
@@ -390,14 +385,6 @@ proxies:
   sni: cloudehouse24.ru
   tls: false
   type: hysteria2
-- name: 🇯🇵218802 | ⚡️Telegram = t.me/L...
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: '@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -406,16 +393,6 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: '@iranping24'
-  obfs: salamander
-  obfs-password: mn1g0eianbese7bl
-  password: u9axzkplfc3463am
-  port: 16146
-  server: sub.macdonalder.cyou
-  skip-cert-verify: false
-  sni: sub.macdonalder.cyou
   tls: false
   type: hysteria2
 - name: 'Telegram@vpnjey #7'
@@ -654,31 +631,63 @@ proxies:
   uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
     path: '%2Fws'
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.3MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- name: 🇫🇷FR_1|1013KB/s|P002-260618
-  password: None
-  port: 9443
-  server: 138.199.47.247
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US_1|2.3MB/s
+  network: ws
+  port: 30004
+  server: 192.74.236.148
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
-  type: http
+  type: vmess
   udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_1|1.1MB/s
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1733477783705
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ebl
+  name: 🇳🇱NL_1|1.3MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: _KeOS5u_irk1547CMVB3RdwQzz1SzrQZk-IV-btF7TU
+    short-id: ''
+  server: 94.183.164.176
+  servername: optim.tildacdn.pub
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ebl
+  name: 🇳🇱NL_2|1.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: _KeOS5u_irk1547CMVB3RdwQzz1SzrQZk-IV-btF7TU
+    short-id: ''
+  server: 94.183.164.176
+  servername: optim.tildacdn.pub
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4192dfb-f458-4303-b877-29a41a6d8416
+  xudp: true
+- name: 🇩🇪DE_1|2.4MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: 🇦🇹AT_1|1.1MB/s|R002-260618
+- name: 🇦🇹AT_1|2.8MB/s|R002-260618
   port: 443
   server: 146.70.244.2
   skip-cert-verify: true
@@ -687,17 +696,7 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇩🇪DE_2|1.2MB/s|P002-260618
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇨🇿CZ_1|1.6MB/s
+- name: 🇨🇿CZ_1|2.3MB/s
   port: 443
   server: 185.216.35.66
   skip-cert-verify: true
@@ -705,7 +704,7 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸US_1|1.1MB/s
+- name: 🇺🇸US_2|1.3MB/s
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
@@ -713,7 +712,7 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇳🇱NL_1|1.2MB/s
+- name: 🇳🇱NL_3|1.6MB/s
   port: 443
   server: 149.36.51.129
   skip-cert-verify: true
@@ -721,61 +720,105 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_3|1.7MB/s
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: 1SldfhWqqF_Rg9QlPKQqufcHi5GhkxwcEV5HGyOy4Qg
-    short-id: '64ad711102f56ca2'
-  server: 2.27.14.122
-  servername: de.krabvpn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67864856-8730-40cc-9e1a-a0df697d912b
-  xhttp-opts:
-    host: de.krabvpn.pro
-    mode: auto
-    path: /assets/6c0f3ad762cb7ff51b454076
-- client-fingerprint: random
-  encryption: none
-  name: 🇸🇬SG_1|1.0MB/s
-  network: ws
-  port: '443'
-  server: freev2.cloudflare.182682.xyz
-  servername: ap-south.862400.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /announcement?ed=2048
-  xudp: true
-- name: 🇩🇪DE_4|1.5MB/s
-  password: ''
-  port: '443'
+- name: 🇩🇪DE_2|3.3MB/s
+  port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇩🇪DE_5|1.0MB/s
+- name: 🇩🇪DE_3|2.1MB/s
   password: 'null'
-  port: '443'
+  port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 🇨🇭CH_1|2.8MB/s
-  password: ''
-  port: '9443'
+- name: 🇨🇭CH_1|1.8MB/s
+  port: 9443
   server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|2.1MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_4|1.3MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: ❓Other_1|1.2MB/s
+  port: 4198
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.200
+  type: wireguard
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|2.1MB/s
+  network: ws
+  port: '443'
+  server: jdxl.cf.090227.xyz
+  servername: approved-flush-consideration-earliest.trycloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11111111-2222-3333-4444-555555555555
+  ws-opts:
+    headers:
+      Host: approved-flush-consideration-earliest.trycloudflare.com
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /tg-jiedianxielou
+  xudp: true
+- name: 🇩🇪DE_4|3.2MB/s
+  password: ''
+  port: '12345'
+  server: 141.147.19.47
+  skip-cert-verify: true
+  type: http
+  username: ''
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - www.tno.nl
+    path:
+    - /
+  name: 🇫🇮FI_1|1.4MB/s
+  network: http
+  port: '8880'
+  server: free3.familysharing.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c68906da-4a53-dc85-f6b7-8bc3dd321a08
+  xudp: true
+- name: 🇺🇸US_5|3.6MB/s
+  password: ''
+  port: '58764'
+  server: 118.184.140.90
   skip-cert-verify: true
   tls: true
   type: http

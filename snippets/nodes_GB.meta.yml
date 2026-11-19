@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 🇬🇧GB_1|1.1MB/s
+  password: ''
+  port: '9443'
+  server: 37.221.113.162
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

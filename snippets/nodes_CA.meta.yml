@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: 🇨🇦CA_1|2.7MB/s
+  password: ''
+  port: '9443'
+  server: 23.169.224.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇨🇦CA_2|1.4MB/s
+  password: ''
+  port: '9443'
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

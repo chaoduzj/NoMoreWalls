@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: X2h6bCzgKaLpeFynrnKq2Q3F4PNBp4MssuLWQbAPtWI
-    short-id: '!!str f2c9566865979f94'
-  server: 104.208.113.148
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0c27a33-3e59-42e1-b63a-2eb62f4c2b70
-  xudp: true
+proxies: []

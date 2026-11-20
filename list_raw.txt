@@ -8,11 +8,11 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPICM2IiwgImFkZCI6
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPICM3IiwgImFkZCI6ICIxMjcuMC4wLjUzIiwgInBvcnQiOiAiODciLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPICM4IiwgImFkZCI6ICIxMjcuMC4wLjUzIiwgInBvcnQiOiAiODgiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6Ziy6IyD5aKD5aSW5Yq/5Yqb5riX6YCPICM5IiwgImFkZCI6ICIxMjcuMC4wLjUzIiwgInBvcnQiOiAiODkiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4In0=
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.184.166.19:443?insecure=1#%F0%9F%87%BA%F0%9F%87%B216%40exclavevpn
+hysteria2://gG1JyjbJgDmEMvdTgcD9wVOS@35.221.91.82:443?sni=www.microsoft.com#%20%F0%9F%87%AF%F0%9F%87%B5%2020%40exclavevpn
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443?insecure=1&sni=vk.com#%F0%9F%87%BA%F0%9F%87%B8139909%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
+hysteria2://yjg6ygy6u97387j2@tjzx49io.zibayeman.com:31848?sni=tjzx49io.zibayeman.com&obfs=salamander&obfs-password=yew4ada1rrbq11fq#%F0%9F%87%B8%F0%9F%87%AA220314%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/L...
 hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@201.8.71.59:443?sni=steel7.hadsvpn.com#%40OutlineReleasedKey
 hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@steel7.hadsvpn.com:443?#%40OutlineReleasedKey%20%231
-hysteria2://2d399e38-245c-4f07-abf2-cfce7397ba9c@31.76.106.92:8443?sni=va.stream-room.com#%F0%9F%94%B99%40oneclickvpnkeys
 hysteria2://3a17ce52-4547-45aa-9820-a7d03ad5faca@45.86.74.193:443?sni=media.embrofree.org#%F0%9F%94%B971%40oneclickvpnkeys
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=1&alpn=h3&sni=shorts.blog-forme.ru#%40OutlineReleasedKey%20%232
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=1&sni=shorts.blog-forme.ru#%40OutlineReleasedKey%20%234

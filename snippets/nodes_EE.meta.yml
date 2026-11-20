@@ -1,12 +1,1 @@
-proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|2.8MB/s
-  network: tcp
-  port: 443
-  server: 217.60.100.222
-  servername: 217.60.100.222
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+proxies: []

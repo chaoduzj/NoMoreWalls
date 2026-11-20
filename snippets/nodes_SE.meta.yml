@@ -1,10 +1,1 @@
-proxies:
-- name: 🇸🇪220314 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: yew4ada1rrbq11fq
-  password: yjg6ygy6u97387j2
-  port: 31848
-  server: tjzx49io.zibayeman.com
-  sni: tjzx49io.zibayeman.com
-  tls: false
-  type: hysteria2
+proxies: []

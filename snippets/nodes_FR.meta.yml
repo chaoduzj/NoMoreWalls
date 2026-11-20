@@ -15,30 +15,7 @@ proxies:
   type: vless
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|3.7MB/s
-  network: tcp
-  port: 443
-  server: 45.95.98.139
-  servername: 45.95.98.130
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
-- name: 🇫🇷FR_2|2.0MB/s|R002-260618
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇫🇷FR_3|2.8MB/s|P002-260618
+- name: 🇫🇷FR_1|2.5MB/s|P002-260618
   password: None
   port: 9443
   server: 138.199.47.247
@@ -62,6 +39,15 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: FR_speednode_0010
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - name: FR_speednode_0011
   port: 23856
   server: 51.159.225.196

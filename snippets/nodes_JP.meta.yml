@@ -80,6 +80,20 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|1.9MB/s
+  network: tcp
+  port: 25680
+  reality-opts:
+    public-key: hARhHGV09mnEUWA1a7pG6_K4lztUhKCK3iGeboGGP2g
+    short-id: '!!str 7ce8c8e1'
+  server: 77.67.18.254
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e3c87-2a75-44fa-9a8b-0227a9d2cb82
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: JP_speednode_0018
   network: tcp
   port: 46105

@@ -1,18 +1,56 @@
 proxies:
-- name: 🇩🇪DE_1|2.4MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|3.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UpOOm5-gcSp3fLuCzWl2HJnnqtUHpnbyOWU2yUCcsRI
+    short-id: '!!str 0492eabdb9'
+  server: 88.216.74.37
+  servername: yw0ein72.dendi.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+- auth: ca60984f-b1f0-4073-bd33-4c75168f749a
+  name: 🇩🇪DE_2|4.0MB/s
+  password: ca60984f-b1f0-4073-bd33-4c75168f749a
+  port: 443
+  server: 191.217.204.101
+  skip-cert-verify: true
+  sni: ge-beer-10.fantoff.online
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|3.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: '!!str a9dc98a7dc87a7dc'
+  server: 176.108.245.73
+  servername: pawuk.belka.tv
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  xudp: true
+- name: 🇩🇪DE_4|2.9MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: 🇩🇪DE_2|3.3MB/s
+- name: 🇩🇪DE_5|1.7MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.1MB/s
+- name: 🇩🇪DE_6|3.0MB/s
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -20,11 +58,61 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇩🇪DE_4|3.2MB/s
-  password: ''
-  port: '12345'
-  server: 141.147.19.47
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.5MB/s
+  port: 443
+  reality-opts:
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: '!!str a9dc98a7dc87a7dc'
+  server: 176.108.245.73
+  servername: pawuk.belka.tv
+  skip-cert-verify: false
+  sni: pawuk.belka.tv
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+- name: 🇩🇪DE_8|1.2MB/s|P002-260618
+  password: None
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇩🇪DE_9|2.6MB/s
+  network: ws
+  password: bpb-trojan
+  port: '443'
+  server: russia.com
+  skip-cert-verify: false
+  sni: kargar001.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /tr?ed=2560
+- name: 🇩🇪DE_10|3.5MB/s
+  password: ''
+  port: '1080'
+  server: 92.5.68.29
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇩🇪DE_11|1.0MB/s
+  password: ''
+  port: '9002'
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
   type: http
   username: ''
 - name: DE_speednode_0004

@@ -91,7 +91,7 @@ proxies:
     path: '%2Fws'
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US_1|2.3MB/s
+  name: 🇺🇸US_1|3.2MB/s
   network: ws
   port: 30004
   server: 192.74.236.148
@@ -112,26 +112,57 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸US_3|2.1MB/s
+- name: 🇺🇸US_3|3.3MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- name: 🇺🇸US_4|1.3MB/s
-  password: ''
+- name: 🇺🇸US_4|3.3MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
   x-toolall-mihomo: true
-- name: 🇺🇸US_5|3.6MB/s
+- client-fingerprint: random
+  name: 🇺🇸US_5|1003KB/s
+  network: ws
+  port: '8443'
+  server: 104.18.15.19
+  servername: hk.zhaoqing.city
+  tls: true
+  type: vless
+  udp: true
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  ws-opts:
+    headers:
+      Host: hk.zhaoqing.city
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- name: 🇺🇸US_6|3.4MB/s
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: '443'
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: 🇺🇸US_7|2.9MB/s
   password: ''
-  port: '58764'
-  server: 118.184.140.90
+  port: '443'
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_8|2.0MB/s
+  password: ''
+  port: '9443'
+  server: 152.233.50.145
   skip-cert-verify: true
   tls: true
   type: http

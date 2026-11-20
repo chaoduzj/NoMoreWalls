@@ -39,3 +39,24 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|2.4MB/s
+  network: ws
+  port: 8443
+  server: 172.64.154.113
+  servername: freeceshi6.frii.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+- name: 🇸🇬SG_2|4.4MB/s
+  password: ''
+  port: '5555'
+  server: 103.248.228.166
+  skip-cert-verify: true
+  type: socks5
+  username: ''

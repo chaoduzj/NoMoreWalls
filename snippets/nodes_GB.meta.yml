@@ -1,16 +1,1 @@
-proxies:
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: 🇬🇧GB_1|2.7MB/s
-  network: http
-  port: '443'
-  server: 161.35.37.106
-  type: vless
-  udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-  xudp: true
+proxies: []

@@ -1,74 +1,30 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: unsafe
-  name: 🇩🇪DE_2|1.5MB/s
-  network: xhttp
-  port: 443
-  server: 188.114.98.0
-  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0280c276-641b-49af-b699-4931c30ac137
-  xhttp-opts:
-    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-    mode: auto
-    path: /api
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|2.3MB/s
-  network: ws
-  password: bpb-trojan
-  port: '443'
-  server: russia.com
-  skip-cert-verify: false
-  sni: kargar001.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /tr?ed=2560
-- encryption: none
-  name: 🇩🇪DE_13|2.9MB/s
-  network: ws
-  port: '80'
-  server: 104.27.88.172
-  servername: web-app-nr6wpa.app-tp57xz.workers.dev
-  type: vless
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-  ws-opts:
-    headers:
-      Host: web-app-nr6wpa.app-tp57xz.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /api/ws
-  xudp: true
-- name: 🇩🇪DE_5|3.4MB/s
+- name: 🇩🇪DE_1|2.5MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.4MB/s
+- name: 🇩🇪DE_2|1.3MB/s|P002-260618
+  password: None
   port: 443
-  server: 172.64.69.89
+  server: 172.64.68.89
   skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
-- name: 🇩🇪DE_7|2.1MB/s
-  password: 'null'
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_3|1.6MB/s|R002-260618
   port: 443
-  server: 172.64.69.89
+  server: 152.233.20.206
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: 'null'
+  udp: true
+  x-toolall-mihomo: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
@@ -76,96 +32,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_10|3.1MB/s|P002-260618
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_11|2.8MB/s
-  network: ws
-  port: '443'
-  server: 104.20.63.254
-  servername: joeypg.ezbiz.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
-  ws-opts:
-    headers:
-      Host: joeypg.ezbiz.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_12|3.1MB/s
-  network: ws
-  port: '2096'
-  server: 162.159.158.245
-  servername: cdn.lahjy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5821f560-4156-4faf-80ec-9d798b128090
-  ws-opts:
-    headers:
-      Host: cdn.lahjy.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_14|1.1MB/s
-  network: xhttp
-  port: '443'
-  server: 104.18.137.67
-  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0280c276-641b-49af-b699-4931c30ac137
-  xhttp-opts:
-    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-    path: /api
-  xudp: true
-- name: 🇩🇪DE_15|1.2MB/s
-  password: 'null'
-  port: '443'
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_16|3.3MB/s
-  password: 'null'
-  port: '443'
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_17|3.0MB/s
-  password: 'null'
-  port: '9002'
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'

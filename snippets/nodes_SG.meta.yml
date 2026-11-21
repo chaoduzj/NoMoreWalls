@@ -39,3 +39,21 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_1|2.1MB/s
+  network: ws
+  port: '2053'
+  server: 172.64.159.178
+  servername: cdn.lahjy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  ws-opts:
+    headers:
+      Host: cdn.lahjy.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true

@@ -79,19 +79,23 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|1.9MB/s
-  network: tcp
-  port: 25680
-  reality-opts:
-    public-key: hARhHGV09mnEUWA1a7pG6_K4lztUhKCK3iGeboGGP2g
-    short-id: '!!str 7ce8c8e1'
-  server: 77.67.18.254
-  servername: apple.com
+  encryption: none
+  name: 🇯🇵JP_1|2.2MB/s
+  network: ws
+  port: '2083'
+  server: 172.64.229.239
+  servername: cdn.lahjy.xyz
   tls: true
   type: vless
   udp: true
-  uuid: af8e3c87-2a75-44fa-9a8b-0227a9d2cb82
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  ws-opts:
+    headers:
+      Host: cdn.lahjy.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

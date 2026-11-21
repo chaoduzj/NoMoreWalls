@@ -1,5 +1,5 @@
 proxies:
-- name: ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ = @ꜰxxɴᴇᴛ🀄️
+- name: ' 🇯🇵 20@exclavevpn'
   password: gG1JyjbJgDmEMvdTgcD9wVOS
   port: 443
   server: 35.221.91.82
@@ -78,6 +78,19 @@ proxies:
   uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
   ws-opts:
     path: '%2Fws'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|2.4MB/s
+  network: tcp
+  port: '443'
+  server: 23.27.11.86
+  servername: jp.burmy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0018

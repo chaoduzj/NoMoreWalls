@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: 🇪🇪EE-🚀@VPNine1
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: 217.60.182.79
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: '🇪🇪EE-🚀@VPNine1 #1'
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: cabinet.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2

@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- name: 🇭🇰HK_1|1.3MB/s
+  password: ''
+  port: '3128'
+  server: 45.205.18.25
+  skip-cert-verify: true
+  type: http
+  username: ''
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_2|2.5MB/s
+  obfs: salamander
+  obfs-password: 9veAh9pTbrAfDwM1fIYI
+  password: hAUdd15a7YGHUSgiPOUz
+  port: '443'
+  server: 43.103.2.53
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''

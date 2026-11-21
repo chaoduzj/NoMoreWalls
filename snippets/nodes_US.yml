@@ -17,17 +17,3 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_1|1.0MB/s
-  network: tcp
-  port: 52843
-  server: 23.147.56.181
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88be793c-c368-4eb1-8809-057e5df96606
-  xudp: true

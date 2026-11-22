@@ -22,11 +22,37 @@ proxies:
   type: vless
   udp: true
   uuid: ca69a29d-60ef-433a-91bc-27537be993c8
-- name: 🇯🇵JP_1|4.8MB/s
+- name: 🇯🇵JP_1|3.9MB/s
+  password: czxPueuXQB1wUfMU
+  port: 36835
+  server: 45.192.203.110
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|5.2MB/s
+  network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 34745
+  port: '34745'
   server: win2loxfde0303.gggrelay.org
   skip-cert-verify: true
   sni: nu3rb.supertoolify.com
   type: trojan
   udp: true
+- name: 🇯🇵JP_3|3.2MB/s|P002-260618
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇯🇵JP_4|2.9MB/s
+  password: '!!str 123456'
+  port: '1080'
+  server: 8.209.236.192
+  skip-cert-verify: true
+  type: socks5
+  username: '123456'

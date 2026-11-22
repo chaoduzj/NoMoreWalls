@@ -15,3 +15,10 @@ proxies:
   type: vless
   udp: true
   uuid: 4ded3111-b418-475a-93de-0360932508b2
+- name: 🇰🇷KR_1|4.1MB/s
+  password: ''
+  port: '1090'
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: T2clM0QlM0Q6

@@ -1,7 +1,9 @@
 proxies:
-- name: 🇯🇵JP_1|4.8MB/s
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|5.2MB/s
+  network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 34745
+  port: '34745'
   server: win2loxfde0303.gggrelay.org
   skip-cert-verify: true
   sni: nu3rb.supertoolify.com

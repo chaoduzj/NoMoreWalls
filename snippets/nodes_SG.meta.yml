@@ -56,3 +56,14 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
+- name: 🇸🇬SG_1|2.1MB/s
+  port: 5555
+  server: 103.248.228.166
+  type: socks5
+- name: 🇸🇬SG_2|3.0MB/s
+  password: ''
+  port: '9090'
+  server: 128.199.254.13
+  skip-cert-verify: true
+  type: http
+  username: ''

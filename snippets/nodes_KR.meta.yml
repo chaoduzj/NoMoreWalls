@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 韩国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
+    short-id: '!!str b79a86e2b1a586a0'
+  server: 43.108.109.112
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4ded3111-b418-475a-93de-0360932508b2
+- name: 🇰🇷KR_1|1.4MB/s
+  password: ''
+  port: '8085'
+  server: 217.142.139.207
+  skip-cert-verify: true
+  type: http
+  username: ''

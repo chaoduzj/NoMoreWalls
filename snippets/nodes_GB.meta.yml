@@ -1,20 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: U6FtussjhSb81ka0z9IDf1n80syjsczIDrRTdmzyeGM
-    short-id: '!!str 5a6f99962a27cdbc'
-  server: 8.208.101.215
-  servername: www.ebay.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: 🇬🇧GB_1|1.5MB/s
+  network: http
+  port: '443'
+  server: 64.227.41.219
   type: vless
   udp: true
-  uuid: 3112c3f2-7172-417d-bce6-d168135d1603
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  xudp: true
+- name: 🇬🇧GB_2|1.2MB/s
+  password: ''
+  port: '443'
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: GB_speednode_0008
   port: 443
   server: 212.102.63.31
@@ -22,12 +29,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB_2|1.5MB/s|R002-260618
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true

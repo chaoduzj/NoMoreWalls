@@ -6,53 +6,156 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 日本|@ripaojiedian
-  network: tcp
-  port: 11101
-  reality-opts:
-    public-key: 2eUT-b2e2lghUKWM3qf8uI3_Dphg9whKrQ08o4S-bzw
-    short-id: '!!str 82f99830e7b834e2'
-  server: 116.213.43.43
-  servername: www.apple.com
+- name: 📗96@oneclickvpnkeys
+  password: oracle_hy2_pass_2026
+  port: 8443
+  server: 129.225.181.46
   skip-cert-verify: true
-  tfo: false
+  sni: bing.com
   tls: false
-  type: vless
-  udp: true
-  uuid: ca69a29d-60ef-433a-91bc-27537be993c8
-- name: 🇯🇵JP_1|3.9MB/s
-  password: czxPueuXQB1wUfMU
-  port: 36835
-  server: 45.192.203.110
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|5.2MB/s
+  type: hysteria2
+- name: 日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: '34745'
-  server: win2loxfde0303.gggrelay.org
+  port: 443
+  server: nu2rb.supertoolify.com
   skip-cert-verify: true
-  sni: nu3rb.supertoolify.com
+  sni: nu2rb.supertoolify.com
   type: trojan
   udp: true
-- name: 🇯🇵JP_3|3.2MB/s|P002-260618
-  port: 343
-  server: 133.18.200.207
+- client-fingerprint: chrome
+  name: 🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: k0o_QkU2gSE5m1a6tWbkkZ-Z28GTj30UHW8cHWCulzU
+    short-id: '!!str db1a5f5e'
+  server: 139.162.91.182
+  servername: itunes.apple.com
   skip-cert-verify: true
-  sub_tag: P002-260618
+  tfo: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  x-toolall-mihomo: true
-- name: 🇯🇵JP_4|2.9MB/s
-  password: '!!str 123456'
-  port: '1080'
-  server: 8.209.236.192
+  uuid: b4ec7f6b-b41e-4018-9f76-19204e138db9
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
+    short-id: '!!str c8559ca1'
+  server: 172.104.86.181
+  servername: itunes.apple.com
   skip-cert-verify: true
-  type: socks5
-  username: '123456'
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 166.88.14.71
+  servername: senflarelink-node-71i.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 🇯🇵 日本5|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 45.32.57.15
+  servername: senflarelink-node-nwz76h.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
+  name: 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: k0o_QkU2gSE5m1a6tWbkkZ-Z28GTj30UHW8cHWCulzU
+    short-id: '!!str db1a5f5e'
+  server: 139.162.91.182
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: b4ec7f6b-b41e-4018-9f76-19204e138db9
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 日本2|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
+    short-id: '!!str c8559ca1'
+  server: 172.104.86.181
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 日本4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 166.88.14.71
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 日本5|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 45.32.57.15
+  servername: senflarelink-node-nwz76h.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    path: '%2F'

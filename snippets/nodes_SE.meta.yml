@@ -1,9 +1,15 @@
 proxies:
-- name: 🇸🇪SE_1|1.5MB/s
-  password: ''
-  port: '443'
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇪226616 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: anhzfr8jwm3m1cb0
+  password: fup6jqo76blcumls
+  port: 33971
+  server: 13.53.131.128
+  sni: se.accuratenetworkchecker.ir
+  tls: false
+  type: hysteria2

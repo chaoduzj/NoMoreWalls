@@ -61,10 +61,10 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: 🇰🇷KR_1|2.0MB/s
+- name: 🇰🇷KR_1|3.5MB/s
   password: ''
-  port: '8081'
-  server: 43.166.21.97
+  port: '1080'
+  server: 59.11.209.162
   skip-cert-verify: true
-  type: http
+  type: socks5
   username: ''

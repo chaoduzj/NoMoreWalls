@@ -1,10 +1,1 @@
-proxies:
-- name: 🇨🇦CA_1|1.6MB/s|P002-260618
-  port: 9443
-  server: 198.44.142.27
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+proxies: []

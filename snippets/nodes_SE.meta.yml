@@ -13,3 +13,9 @@ proxies:
   sni: se.accuratenetworkchecker.ir
   tls: false
   type: hysteria2
+- name: 🇸🇪SE_1|2.4MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http

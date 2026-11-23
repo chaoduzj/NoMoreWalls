@@ -175,29 +175,3 @@ proxies:
     headers:
       Host: senflarelink-node-2ott2x.pages.dev
     path: '%2F'
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: 🇸🇬SG_1|5.1MB/s
-  obfs: salamander
-  obfs-password: sj1awrdwnn5lbuno
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: bgsg2.hikigo.com
-  skip-cert-verify: true
-  sni: bgsg2.hikigo.com
-  type: hysteria2
-  udp: true
-  up: 100
-- name: 🇸🇬SG_2|4.6MB/s
-  port: 5555
-  server: 103.248.228.166
-  type: socks5
-- name: 🇸🇬SG_3|2.4MB/s
-  password: ''
-  port: '9090'
-  server: 167.172.76.176
-  skip-cert-verify: true
-  type: http
-  username: ''

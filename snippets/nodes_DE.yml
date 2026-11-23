@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3|3.9MB/s
-  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
-  port: '443'
-  server: P1.shoppingturbo.com
-  type: ss
-  udp: true
+proxies: []

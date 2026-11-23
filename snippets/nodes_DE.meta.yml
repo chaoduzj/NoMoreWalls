@@ -1,28 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3|3.9MB/s
-  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
-  port: '443'
-  server: P1.shoppingturbo.com
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|4.7MB/s
-  network: tcp
-  port: '9543'
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: '!!str 123abcdf'
-  server: 146.103.42.165
-  servername: storage.yandexcloud.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
-  xudp: true
-- name: 🇩🇪DE_5|3.1MB/s
+- name: 🇩🇪DE_1|3.7MB/s
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -30,60 +7,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇩🇪DE_6|2.4MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: DE_speednode_0003
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0004
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0005
-  password: None
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_10|3.7MB/s|R002-260618
-  password: 'null'
-  port: 443
-  server: 159.69.94.125
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_11|3.4MB/s|R002-260618
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_12|4.2MB/s|P002-260618
+- name: 🇩🇪DE_2|1.4MB/s|P002-260618
   password: None
   port: 443
   server: 172.64.68.89
@@ -93,46 +17,11 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇩🇪DE_13|4.1MB/s|R002-260618
-  password: 'null'
-  port: 9002
-  server: 158.173.154.4
+- name: DE_speednode_0003
+  password: None
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
-  sni: 158.173.154.4
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_14|2.3MB/s
-  network: ws
-  port: '443'
-  server: 31.77.142.19
-  servername: calendarbaseline.lucheeebezlimitnoekino.stream
-  tls: true
-  type: vless
-  udp: true
-  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /media/ws/
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
-  name: 🇩🇪DE_15|1.0MB/s
-  network: grpc
-  port: '443'
-  server: 109.248.17.252
-  servername: v4.clequinix.globalinetforallalwaysandneverbanyoubelieveme.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
-  xudp: true

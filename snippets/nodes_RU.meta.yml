@@ -1,8 +1,1 @@
-proxies:
-- name: 🇷🇺RU-🚀@VPNine1
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 195.133.53.33
-  sni: s516.okgfw.top
-  tls: false
-  type: hysteria2
+proxies: []

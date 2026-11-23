@@ -1,4 +1,34 @@
 proxies:
+- http-opts:
+    headers:
+      Host:
+      - fast.com
+    method: GET
+    path:
+    - /
+  name: 🇬🇧GB_1|3.5MB/s
+  network: http
+  port: 443
+  server: 167.99.203.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+- http-opts:
+    headers:
+      Host:
+      - fast.com
+    method: GET
+    path:
+    - /
+  name: 🇬🇧GB_2|2.5MB/s
+  network: http
+  port: 443
+  server: 64.227.41.219
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
 - name: GB_speednode_0008
   port: 443
   server: 212.102.63.31

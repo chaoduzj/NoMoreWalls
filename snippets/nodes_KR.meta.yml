@@ -1,4 +1,22 @@
 proxies:
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - client-fingerprint: chrome
   name: 🇰🇷 韩国|@ripaojiedian
   network: ws
@@ -61,8 +79,23 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: 🇰🇷KR_1|1.2MB/s
+- name: 🇰🇷KR_1|5.3MB/s
   port: 1080
   server: 59.11.209.162
   skip-cert-verify: true
   type: socks5
+- name: 🇰🇷KR_2|5.1MB/s
+  password: ''
+  port: '80'
+  server: 101.79.22.162
+  skip-cert-verify: true
+  type: http
+  username: ''
+- name: 🇰🇷KR_3|3.5MB/s
+  password: ''
+  port: '443'
+  server: 152.69.230.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

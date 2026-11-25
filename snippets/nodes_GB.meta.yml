@@ -1,4 +1,12 @@
 proxies:
+- name: 🇬🇧25@exclavevpn
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: 128.254.186.57
+  skip-cert-verify: true
+  sni: mother-earth.fyi
+  tls: false
+  type: hysteria2
 - name: GB_speednode_0008
   port: 443
   server: 212.102.63.31

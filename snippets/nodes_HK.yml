@@ -1,17 +1,1 @@
-proxies:
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_1|1.5MB/s
-  network: ws
-  port: '16622'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00736f0b-8715-45b7-888b-ced7aaa637bf
-  ws-opts:
-    headers:
-      Host: 71863cd408e0a1b6626012d168c0b94e.mobgslb.tbcache.com
-    path: /
-  xudp: true
+proxies: []

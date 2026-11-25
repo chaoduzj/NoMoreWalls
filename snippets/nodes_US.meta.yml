@@ -1,5 +1,5 @@
 proxies:
-- name: ' 🇺🇸 23@exclavevpn'
+- name: 🇺🇸 24@exclavevpn
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -17,13 +17,20 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸230629 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: 5ictxgawam84vgrp
-  port: 2098
-  server: 107.181.112.141
-  sni: 107.181.112.141
+- name: 🇺🇸230832 | ⚡️Telegram = t.me/L...
+  password: 0b396097d052915ef304b40d2bda6a2d
+  port: 8443
+  server: 179.254.94.184
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇺🇸230834 | ⚡️Telegram = t.me/L...
+  password: AIcYjw5Oc9Rrrr9SGDUBbBIC
+  port: 36712
+  server: 38.76.150.108
+  skip-cert-verify: true
+  sni: 'off'
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -81,7 +88,7 @@ proxies:
     path: /
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 🇺🇸US_1|1.4MB/s
+  name: 🇺🇸 美国4|@ripaojiedian
   network: ws
   port: 8443
   server: 179.255.137.204
@@ -156,3 +163,10 @@ proxies:
     headers:
       Host: senflarelink-node-xfcyh2.pages.dev
     path: '%2F'
+- name: US_speednode_0027
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

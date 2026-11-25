@@ -8,34 +8,6 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- fingerprint: ''
-  name: 🇹🇼TW_1|1.2MB/s
-  password: 2902c46c8493
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-  username: 2902c46c8493
-- name: 🇹🇼TW_2|2.9MB/s
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 59188
-  server: ddrr2.tube-cat.com
-  skip-cert-verify: true
-  sni: r.tw3.cat.bilibili.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇹🇼TW_3|1.3MB/s
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 28478
-  server: ddrr1.tube-cat.com
-  skip-cert-verify: true
-  sni: r.tw2.cat.bilibili.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: TW_speednode_0026

@@ -1,14 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
+- name: 🇹🇼TW_2|2.9MB/s
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 59188
+  server: ddrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.tw3.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇹🇼TW_3|1.3MB/s
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 28478
+  server: ddrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.tw2.cat.bilibili.com
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true

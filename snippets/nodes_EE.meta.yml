@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇪🇪EE_1|1019KB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U
-    short-id: '!!str 35a329a23bb50d2b'
-  server: 13.141.36.127
-  servername: 079b6et.ee5.h1clayd.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73ebb72a-e2a8-44c8-a0e3-938740a4f578
-  xudp: true
+proxies: []

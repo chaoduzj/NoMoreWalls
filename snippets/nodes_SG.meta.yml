@@ -7,6 +7,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 🇸🇬SG-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 54.255.246.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡|@ripaojiedian
   network: ws
@@ -38,17 +46,18 @@ proxies:
     headers:
       Host: senflarelink-node-6b9.pages.dev
     path: '%2F'
-- name: 🇸🇬SG_1|2.7MB/s
-  password: ''
-  port: '9090'
-  server: 159.223.41.216
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: 🇸🇬SG_2|2.5MB/s
-  password: ''
-  port: '9090'
-  server: 68.183.226.190
-  skip-cert-verify: true
-  type: http
-  username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|4.9MB/s
+  network: tcp
+  port: '37998'
+  reality-opts:
+    public-key: j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM
+    short-id: '!!str d5a01375'
+  server: vl-x2.qz10086.top
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
+  xudp: true

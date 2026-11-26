@@ -155,66 +155,15 @@ proxies:
     headers:
       Host: senflarelink-node-xfcyh2.pages.dev
     path: '%2F'
-- encryption: mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c
-  name: 🇺🇸US_1|2.2MB/s
-  network: tcp
-  port: '443'
-  server: 176.114.95.245
-  type: vless
-  udp: true
-  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: 🇺🇸US_2|1.0MB/s
-  password: dongtaiwang.com
-  port: 20022
-  server: 137.175.82.41
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  tls: true
-  type: hysteria
-  up: '11'
-- name: 🇺🇸US_3|1.2MB/s
-  password: 0324fbc29561
-  port: 443
-  server: sdf65h46wr.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 🇺🇸US_4|3.1MB/s
+- name: 🇺🇸US_1|1.2MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 138.199.35.219
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_5|1.8MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_6|2.0MB/s
-  password: ''
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_7|3.0MB/s
+- name: 🇺🇸US_2|1.2MB/s
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
@@ -222,7 +171,7 @@ proxies:
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: 🇺🇸US_8|2.2MB/s
+  name: 🇺🇸US_3|1.5MB/s
   network: tcp
   port: '8443'
   reality-opts:
@@ -234,84 +183,3 @@ proxies:
   type: vless
   udp: true
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_10|2.0MB/s
-  network: ws
-  port: '443'
-  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
-  ws-opts:
-    headers:
-      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /ffad70ffdfc3bcda
-  xudp: true
-- name: 🇺🇸US_11|3.7MB/s
-  password: None
-  port: '9002'
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_12|3.6MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_13|3.3MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_14|1.2MB/s
-  password: ''
-  port: '8443'
-  server: 74.208.250.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_15|2.3MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_16|1.4MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_17|1.3MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: US_speednode_0027
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

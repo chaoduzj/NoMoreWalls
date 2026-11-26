@@ -90,7 +90,7 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_4|3.5MB/s
+  name: 🇮🇹IT_2|1.0MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.63
@@ -103,45 +103,10 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇪🇸ES_1|3.1MB/s
-  password: qItG8SueYQcP
-  port: '443'
-  server: 108.181.121.170
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.5MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|3.7MB/s
+  name: 🇮🇹IT_1|1.9MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|3.9MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.54
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_5|3.7MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_6|1.9MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.99
   type: ss
   udp: true

@@ -1,4 +1,12 @@
 proxies:
+- name: 🇰🇷KR-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 43.201.31.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 🇰🇷 韩国|@ripaojiedian
   network: ws
@@ -30,7 +38,7 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: 🇰🇷KR_1|4.4MB/s
+- name: 🇰🇷KR_1|2.5MB/s
   port: 1080
   server: 59.11.209.162
   skip-cert-verify: true

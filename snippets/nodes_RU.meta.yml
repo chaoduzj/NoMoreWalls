@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇷🇺RU_1|3.1MB/s
-  network: xhttp
-  port: 2053
-  server: 78.159.240.62
-  servername: polarladder.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  xhttp-opts:
-    host: polarladder.com
-    mode: auto
-    path: /api/v1/upload
+proxies: []

@@ -2,7 +2,7 @@ proxies:
 - name: 🇰🇷KR-🚀@VPNine1
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 43.201.31.151
+  server: 13.124.238.118
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -38,7 +38,7 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: 🇰🇷KR_1|2.5MB/s
+- name: 🇰🇷KR_1|5.0MB/s
   port: 1080
   server: 59.11.209.162
   skip-cert-verify: true

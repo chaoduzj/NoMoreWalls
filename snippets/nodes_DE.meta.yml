@@ -61,15 +61,6 @@ proxies:
     headers:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: '%2F'
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_3|2.9MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.190
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
 - name: US_speednode_0027
   port: 443
   server: 172.64.69.89
@@ -85,3 +76,26 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_8|4.4MB/s
+  network: ws
+  port: '27154'
+  server: 94.130.237.57
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
+  ws-opts:
+    headers:
+      Host: 94.130.237.57
+    path: /Telegram=@AmyraxVPN
+  xudp: true

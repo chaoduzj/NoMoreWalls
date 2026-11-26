@@ -135,3 +135,22 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
+- name: 🇯🇵JP_1|3.9MB/s
+  port: 443
+  server: fan.571589.xyz
+  tls: true
+  type: http
+- name: 🇯🇵JP_2|1.3MB/s
+  password: EGJDy5Kg
+  port: '42000'
+  server: 103.248.150.50
+  skip-cert-verify: true
+  type: socks5
+  username: paZFN3JA
+- name: 🇯🇵JP_3|3.5MB/s
+  password: J5rM2xL9
+  port: '42000'
+  server: 103.248.150.238
+  skip-cert-verify: true
+  type: socks5
+  username: tB4vN7qP

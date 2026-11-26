@@ -17,14 +17,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸231154 | ⚡️Telegram = t.me/L...
-  password: EelIYEc5ZR8RT6thWcK9ohYkp3bYZGcn
-  port: 28795
-  server: 137.175.93.155
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 🇺🇸 美国|@ripaojiedian
   network: ws
@@ -155,7 +147,45 @@ proxies:
     headers:
       Host: senflarelink-node-xfcyh2.pages.dev
     path: '%2F'
-- name: 🇺🇸US_1|1.2MB/s
+- client-fingerprint: chrome
+  name: 🇺🇸US_19|2.3MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 66.163.114.106
+  skip-cert-verify: false
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_20|2.9MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 66.163.114.166
+  skip-cert-verify: false
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1006KB/s
+  network: xhttp
+  port: '443'
+  server: 3.219.184.102
+  servername: fortuna.masynbazar.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
+  xhttp-opts:
+    host: fortuna.masynbazar.ru
+    mode: packet-up
+    path: /
+  xudp: true
+- name: 🇺🇸US_4|1.7MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.220
@@ -163,23 +193,100 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_2|1.2MB/s
+- name: NN_speednode_0023
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
+  server: usgp1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|1.5MB/s
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: '!!str 4ad2e4e660550e43'
-  server: 156.229.167.109
-  servername: github.githubassets.com
-  tls: true
-  type: vless
   udp: true
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇺🇸US_6|1.7MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_7|3.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_8|3.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_9|2.2MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_10|3.7MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_11|2.5MB/s
+  password: ''
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_14|1.2MB/s
+  password: ppyefe3k
+  port: '62000'
+  server: 23.230.200.176
+  skip-cert-verify: true
+  type: socks5
+  username: u1f0cijj
+- name: 🇺🇸US_15|1.0MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_17|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  port: '14443'
+  server: 194.87.224.137
+  skip-cert-verify: false
+  sni: n37.neproxy.net
+  type: hysteria2
+  up: ''
+- name: 🇺🇸US_18|1.9MB/s
+  password: ''
+  port: '9443'
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

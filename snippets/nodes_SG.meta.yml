@@ -10,7 +10,7 @@ proxies:
 - name: 🇸🇬SG-🚀@VPNine1
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 54.255.246.31
+  server: 47.129.155.154
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -46,18 +46,17 @@ proxies:
     headers:
       Host: senflarelink-node-6b9.pages.dev
     path: '%2F'
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|4.9MB/s
+  name: 🇸🇬SG_1|4.7MB/s
   network: tcp
-  port: '37998'
+  packet-encoding: xudp
+  port: 43113
   reality-opts:
-    public-key: j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM
-    short-id: '!!str d5a01375'
-  server: vl-x2.qz10086.top
-  servername: www.apple.com
+    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
+    short-id: '!!str ff2c978a0b'
+  server: dddz-1-x.473221.xyz
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
-  udp: true
-  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
-  xudp: true
+  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5

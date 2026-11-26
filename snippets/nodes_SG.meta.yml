@@ -38,3 +38,17 @@ proxies:
     headers:
       Host: senflarelink-node-6b9.pages.dev
     path: '%2F'
+- name: 🇸🇬SG_1|2.7MB/s
+  password: ''
+  port: '9090'
+  server: 159.223.41.216
+  skip-cert-verify: true
+  type: http
+  username: ''
+- name: 🇸🇬SG_2|2.5MB/s
+  password: ''
+  port: '9090'
+  server: 68.183.226.190
+  skip-cert-verify: true
+  type: http
+  username: ''

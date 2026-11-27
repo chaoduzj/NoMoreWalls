@@ -90,136 +90,16 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_5|1.1MB/s
+  name: 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
+  port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.8MB/s
+  name: 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
+  port: 19999
   server: 202.50.253.18
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|2.6MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|2.2MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|2.1MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.54
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_6|2.7MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_7|3.5MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_8|1.2MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.90
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_13|2.7MB/s
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.166
-  skip-cert-verify: true
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_12|1.1MB/s
-  network: ws
-  password: ff5aeddc-8fea-4d17-b504-1a9fdacca802
-  port: '443'
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: go.appsflyer.com.r3xxe.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /br-orcl
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇹IT_9|3.9MB/s
-  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: italy.astroapps.io
-    mode: websocket
-    path: /b5cba947dfef6a5494b25d76
-    tls: true
-  port: 443
-  server: italy.astroapps.io
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇰DK_1|2.0MB/s
-  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: denmark.astroapps.io
-    mode: websocket
-    path: /ad37249091fe1c6ac69e8c23
-    tls: true
-  port: 443
-  server: denmark.astroapps.io
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇳🇱NL_6|1.6MB/s
-  network: ws
-  password: vP!XvZBNdw.e*ddSgmH!
-  port: '2096'
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /tr/ZFttmjSqvda5ohOQ?ed=2560
-- client-fingerprint: chrome
-  name: 🇺🇸US_25|3.2MB/s
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: '443'
-  server: 66.163.114.114
-  skip-cert-verify: false
-  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
   udp: true

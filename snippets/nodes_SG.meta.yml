@@ -126,20 +126,3 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|4.4MB/s
-  network: raw
-  packet-encoding: xudp
-  port: '43113'
-  reality-opts:
-    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
-    short-id: '!!str ff2c978a0b'
-  server: dddz-1-x.473221.xyz
-  servername: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
-  xudp: true

@@ -184,15 +184,3 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇯🇵JP_1|1.1MB/s
-  network: tcp
-  port: '443'
-  server: 50.7.159.242
-  servername: jp.reddotcorp.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
-  xudp: true

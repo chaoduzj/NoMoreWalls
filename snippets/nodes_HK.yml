@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰HK_1|3.8MB/s
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
-  port: 28014
-  server: waic.pro.main.sys-metric-report.com
-  type: ss
-  udp: true
+proxies: []

@@ -1,23 +1,7 @@
 proxies:
-- client-fingerprint: safari
-  encryption: none
-  name: 🇪🇪EE_1|1.5MB/s
-  network: xhttp
-  port: '443'
-  server: 165.231.177.60
-  servername: cab-6b07048f.ferrin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-  xhttp-opts:
-    mode: auto
-  xudp: true
-- name: 🇪🇪EE_2|1.4MB/s
-  password: ''
-  port: '9443'
+- name: 🇪🇪EE_1|2.1MB/s
+  port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''

@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇺🇸 美国|@ripaojiedian
+  name: 🇺🇸 美国1|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -40,57 +40,46 @@ proxies:
 - client-fingerprint: chrome
   name: 🇺🇸 美国2|@ripaojiedian
   network: ws
-  port: 8443
-  server: 179.255.132.42
-  servername: senflarelink-node-71i.pages.dev
+  port: 443
+  reality-opts:
+    public-key: f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY
+    short-id: '!!str 4206512a'
+  server: 172.233.142.149
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 61e3954d-0d66-4b69-b6cd-9b4fc2352303
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 🇺🇸 美国3|@ripaojiedian
+  name: 🇺🇸 美国|@ripaojiedian
   network: ws
-  port: 8443
-  server: 95.169.13.59
-  servername: senflarelink-node-m3bfbn.pages.dev
+  port: 443
+  reality-opts:
+    public-key: lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE
+    short-id: '!!str afc7874d'
+  server: 172.235.36.11
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: a15c47e7-0d24-4e82-a759-891d0e951a01
   ws-opts:
     headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: 🇺🇸 美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 179.255.137.204
-  servername: senflarelink-node-xfcyh2.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-xfcyh2.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: 美国|@ripaojiedian
+  name: 美国1|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -109,90 +98,211 @@ proxies:
   flow: ''
   name: 美国2|@ripaojiedian
   network: ws
-  port: 8443
-  server: 179.255.132.42
-  servername: senflarelink-node-71i.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY
+    short-id: '!!str 4206512a'
+  server: 172.233.142.149
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 61e3954d-0d66-4b69-b6cd-9b4fc2352303
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: 美国3|@ripaojiedian
+  name: 美国|@ripaojiedian
   network: ws
-  port: 8443
-  server: 95.169.13.59
-  servername: senflarelink-node-m3bfbn.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE
+    short-id: '!!str afc7874d'
+  server: 172.235.36.11
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: a15c47e7-0d24-4e82-a759-891d0e951a01
   ws-opts:
     headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: ''
-  name: 美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 179.255.137.204
-  servername: senflarelink-node-xfcyh2.pages.dev
+      Host: itunes.apple.com
+    path: '%2Fws'
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_1|1.1MB/s
+  network: xhttp
+  port: 443
+  server: qqqqqqqq.99944444.xyz
+  servername: qqqqqqqq.99944444.xyz
   tls: true
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-xfcyh2.pages.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  name: 🇺🇸US_19|2.3MB/s
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: '443'
-  server: 66.163.114.106
-  skip-cert-verify: false
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
   udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: qqqqqqqq.99944444.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_2|2.7MB/s
+  network: xhttp
+  port: 443
+  server: aaaaaaa.7ui.ipv64.net
+  servername: aaaaaaa.7ui.ipv64.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: aaaaaaa.7ui.ipv64.net
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_3|1.4MB/s
+  network: xhttp
+  port: 443
+  server: sssssss.260920-3.kdns.fr
+  servername: sssssss.260920-3.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: sssssss.260920-3.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_4|1.5MB/s
+  network: xhttp
+  port: 443
+  server: ddddddd.r0-6.cc.cd
+  servername: ddddddd.r0-6.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddddd.r0-6.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_5|1.2MB/s
+  network: xhttp
+  port: 443
+  server: rrrr.r0-4.cc.cd
+  servername: rrrr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rrrr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_6|1.5MB/s
+  network: xhttp
+  port: 443
+  server: rr.r0-4.cc.cd
+  servername: rr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_7|1.2MB/s
+  network: xhttp
+  port: 443
+  server: dddd.as2-0.kdns.fr
+  servername: dddd.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: dddd.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 🇺🇸US_8|1.5MB/s
+  network: xhttp
+  port: 443
+  server: rrrrr.r0-4.cc.cd
+  servername: rrrrr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rrrrr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- auth: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  name: 🇺🇸US_9|1.6MB/s
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  port: 14443
+  server: 194.87.224.137
+  skip-cert-verify: true
+  sni: n37.neproxy.net
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇺🇸US_20|2.9MB/s
+  name: 🇺🇸US_13|2.7MB/s
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: '443'
+  port: 443
   server: 66.163.114.166
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1006KB/s
-  network: xhttp
-  port: '443'
-  server: 3.219.184.102
-  servername: fortuna.masynbazar.ru
+- client-fingerprint: chrome
+  name: 🇺🇸US_11|2.8MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: '!!str 4ad2e4e660550e43'
+  server: 156.229.167.109
+  servername: github.githubassets.com
   tls: true
   type: vless
   udp: true
-  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
-  xhttp-opts:
-    host: fortuna.masynbazar.ru
-    mode: packet-up
-    path: /
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   xudp: true
-- name: 🇺🇸US_4|1.7MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+- client-fingerprint: chrome
+  name: 🇺🇸US_12|1.1MB/s
+  network: ws
+  password: ff5aeddc-8fea-4d17-b504-1a9fdacca802
+  port: '443'
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: go.appsflyer.com.r3xxe.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /br-orcl
 - name: NN_speednode_0023
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
@@ -201,92 +311,74 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 🇺🇸US_6|1.7MB/s
-  password: ''
+- name: 🇺🇸US_15|2.8MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
   x-toolall-mihomo: true
-- name: 🇺🇸US_7|3.5MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_8|3.3MB/s
-  password: ''
+- name: 🇺🇸US_16|2.0MB/s
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
   x-toolall-mihomo: true
-- name: 🇺🇸US_9|2.2MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_10|3.7MB/s
+- name: 🇺🇸US_17|2.8MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- name: 🇺🇸US_11|2.5MB/s
+- name: 🇺🇸US_18|1.9MB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_19|2.6MB/s
   password: ''
-  port: 443
-  server: 149.88.21.129
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: 🇺🇸US_14|1.2MB/s
-  password: ppyefe3k
-  port: '62000'
-  server: 23.230.200.176
+- name: 🇺🇸US_20|1.9MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
-  type: socks5
-  username: u1f0cijj
-- name: 🇺🇸US_15|1.0MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_17|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
-  port: '14443'
-  server: 194.87.224.137
-  skip-cert-verify: false
-  sni: n37.neproxy.net
-  type: hysteria2
-  up: ''
-- name: 🇺🇸US_18|1.9MB/s
-  password: ''
-  port: '9443'
-  server: 198.44.138.27
-  skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
+  username: 'null'
+- name: 🇺🇸US_22|2.1MB/s
+  password: None
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
   username: ''
+- name: 🇺🇸US_23|2.5MB/s
+  password: ''
+  port: '18080'
+  server: 52.128.238.98
+  skip-cert-verify: true
+  type: http
+  username: ''
+- client-fingerprint: chrome
+  name: 🇺🇸US_25|3.2MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 66.163.114.114
+  skip-cert-verify: false
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true

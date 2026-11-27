@@ -1,17 +1,1 @@
-proxies:
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_8|4.4MB/s
-  network: ws
-  port: '27154'
-  server: 94.130.237.57
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
-  ws-opts:
-    headers:
-      Host: 94.130.237.57
-    path: /Telegram=@AmyraxVPN
-  xudp: true
+proxies: []

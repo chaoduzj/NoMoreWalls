@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_1|4.5MB/s
+  network: ws
+  port: 16618
+  server: fctwi.xiaoyan.io
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 967fbc94-fccd-46c2-9241-be92d4906186
+  ws-opts:
+    headers:
+      Host: 86714acc4cc5924e812db1c117db832f.mobgslb.tbcache.com
+    path: /
+  xudp: true

@@ -1,5 +1,5 @@
 proxies:
-- name: برای اتصال دائمی جوین شو🦠 Tele...
+- name: '@ConfigV2RayNG 🇭🇰'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -20,7 +20,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 香港|@ripaojiedian
+  name: 🇭🇰 香港|@ripaojiedian
   network: tcp
   port: 443
   reality-opts:
@@ -30,7 +30,67 @@ proxies:
   servername: stg.nvbugspro.nvidia.com
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
+- client-fingerprint: chrome
+  flow: ''
+  name: 香港|@ripaojiedian
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港3|@ripaojiedian
+  network: tcp
+  port: 28418
+  reality-opts:
+    public-key: mfxE6lW_fuPZKWtrySdTx9HOh0vtX3-7aMiYDCh2YCA
+    short-id: '!!str ddd21e20'
+  server: 38.207.172.59
+  servername: op.gg
+  tls: false
+  type: vless
+  uuid: e6552569-97ce-430c-a324-53ad1c546e05
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰HK_1|1010KB/s
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  port: '28014'
+  server: waic.pro.main.sys-metric-report.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰HK_2|2.8MB/s
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  port: '28014'
+  server: 143.20.71.68
+  type: ss
+  udp: true
+- name: 🇭🇰HK_3|4.4MB/s
+  password: ''
+  port: '8080'
+  server: 34.96.238.40
+  skip-cert-verify: true
+  type: http
+  username: ''
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_4|4.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  port: '443'
+  server: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
+  type: hysteria2
+  up: ''

@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_3|2.3MB/s
+  network: tcp
+  port: '2080'
+  server: Ir.wbzo.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+  xudp: true

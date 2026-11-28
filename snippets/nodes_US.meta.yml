@@ -9,6 +9,20 @@ proxies:
   sni: psstatic.cdn.bcebos.com
   tls: false
   type: hysteria2
+- name: 🇺🇸 27@exclavevpn
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.106
+  sni: de1-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
+- name: '@VPsave'
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.107
+  sni: de2-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -128,10 +142,144 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- name: US_speednode_0027
-  port: 443
-  server: 172.64.69.89
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.7MB/s
+  network: ws
+  port: '443'
+  server: cf.877774.xyz
+  servername: institutes-creativity-cards-affairs.trycloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53580685-9d8b-42ca-9b84-c93765d9b952
+  ws-opts:
+    headers:
+      Host: institutes-creativity-cards-affairs.trycloudflare.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /vl-53580685
+  xudp: true
+- name: 🇺🇸US_2|3.2MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_3|3.1MB/s
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|1.5MB/s
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+- name: 🇺🇸US_5|2.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_6|3.0MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- encryption: none
+  name: 🇺🇸US_8|1.7MB/s
+  network: ws
+  port: '8080'
+  server: radar.cloudflare.com
+  type: vless
+  udp: true
+  uuid: cfa71937-73d5-4eb8-9b25-eadecd944803
+  ws-opts:
+    headers:
+      Host: sh-harand.shcharand00.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_9|2.2MB/s
+  network: ws
+  port: '443'
+  server: 163.47.134.242
+  servername: app-base-njw3ky.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
+  ws-opts:
+    headers:
+      Host: app-base-njw3ky.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /ws?ip=163.47.134.242:443
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_10|1.1MB/s
+  network: ws
+  port: '443'
+  server: 23.95.123.103
+  servername: app-base-njw3ky.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
+  ws-opts:
+    headers:
+      Host: app-base-njw3ky.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /ws?ip=23.95.123.103:443
+  xudp: true
+- name: 🇺🇸US_11|3.2MB/s
+  password: ''
+  port: '8443'
+  server: 74.208.250.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_12|1.8MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_13|2.6MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_14|2.3MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
